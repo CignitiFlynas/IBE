@@ -64,8 +64,9 @@ public class TC58_RTDomReturningLegMMBChangedateSeatsExtrasBaggageLounge extends
 			selectSeat(SelectSeat, bookingtype);		// Selecting Seats in New flight
 			modifyExtras();								// Adding Extras 
 			Baggage_Extra(tripType);					// Adding Baggage
-			Select_lounge();							// Selecting Business lounge
-			clickContinueBtn();						
+			Select_lounge();							// Selecting Business lounge			
+			clickContinueBtn();	
+			chooseInsurance("Add");
 			payonMMB(paymenttype);						// Payment on MMB
 			validate_ticketStatus(strPNR);				// Verifying booking status
 			
