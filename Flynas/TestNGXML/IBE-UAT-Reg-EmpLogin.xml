@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" > 
+
+<suite name="Flynas" allow-return-values="true" verbose="2">
+    
+    
+	<test name="IBE-UAT-Regression" >
+	    
+	   	<!--	<groups>
+				<run>
+					<include name="chrome"/>
+				</run>
+			</groups> -->
+		  
+			<classes>	 	
+					<!-- ********************************Total - 4*************************************************** -->
+					
+						
+					
+						<class name="flynas.web.uat.regression.TC15_EmpLoginOnewayOneAdultStaffStandByChangFlightCancel"/> 
+						<class name="flynas.web.uat.regression.TC16_EmpLoginStaffConfmedChangeDateCheckIn"/>
+						
+						<class name="flynas.web.uat.regression.TC36_EmpLoginOnewayOneAdultStaffStandByModifyEXtras"/>
+						<class name="flynas.web.uat.regression.TC37_EmpLoginStaffConfirmedModifyExtras"/>
+						
+		</classes>
+	</test>
+	
+	
+
+</suite>

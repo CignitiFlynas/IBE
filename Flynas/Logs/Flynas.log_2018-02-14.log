@@ -1,0 +1,26 @@
+2018-02-14 14:18:53-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-02-14 14:19:22-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_20_memberRegistration
+2018-02-14 14:20:39-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-02-14 14:21:03-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_20_memberRegistration
+2018-02-14 14:27:18-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-02-14 14:27:39-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_20_memberRegistration
+2018-02-14 14:28:17-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-02-14 15:24:35-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-02-14 15:24:56-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_20_memberRegistration
+2018-02-14 15:25:43-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-02-14 15:27:04-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-02-14 15:27:28-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_20_memberRegistration
+2018-02-14 15:28:30-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-02-14 15:31:24-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-02-14 15:31:41-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_20_memberRegistration
+2018-02-14 15:40:29-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-02-14 15:40:48-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_20_memberRegistration
+2018-02-14 15:42:37-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-02-14 15:45:02-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-02-14 15:45:18-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_20_memberRegistration
+2018-02-14 15:56:50-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-02-14 19:24:51-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-02-14 19:26:04-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-02-14 19:26:29-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_66A_PricelockDomFeeVerificationBooking
+2018-02-14 19:28:16-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-02-14 19:28:33-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_66A_PricelockDomFeeVerificationBooking

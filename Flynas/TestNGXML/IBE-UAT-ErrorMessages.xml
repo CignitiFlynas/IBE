@@ -1,0 +1,51 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" > 
+
+<suite name="Flynas" allow-return-values="true" verbose="2">
+
+	<test name="IBE-UAT-ErrorMessages" >
+	    	
+	  		<groups>
+				<run>
+					<include name="chrome"/>
+				</run>
+			</groups>
+		  
+			<classes>	 	
+							
+			<!-- *******************************UAT-WCI-ErrorMessages*********************** -->	
+					
+			<!-- <class name="flynas.web.uat.errorMessages.TC01_Err_1_corporateLoginBookHoldRetriveInWci"/>
+				<class name="flynas.web.uat.errorMessages.TC02_ConformBookingCancelPNR"/>
+				<class name="flynas.web.uat.errorMessages.TC03_Err_2_ConformBooking1Adt1InfantOW"/>
+				<class name="flynas.web.uat.errorMessages.TC04_Err_2_ConformBooking1Adt1InfantRT"/>
+				<class name="flynas.web.uat.errorMessages.TC05_Err_2_ConformBooking1Adt1InfantMT"/>
+				<class name="flynas.web.uat.errorMessages.TC06_Err_2_ConformBooking1Adt1Child1InfantRT"/>
+				<class name="flynas.web.uat.errorMessages.TC07_Err_4_OneAdultStaffStandByRT"/>
+				<class name="flynas.web.uat.errorMessages.TC08_Err_4_OneAdultStaffStandByMT"/>
+				<class name="flynas.web.uat.errorMessages.TC09_Err_4_twoAdultStaffStandByRT"/>
+				<class name="flynas.web.uat.errorMessages.TC10_Err_4_OneAdultStaffStandByOW"/>
+				<class name="flynas.web.uat.errorMessages.TC11_Err_5_OneAdultCordshareRT"/>
+				<class name="flynas.web.uat.errorMessages.TC12_Err_5_OneAdultOneChildCordshareMT"/>
+				<class name="flynas.web.uat.errorMessages.TC13_Err_5_OneAdultCordshareDirectFlightOW"/>
+				<class name="flynas.web.uat.errorMessages.TC14_Err_5_OneAdultCordshareConnectionFlightOW"/>
+				<class name="flynas.web.uat.errorMessages.TC15_Err_6_ConformBooking1Adt1OW"/>
+				<class name="flynas.web.uat.errorMessages.TC16_Err_6_ConformBooking1Adt1ChildRT"/>
+				<class name="flynas.web.uat.errorMessages.TC17_Err_6_ConformBooking1Adt1ChildRT"/>
+				<class name="flynas.web.uat.errorMessages.TC18_ConformBooking1Adt1ChildRT"/>
+				<class name="flynas.web.uat.errorMessages.TC19_ConformBooking1Adt1ChildRMT"/>
+				<class name="flynas.web.uat.errorMessages.TC20_ConformBooking1AdultOW"/>
+				<class name="flynas.web.uat.errorMessages.TC21_ConformBooking1Adult1ChildRT"/>
+				<class name="flynas.web.uat.errorMessages.TC22_ConformBooking1Adult1ChildMT"/>
+				<class name="flynas.web.uat.errorMessages.TC23_ConformBooking1AdultDirectCodeShareOW"/>
+				<class name="flynas.web.uat.errorMessages.TC24_ConformBooking1AdultConectionCodeShareOW"/>
+				<class name="flynas.web.uat.errorMessages.TC25_roundTripOneAdultCheckin"/>
+				<class name="flynas.web.uat.errorMessages.TC26_MultiTripTripOneAdultOneChildCheckin"/>
+				<class name="flynas.web.uat.errorMessages.TC27_ROundTripOneAdultCheckinOBFlight"/>
+				<class name="flynas.web.uat.errorMessages.TC28_MultiTripTripOneAdultOneChildCheckinFirstJourny"/>
+				<class name="flynas.web.uat.errorMessages.TC29_OWOneAdultCheckinConnectionFlight"/>
+				<class name="flynas.web.uat.errorMessages.TC30_validatingErrorMsgforRecheckIN"/> -->
+		 
+		</classes>
+	</test>
+
+</suite>

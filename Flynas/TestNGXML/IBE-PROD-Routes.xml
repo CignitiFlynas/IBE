@@ -1,0 +1,237 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" > 
+
+<suite name="Flynas" allow-return-values="true" verbose="2" parallel="tests">
+
+	<test name="IBE-PROD-Routes_chrome" >	
+	    
+	   <!-- <groups>
+				<run>
+					<include name="chrome"/>
+				</run>
+		</groups>	 --> 
+		 
+		<classes>	 	
+			
+			<!--***************************************Economy*****************************************-->
+			
+					  <!-- <class name="flynas.web.production.routes.TC01_oneWayDomesticEconomy_RUH_JED"/>
+				 		<class name="flynas.web.production.routes.TC02_oneWayDomesticEconomy_RUH_DMM"/> 
+						<class name="flynas.web.production.routes.TC03_oneWayDomesticEconomy_RUH_GIZ"/> 
+						<class name="flynas.web.production.routes.TC04_oneWayDomesticEconomy_RUH_MED"/>
+						<class name="flynas.web.production.routes.TC05_oneWayDomesticEconomy_RUH_TIF"/>  
+						<class name="flynas.web.production.routes.TC06_oneWayDomesticEconomy_RUH_HAS"/> 
+						<class name="flynas.web.production.routes.TC07_oneWayDomesticEconomy_RUH_TUU"/> 
+						<class name="flynas.web.production.routes.TC08_oneWayDomesticEconomy_RUH_URY"/> 
+						<class name="flynas.web.production.routes.TC09_oneWayDomesticEconomy_RUH_AJF"/> 
+						<class name="flynas.web.production.routes.TC10_oneWayDomesticEconomy_RUH_ABT"/> 
+						<class name="flynas.web.production.routes.TC11_roundTripDomesticEconomy_JED_DMM"/> 
+						<class name="flynas.web.production.routes.TC12_roundTripDomesticEconomy_JED_GIZ"/>  
+						<class name="flynas.web.production.routes.TC13_roundTripDomesticEconomy_JED_MED"/>
+						<class name="flynas.web.production.routes.TC14_roundTripDomesticEconomy_JED_AHB"/> 
+						<class name="flynas.web.production.routes.TC15_roundTripDomesticEconomy_JED_TUU"/>
+						<class name="flynas.web.production.routes.TC16_roundTripDomesticEconomy_JED_ELQ"/>
+						<class name="flynas.web.production.routes.TC17_roundTripDomesticEconomy_DMM_TIF"/>
+						<class name="flynas.web.production.routes.TC18_roundTripDomesticEconomy_DMM_AHB"/> 
+						<class name="flynas.web.production.routes.TC19_roundTripDomesticEconomy_DMM_YNB"/> 
+						<class name="flynas.web.production.routes.TC20_roundTripDomesticEconomy_DMM_MED"/> 
+						<class name="flynas.web.production.routes.TC21_roundTripDomesticEconomy_DMM_GIZ"/> 
+						<class name="flynas.web.production.routes.TC22_roundTripDomesticEconomy_DMM_ELQ"/> 
+						<class name="flynas.web.production.routes.TC23_roundTripDomesticEconomy_DMM_HAS"/> 
+						<class name="flynas.web.production.routes.TC24_roundTripDomesticEconomy_DMM_TUU"/> 
+						<class name="flynas.web.production.routes.TC25_roundTripDomesticEconomy_DMM_ABT"/> 
+						<class name="flynas.web.production.routes.TC26_oneWayDomesticEconomy_AHB_ABT"/>
+						<class name="flynas.web.production.routes.TC27_oneWayDomesticEconomy_AHB_BHH"/>	
+						<class name="flynas.web.production.routes.TC28_oneWayDomesticEconomy_AHB_WAE"/>	
+						<class name="flynas.web.production.routes.TC29_oneWayDomesticEconomy_AHB_GIZ"/>	
+						<class name="flynas.web.production.routes.TC30_oneWayDomesticEconomy_AHB_SHW"/>	-->  
+						<class name="flynas.web.production.routes.TC31_oneWayInternationalEconomy_JED_DXB"/>
+						<class name="flynas.web.production.routes.TC32_oneWayInternationalEconomy_RUH_DXB"/>
+						<class name="flynas.web.production.routes.TC33_oneWayInternationalEconomy_RUH_AUH"/>
+						<class name="flynas.web.production.routes.TC34_oneWayInternationalEconomy_JED_AUH"/>
+						<class name="flynas.web.production.routes.TC35_oneWayInternationalEconomy_JED_KWI"/>
+						<class name="flynas.web.production.routes.TC36_oneWayInternationalEconomy_RUH_KWI"/>
+						<class name="flynas.web.production.routes.TC37_oneWayInternationalEconomy_MED_KWI"/>
+						<class name="flynas.web.production.routes.TC38_oneWayInternationalEconomy_TIF_KWI"/>
+						<class name="flynas.web.production.routes.TC39_oneWayInternationalEconomy_JED_ASW"/>
+						<class name="flynas.web.production.routes.TC40_oneWayInternationalEconomy_JED_HBE"/>
+						<class name="flynas.web.production.routes.TC41_oneWayInternationalEconomy_JED_HMB"/>
+						<class name="flynas.web.production.routes.TC42_oneWayInternationalEconomy_RUH_HMB"/>
+						<class name="flynas.web.production.routes.TC43_oneWayInternationalEconomy_JED_LXR"/>
+						<class name="flynas.web.production.routes.TC44_roundTripInternationalEconomy_JED_SSH"/>
+						<class name="flynas.web.production.routes.TC45_roundTripInternationalEconomy_JED_CAI"/>
+						<class name="flynas.web.production.routes.TC46_roundTripInternationalEconomy_RUH_CAI"/>
+						<class name="flynas.web.production.routes.TC47_roundTripInternationalEconomy_RUH_ATZ"/> 
+						<class name="flynas.web.production.routes.TC48_roundTripInternationalEconomy_JED_ATZ"/>
+					 	<class name="flynas.web.production.routes.TC49_roundTripInternationalEconomy_JED_AMM"/>
+						<class name="flynas.web.production.routes.TC50_roundTripInternationalEconomy_RUH_AMM"/>
+						<class name="flynas.web.production.routes.TC62_roundTripDomesticEconomyAddExtra_RUH_AHB"/> 	 -->					
+						
+						<!-- ************************************Multi-City*********************************** -->
+					
+					<!--<class name="flynas.web.production.routes.TC51_multicityInternationalEconomy_JED_SAW"/>
+						<class name="flynas.web.production.routes.TC52_multicityInternationalEconomy_RUH_SAW"/>
+						<class name="flynas.web.production.routes.TC53_multicityInternationalEconomy_JED_HTY"/>
+						<class name="flynas.web.production.routes.TC54_multicityInternationalEconomy_RUH_HTY"/>
+						<class name="flynas.web.production.routes.TC55_multicityInternationalEconomy_JED_ADA"/>
+						<class name="flynas.web.production.routes.TC56_multicityInternationalEconomy_JED_KRT"/>
+						<class name="flynas.web.production.routes.TC57_multicityInternationalEconomy_RUH_KRT"/>
+						<class name="flynas.web.production.routes.TC58_multicityInternationalEconomy_MED_KRT"/>
+						<class name="flynas.web.production.routes.TC59_multicityInternationalEconomy_DMM_KRT"/> 
+						
+						
+						
+						do not un comment below two test clases as the routes does not exist any more 
+						<class name="flynas.web.production.routes.TC60_multicityInternationalEconomy_RUH_BAH"/>
+						<class name="flynas.web.production.routes.TC61_multicityInternationalEconomy_JED_BAH"/> -->
+						
+						
+						
+				<!-- ***************************************Flex***************************************** -->
+						
+						<class name="flynas.web.production.routes.TC63_oneWayDomesticFlex_RUH_JED"/>  
+						<class name="flynas.web.production.routes.TC64_oneWayDomesticFlex_RUH_DMM"/> 
+						<class name="flynas.web.production.routes.TC65_oneWayDomesticFlex_RUH_GIZ"/>  
+						<class name="flynas.web.production.routes.TC66_oneWayDomesticFex_RUH_MED"/> 
+						<class name="flynas.web.production.routes.TC67_oneWayDomesticFlex_RUH_TIF"/>  
+						<class name="flynas.web.production.routes.TC68_oneWayDomesticFlex_RUH_HAS"/> 
+						<class name="flynas.web.production.routes.TC69_oneWayDomestiFlex_RUH_TUU"/> 
+						<class name="flynas.web.production.routes.TC70_oneWayDomesticFlex_RUH_URY"/> 
+						<class name="flynas.web.production.routes.TC71_oneWayDomesticFlex_RUH_AJF"/>  
+						<class name="flynas.web.production.routes.TC72_oneWayDomesticFlex_RUH_ABT"/>  
+						<class name="flynas.web.production.routes.TC73_roundTripDomesticFlex_JED_DMM"/> 
+						<class name="flynas.web.production.routes.TC74_roundTripDomesticFlex_JED_GIZ"/> 
+						<class name="flynas.web.production.routes.TC75_roundTripDomesticFlex_JED_MED"/>
+						<class name="flynas.web.production.routes.TC76_roundTripDomesticFlex_JED_AHB"/>
+						<class name="flynas.web.production.routes.TC77_roundTripDomesticFlex_JED_TUU"/>
+						<class name="flynas.web.production.routes.TC78_roundTripDomesticFlex_JED_ELQ"/>
+						<class name="flynas.web.production.routes.TC79_roundTripDomesticFlex_DMM_TIF"/>
+						<class name="flynas.web.production.routes.TC80_roundTripDomesticFlex_DMM_AHB"/> 
+						<class name="flynas.web.production.routes.TC81_roundTripDomesticFlex_DMM_YNB"/> 
+						<class name="flynas.web.production.routes.TC82_roundTripDomesticFlex_DMM_MED"/> 
+						<class name="flynas.web.production.routes.TC83_roundTripDomesticFlex_DMM_GIZ"/> 
+						<class name="flynas.web.production.routes.TC84_roundTripDomesticFlex_DMM_ELQ"/> 
+						<class name="flynas.web.production.routes.TC85_roundTripDomesticFlex_DMM_HAS"/> 
+			 			<class name="flynas.web.production.routes.TC86_roundTripDomesticFlex_DMM_TUU"/> 
+						<class name="flynas.web.production.routes.TC87_roundTripDomesticFlex_DMM_ABT"/> 
+						<class name="flynas.web.production.routes.TC88_oneWayDomesticFlex_AHB_ABT"/>
+						<class name="flynas.web.production.routes.TC89_oneWayDomesticFlex_AHB_BHH"/>	
+						<class name="flynas.web.production.routes.TC90_oneWayDomesticFlex_AHB_WAE"/>	
+						<class name="flynas.web.production.routes.TC91_oneWayDomesticFlex_AHB_GIZ"/>	
+						<class name="flynas.web.production.routes.TC92_oneWayDomesticFlex_AHB_SHW"/>	
+						<class name="flynas.web.production.routes.TC93_oneWayInternationalFlex_JED_DXB"/>
+						<class name="flynas.web.production.routes.TC94_oneWayInternationalFlex_RUH_DXB"/> 
+						<class name="flynas.web.production.routes.TC95_oneWayInternationalFlex_RUH_AUH"/>
+						<class name="flynas.web.production.routes.TC96_oneWayInternationalFlex_JED_AUH"/>
+						<class name="flynas.web.production.routes.TC97_oneWayInternationalFlex_JED_KWI"/> 
+						<class name="flynas.web.production.routes.TC98_oneWayInternationalFlex_RUH_KWI"/>
+						<class name="flynas.web.production.routes.TC99_oneWayInternationalFlex_MED_KWI"/>
+						<class name="flynas.web.production.routes.TC100_oneWayInternationalFlex_TIF_KWI"/>
+						<class name="flynas.web.production.routes.TC101_oneWayInternationalFlex_JED_ASW"/>
+						<class name="flynas.web.production.routes.TC102_oneWayInternationalFlex_JED_HBE"/>
+						<class name="flynas.web.production.routes.TC103_oneWayInternationalFlex_JED_HMB"/>
+						<class name="flynas.web.production.routes.TC104_oneWayInternationalFlex_RUH_HMB"/> 
+						<class name="flynas.web.production.routes.TC105_oneWayInternationalFlex_JED_LXR"/>
+						<class name="flynas.web.production.routes.TC106_roundTripInternationalFlex_JED_SSH"/> 
+						<class name="flynas.web.production.routes.TC107_roundTripInternationalFlex_JED_CAI"/>
+						<class name="flynas.web.production.routes.TC108_roundTripInternationalFlex_RUH_CAI"/>
+						<class name="flynas.web.production.routes.TC109_roundTripInternationalFlex_RUH_ATZ"/>
+						<class name="flynas.web.production.routes.TC110_roundTripInternationalFlex_JED_ATZ"/>
+					 	<class name="flynas.web.production.routes.TC111_roundTripInternationalFlex_JED_AMM"/> 
+						<class name="flynas.web.production.routes.TC112_roundTripInternationalFlex_RUH_AMM"/>
+						<class name="flynas.web.production.routes.TC124_roundTripDomesticFlexAddExtra_RUH_AHB"/>
+						
+						
+						<!-- ************************************Multi-City*********************************** -->
+						
+					<!-- 	<class name="flynas.web.production.routes.TC113_multicityInternationalFlex_JED_SAW"/>
+						<class name="flynas.web.production.routes.TC114_multicityInternationalFlex_RUH_SAW"/>
+						<class name="flynas.web.production.routes.TC115_multicityInternationalFlex_JED_HTY"/>
+						<class name="flynas.web.production.routes.TC116_multicityInternationalFlex_RUH_HTY"/>
+						<class name="flynas.web.production.routes.TC117_multicityInternationalFlex_JED_ADA"/>
+						<class name="flynas.web.production.routes.TC118_multicityInternationalFlex_JED_KRT"/>
+						<class name="flynas.web.production.routes.TC119_multicityInternationalFlex_RUH_KRT"/>
+						<class name="flynas.web.production.routes.TC120_multicityInternationalFlex_MED_KRT"/>
+						<class name="flynas.web.production.routes.TC121_multicityInternationalFlex_DMM_KRT"/>
+						<class name="flynas.web.production.routes.TC122_multicityInternationalFlex_RUH_BAH"/>
+						<class name="flynas.web.production.routes.TC123_multicityInternationalFlex_JED_BAH"/> -->
+						
+		
+		<!-- ****************************************Business***************************************************** -->
+	
+						<class name="flynas.web.production.routes.TC125_oneWayDomesticBusiness_RUH_JED"/>  
+						<class name="flynas.web.production.routes.TC126_oneWayDomesticBusiness_RUH_DMM"/> 
+						<class name="flynas.web.production.routes.TC127_oneWayDomesticBusiness_RUH_GIZ"/> 
+						<class name="flynas.web.production.routes.TC128_oneWayDomesticBusiness_RUH_MED"/> 
+						<class name="flynas.web.production.routes.TC129_oneWayDomesticBusiness_RUH_TIF"/> 
+						<class name="flynas.web.production.routes.TC130_oneWayDomesticBusiness_RUH_HAS"/> 
+						<class name="flynas.web.production.routes.TC131_oneWayDomesticBusiness_RUH_TUU"/> 
+						<class name="flynas.web.production.routes.TC132_oneWayDomesticBusiness_RUH_URY"/> 
+						<class name="flynas.web.production.routes.TC133_oneWayDomesticBusiness_RUH_AJF"/>  
+						<class name="flynas.web.production.routes.TC134_oneWayDomesticBusiness_RUH_ABT"/> 
+						<class name="flynas.web.production.routes.TC135_roundTripDomesticBusiness_JED_DMM"/> 
+						<class name="flynas.web.production.routes.TC136_roundTripDomesticBusiness_JED_GIZ"/> 
+						<class name="flynas.web.production.routes.TC137_roundTripDomesticBusiness_JED_MED"/>
+						<class name="flynas.web.production.routes.TC138_roundTripDomesticBusiness_JED_AHB"/>
+						<class name="flynas.web.production.routes.TC139_roundTripDomesticBusiness_JED_TUU"/>
+						<class name="flynas.web.production.routes.TC140_roundTripDomesticBusiness_JED_ELQ"/>
+						<class name="flynas.web.production.routes.TC141_roundTripDomesticBusiness_DMM_TIF"/>
+						<class name="flynas.web.production.routes.TC142_roundTripDomesticBusiness_DMM_AHB"/>
+						<class name="flynas.web.production.routes.TC143_roundTripDomesticBusiness_DMM_YNB"/> 
+						<class name="flynas.web.production.routes.TC144_roundTripDomesticBusiness_DMM_MED"/> 
+						<class name="flynas.web.production.routes.TC145_roundTripDomesticBusiness_DMM_GIZ"/> 
+						<class name="flynas.web.production.routes.TC146_roundTripDomesticBusiness_DMM_ELQ"/> 
+						<class name="flynas.web.production.routes.TC147_roundTripDomesticBusiness_DMM_HAS"/> 
+						<class name="flynas.web.production.routes.TC148_roundTripDomesticBusiness_DMM_TUU"/> 
+						<class name="flynas.web.production.routes.TC149_roundTripDomesticBusiness_DMM_ABT"/> 
+						<class name="flynas.web.production.routes.TC150_oneWayDomesticBusiness_AHB_ABT"/>
+						<class name="flynas.web.production.routes.TC151_oneWayDomesticBusiness_AHB_BHH"/>	
+						<class name="flynas.web.production.routes.TC152_oneWayDomesticBusiness_AHB_WAE"/>	
+						<class name="flynas.web.production.routes.TC153_oneWayDomesticBusiness_AHB_GIZ"/>	
+						<class name="flynas.web.production.routes.TC154_oneWayDomesticBusiness_AHB_SHW"/>	
+						<class name="flynas.web.production.routes.TC155_oneWayInternationalBusiness_JED_DXB"/> 
+						<class name="flynas.web.production.routes.TC156_oneWayInternationalBusiness_RUH_DXB"/>
+						<class name="flynas.web.production.routes.TC157_oneWayInternationalBusiness_RUH_AUH"/>
+						<class name="flynas.web.production.routes.TC158_oneWayInternationalBusiness_JED_AUH"/>
+						<class name="flynas.web.production.routes.TC159_oneWayInternationalBusiness_JED_KWI"/>
+						<class name="flynas.web.production.routes.TC160_oneWayInternationalBusiness_RUH_KWI"/>
+						<class name="flynas.web.production.routes.TC161_oneWayInternationalBusiness_MED_KWI"/>
+						<class name="flynas.web.production.routes.TC162_oneWayInternationalBusiness_TIF_KWI"/>
+						<class name="flynas.web.production.routes.TC163_oneWayInternationalBusiness_JED_ASW"/>
+						<class name="flynas.web.production.routes.TC164_oneWayInternationalBusiness_JED_HBE"/>
+						<class name="flynas.web.production.routes.TC165_oneWayInternationalBusiness_JED_HMB"/>
+						<class name="flynas.web.production.routes.TC166_oneWayInternationalBusiness_RUH_HMB"/>
+						<class name="flynas.web.production.routes.TC167_oneWayInternationalBusiness_JED_LXR"/> 
+						<class name="flynas.web.production.routes.TC168_roundTripInternationalBusiness_JED_SSH"/>
+						<class name="flynas.web.production.routes.TC169_roundTripInternationalBusiness_JED_CAI"/>
+						<class name="flynas.web.production.routes.TC170_roundTripInternationalBusiness_RUH_CAI"/>
+						<class name="flynas.web.production.routes.TC171_roundTripInternationalBusiness_RUH_ATZ"/>
+						<class name="flynas.web.production.routes.TC172_roundTripInternationalBusiness_JED_ATZ"/>
+						<class name="flynas.web.production.routes.TC173_roundTripInternationalBusiness_JED_AMM"/>
+						<class name="flynas.web.production.routes.TC174_roundTripInternationalBusiness_RUH_AMM"/>
+						<class name="flynas.web.production.routes.TC186_roundTripDomesticBusinessAddExtra_RUH_AHB"/>	
+						<class name="flynas.web.production.routes.TC187_BaggageValidation"/>
+						
+						
+						<!-- ************************************Multi-City*********************************** -->
+						
+						<!-- <class name="flynas.web.production.routes.TC175_multicityInternationalBusiness_JED_SAW"/>
+						<class name="flynas.web.production.routes.TC176_multicityInternationalBusiness_RUH_SAW"/>
+						<class name="flynas.web.production.routes.TC177_multicityInternationalBusiness_JED_HTY"/>
+						<class name="flynas.web.production.routes.TC178_multicityInternationalBusiness_RUH_HTY"/>
+						<class name="flynas.web.production.routes.TC179_multicityInternationalBusiness_JED_ADA"/>
+						<class name="flynas.web.production.routes.TC180_multicityInternationalBusiness_JED_KRT"/>
+						<class name="flynas.web.production.routes.TC181_multicityInternationalBusiness_RUH_KRT"/>
+						<class name="flynas.web.production.routes.TC182_multicityInternationalBusiness_MED_KRT"/>
+						<class name="flynas.web.production.routes.TC183_multicityInternationalBusiness_DMM_KRT"/>
+						<class name="flynas.web.production.routes.TC184_multicityInternationalBusiness_RUH_BAH"/>
+						<class name="flynas.web.production.routes.TC185_multicityInternationalBusiness_JED_BAH"/> -->
+						
+							
+						<!--**********************************************************************************  -->			
+						
+											
+		 
+		</classes>
+	</test>
+
+</suite>

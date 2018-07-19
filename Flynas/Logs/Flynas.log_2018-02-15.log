@@ -1,0 +1,79 @@
+2018-02-15 13:41:29-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-02-15 13:41:45-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_02_a_oneWayDomSimple1AdultCC
+2018-02-15 13:43:41-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-02-15 13:43:55-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC04b_RtIntlOneAdultCheckinFail
+2018-02-15 14:59:26-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-02-15 14:59:42-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_66A_PricelockDomFeeVerificationBooking
+2018-02-15 15:00:29-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-02-15 15:03:52-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-02-15 15:04:04-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_66A_PricelockDomFeeVerificationBooking
+2018-02-15 15:05:09-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-02-15 15:12:59-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-02-15 15:13:14-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_66A_PricelockDomFeeVerificationBooking
+2018-02-15 15:14:17-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-02-15 15:17:26-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-02-15 15:17:45-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_66A_PricelockDomFeeVerificationBooking
+2018-02-15 15:18:41-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-02-15 15:21:03-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-02-15 15:21:16-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_66A_PricelockDomFeeVerificationBooking
+2018-02-15 15:22:20-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-02-15 15:24:21-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-02-15 15:24:34-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_66A_PricelockDomFeeVerificationBooking
+2018-02-15 15:25:44-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-02-15 15:28:52-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-02-15 15:29:08-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_66A_PricelockDomFeeVerificationBooking
+2018-02-15 15:40:00-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-02-15 15:40:17-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_66A_PricelockDomFeeVerificationBooking
+2018-02-15 15:41:53-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-02-15 15:41:54-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-02-15 15:47:50-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-02-15 15:48:05-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_66A_PricelockDomFeeVerificationBooking
+2018-02-15 15:50:14-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-02-15 15:50:14-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-02-15 15:52:06-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-02-15 15:52:22-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_66A_PricelockDomFeeVerificationBooking
+2018-02-15 15:53:57-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-02-15 15:53:57-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-02-15 15:55:34-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-02-15 15:55:50-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_66A_PricelockDomFeeVerificationBooking
+2018-02-15 15:57:14-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-02-15 15:57:15-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-02-15 16:01:18-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-02-15 16:01:44-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_66A_PricelockDomFeeVerificationBooking
+2018-02-15 16:02:56-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-02-15 16:02:56-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-02-15 16:09:05-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-02-15 16:09:23-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_65A_DomStandByFriendsBookingFeeVerification
+2018-02-15 16:09:58-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-02-15 16:10:19-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_65B_DomStaffCnfmdFriendsBookingFeeVerification
+2018-02-15 16:10:42-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-02-15 16:11:05-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_65C_IntlStandByFriendsBookingChargeVerification
+2018-02-15 16:11:28-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-02-15 16:11:46-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_65D_IntlStaffCnfmdFriendsBookingChargeVerification
+2018-02-15 16:12:10-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-02-15 16:17:55-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-02-15 16:18:08-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_65A_DomStandByFriendsBookingFeeVerification
+2018-02-15 16:19:24-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-02-15 16:19:38-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_65B_DomStaffCnfmdFriendsBookingFeeVerification
+2018-02-15 16:21:11-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-02-15 16:21:11-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-02-15 16:21:26-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_65C_IntlStandByFriendsBookingChargeVerification
+2018-02-15 16:23:11-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-02-15 16:23:12-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-02-15 16:23:26-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_65D_IntlStaffCnfmdFriendsBookingChargeVerification
+2018-02-15 16:25:09-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-02-15 16:25:09-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-02-15 16:28:17-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-02-15 16:28:32-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_66A_PricelockDomFeeVerificationBooking
+2018-02-15 16:38:25-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-02-15 16:38:40-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_65A_DomStandByFriendsBookingFeeVerification
+2018-02-15 16:43:51-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-02-15 16:44:13-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_66A_PricelockDomFeeVerificationBooking
+2018-02-15 16:49:44-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-02-15 16:50:01-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_66A_PricelockDomFeeVerificationBooking
+2018-02-15 16:52:26-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-02-15 16:52:42-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_66A_PricelockDomFeeVerificationBooking
+2018-02-15 16:56:32-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-02-15 16:56:49-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_66A_PricelockDomFeeVerificationBooking
+2018-02-15 17:04:14-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-02-15 17:04:32-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_66A_PricelockDomFeeVerificationBooking

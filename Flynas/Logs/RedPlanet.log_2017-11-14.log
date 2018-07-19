@@ -1,0 +1,72 @@
+2017-11-14 11:52:00-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2017-11-14 11:52:23-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_02_oneWayDomesticEcoSADAD
+2017-11-14 11:54:44-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2017-11-14 12:00:46-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2017-11-14 12:01:28-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2017-11-14 12:01:44-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_16_roundTripDomesticEconomy_JED_ELQ
+2017-11-14 13:03:24-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2017-11-14 13:03:54-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_16_roundTripDomesticEconomy_JED_ELQ
+2017-11-14 13:09:38-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2017-11-14 13:10:05-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_16_roundTripDomesticEconomy_JED_ELQ
+2017-11-14 13:11:07-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2017-11-14 13:15:16-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2017-11-14 13:15:34-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_16_roundTripDomesticEconomy_JED_ELQ
+2017-11-14 13:16:30-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2017-11-14 13:16:47-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_16_roundTripDomesticEconomy_JED_ELQ
+2017-11-14 13:22:49-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2017-11-14 13:23:08-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_16_roundTripDomesticEconomy_JED_ELQ
+2017-11-14 13:24:09-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2017-11-14 13:26:37-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2017-11-14 13:26:55-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2017-11-14 13:27:16-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_16_roundTripDomesticEconomy_JED_ELQ
+2017-11-14 13:34:40-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2017-11-14 13:35:09-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_16_roundTripDomesticEconomy_JED_ELQ
+2017-11-14 15:47:41-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2017-11-14 15:48:00-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_11oneAdultoneChildoneInfantPartCodeShare
+2017-11-14 16:01:07-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2017-11-14 16:01:29-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_11oneAdultoneChildoneInfantPartCodeShare
+2017-11-14 16:05:52-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2017-11-14 16:06:10-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_11oneAdultoneChildoneInfantPartCodeShare
+2017-11-14 16:11:39-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2017-11-14 16:11:59-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_11oneAdultoneChildoneInfantPartCodeShare
+2017-11-14 16:20:43-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2017-11-14 16:20:51-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2017-11-14 16:21:10-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_11oneAdultoneChildoneInfantPartCodeShare
+2017-11-14 16:54:58-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2017-11-14 16:55:17-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_11oneAdultoneChildoneInfantPartCodeShare
+2017-11-14 16:59:43-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2017-11-14 17:08:23-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2017-11-14 17:09:00-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_11oneAdultoneChildoneInfantPartCodeShare
+2017-11-14 17:12:48-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2017-11-14 17:13:09-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_11oneAdultoneChildoneInfantPartCodeShare
+2017-11-14 17:39:34-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2017-11-14 17:40:01-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_11oneAdultoneChildoneInfantPartCodeShare
+2017-11-14 17:41:38-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2017-11-14 17:42:08-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_11oneAdultoneChildoneInfantPartCodeShare
+2017-11-14 17:48:27-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2017-11-14 17:49:24-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_11oneAdultoneChildoneInfantPartCodeShare
+2017-11-14 17:50:49-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2017-11-14 17:51:09-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_11oneAdultoneChildoneInfantPartCodeShare
+2017-11-14 18:01:42-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2017-11-14 18:01:59-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_11oneAdultoneChildoneInfantPartCodeShare
+2017-11-14 18:10:27-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2017-11-14 18:10:46-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_11oneAdultoneChildoneInfantPartCodeShare
+2017-11-14 18:20:15-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2017-11-14 18:20:47-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_11oneAdultoneChildoneInfantPartCodeShare
+2017-11-14 18:25:02-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2017-11-14 18:25:21-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_11oneAdultoneChildoneInfantPartCodeShare
+2017-11-14 18:26:54-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2017-11-14 18:35:27-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2017-11-14 18:35:44-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_11oneAdultoneChildoneInfantPartCodeShare
+2017-11-14 18:37:04-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2017-11-14 18:39:54-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2017-11-14 18:40:13-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_11oneAdultoneChildoneInfantPartCodeShare
+2017-11-14 18:48:36-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2017-11-14 18:48:54-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_11oneAdultoneChildoneInfantPartCodeShare
+2017-11-14 18:51:56-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2017-11-14 18:52:11-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_11oneAdultoneChildoneInfantPartCodeShare
+2017-11-14 18:54:39-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2017-11-14 18:54:59-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_11oneAdultoneChildoneInfantPartCodeShare
+2017-11-14 18:56:49-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2017-11-14 18:58:32-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2017-11-14 18:58:47-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_11oneAdultoneChildoneInfantPartCodeShare

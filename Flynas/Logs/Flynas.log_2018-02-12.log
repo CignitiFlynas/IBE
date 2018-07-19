@@ -1,0 +1,36 @@
+2018-02-12 12:38:03-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-02-12 12:38:23-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_65_IntlFriendsBookingChargeVerification
+2018-02-12 12:44:35-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-02-12 12:44:59-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_65_IntlFriendsBookingChargeVerification
+2018-02-12 12:54:53-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-02-12 12:55:08-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_65_IntlFriendsBookingChargeVerification
+2018-02-12 12:59:56-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-02-12 13:00:20-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_65_IntlFriendsBookingChargeVerification
+2018-02-12 13:01:52-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-02-12 13:02:14-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_65_IntlFriendsBookingChargeVerification
+2018-02-12 13:12:36-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-02-12 13:12:56-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_65_IntlFriendsBookingChargeVerification
+2018-02-12 13:21:55-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-02-12 13:22:19-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_65_IntlFriendsBookingChargeVerification
+2018-02-12 13:40:21-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-02-12 13:41:09-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_65_IntlFriendsBookingChargeVerification
+2018-02-12 14:51:51-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-02-12 14:52:14-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_65A_IntlFriendsBookingChargeVerification
+2018-02-12 14:52:39-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-02-12 14:52:57-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_65B_DOMFriendsBookingFeeVerification
+2018-02-12 14:59:48-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-02-12 15:00:05-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_65A_IntlFriendsBookingChargeVerification
+2018-02-12 15:00:29-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-02-12 15:01:56-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-02-12 15:02:13-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_65A_IntlFriendsBookingChargeVerification
+2018-02-12 15:03:59-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-02-12 15:04:00-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-02-12 15:06:17-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-02-12 15:06:31-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_65A_IntlFriendsBookingChargeVerification
+2018-02-12 15:08:33-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-02-12 15:08:49-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_65B_DOMFriendsBookingFeeVerification
+2018-02-12 16:23:10-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-02-12 16:23:34-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_65A_IntlFriendsBookingChargeVerification
+2018-02-12 16:45:56-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-02-12 16:46:58-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_65A_IntlFriendsBookingChargeVerification
+2018-02-12 17:49:21-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome

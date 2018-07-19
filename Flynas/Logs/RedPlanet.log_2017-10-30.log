@@ -1,0 +1,106 @@
+2017-10-30 12:39:57-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : Android
+2017-10-30 12:46:07-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : Android
+2017-10-30 12:47:03-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_01_oneWayDomesticEconomy_RUH_JED
+2017-10-30 12:52:32-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2017-10-30 12:52:35-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_02_oneWayDomesticEconomy_RUH_DMM
+2017-10-30 12:56:56-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_03_oneWayDomesticEconomy_RUH_GIZ
+2017-10-30 13:01:19-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2017-10-30 13:01:23-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_04_oneWayDomesticEconomy_RUH_MED
+2017-10-30 13:15:34-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : Android
+2017-10-30 13:16:31-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_05_onewaydom8Business
+2017-10-30 13:16:49-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2017-10-30 13:23:17-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : Android
+2017-10-30 13:23:35-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_05_oneWayDomesticEconomy_RUH_TIF
+2017-10-30 13:25:43-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2017-10-30 13:28:00-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : Android
+2017-10-30 13:28:18-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_05_oneWayDomesticEconomy_RUH_TIF
+2017-10-30 13:37:55-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : Android
+2017-10-30 13:38:37-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_01_oneWayDomesticEconomy_RUH_JED
+2017-10-30 13:44:04-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_02_oneWayDomesticEconomy_RUH_DMM
+2017-10-30 13:48:06-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2017-10-30 13:48:09-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_03_oneWayDomesticEconomy_RUH_GIZ
+2017-10-30 13:52:32-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2017-10-30 13:52:35-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_04_oneWayDomesticEconomy_RUH_MED
+2017-10-30 14:01:33-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : Android
+2017-10-30 15:11:43-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : Android
+2017-10-30 15:12:23-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_02_oneWayDomesticEconomy_RUH_DMM
+2017-10-30 15:17:53-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2017-10-30 15:19:17-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : Android
+2017-10-30 15:19:54-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_02_oneWayDomesticEconomy_RUH_DMM
+2017-10-30 15:25:07-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2017-10-30 15:25:08-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2017-10-30 15:27:15-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : Android
+2017-10-30 15:27:52-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_02_oneWayDomesticEconomy_RUH_DMM
+2017-10-30 15:38:33-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : Android
+2017-10-30 15:39:10-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_01_oneWayDomesticEconomy_RUH_JED
+2017-10-30 15:42:07-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : Android
+2017-10-30 15:42:34-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_01_oneWayDomesticEconomy_RUH_JED
+2017-10-30 15:46:46-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_02_oneWayDomesticEconomy_RUH_DMM
+2017-10-30 15:51:01-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_03_oneWayDomesticEconomy_RUH_GIZ
+2017-10-30 15:55:11-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_04_oneWayDomesticEconomy_RUH_MED
+2017-10-30 15:56:10-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2017-10-30 15:56:14-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_05_oneWayDomesticEconomy_RUH_TIF
+2017-10-30 16:00:56-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_06_oneWayDomesticEconomy_RUH_HAS
+2017-10-30 16:05:09-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_07_oneWayDomesticEconomy_RUH_TUU
+2017-10-30 16:08:46-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2017-10-30 16:08:49-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_08_oneWayDomesticEconomy_RUH_URY
+2017-10-30 16:12:55-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_09_oneWayDomesticEconomy_RUH_AJF
+2017-10-30 16:13:54-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2017-10-30 16:13:57-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_10_oneWayDomesticEconomy_RUH_ABT
+2017-10-30 16:18:27-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_11_roundTripDomesticEconomy_JED_DMM
+2017-10-30 16:19:57-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2017-10-30 16:20:01-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_12_roundTripDomesticEconomy_JED_GIZ
+2017-10-30 16:21:35-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2017-10-30 16:21:38-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_13_roundTripDomesticEconomy_JED_MED
+2017-10-30 17:01:42-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : Android
+2017-10-30 17:02:06-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_11_roundTripDomesticEconomy_JED_DMM
+2017-10-30 17:03:10-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2017-10-30 17:10:08-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : Android
+2017-10-30 17:10:45-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_11_roundTripDomesticEconomy_JED_DMM
+2017-10-30 17:12:18-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2017-10-30 17:42:19-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : Android
+2017-10-30 17:43:00-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_10_oneWayDomesticEconomy_RUH_ABT
+2017-10-30 17:44:41-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : Android
+2017-10-30 17:45:18-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_10_oneWayDomesticEconomy_RUH_ABT
+2017-10-30 17:48:12-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : Android
+2017-10-30 17:53:43-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : Android
+2017-10-30 17:54:20-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_10_oneWayDomesticEconomy_RUH_ABT
+2017-10-30 17:56:00-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : Android
+2017-10-30 17:56:12-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : Android
+2017-10-30 17:56:30-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : Android
+2017-10-30 17:57:07-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_11_roundTripDomesticEconomy_JED_DMM
+2017-10-30 17:58:29-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2017-10-30 17:58:59-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : Android
+2017-10-30 17:59:35-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_11_roundTripDomesticEconomy_JED_DMM
+2017-10-30 18:01:02-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2017-10-30 18:01:09-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : Android
+2017-10-30 18:01:46-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_11_roundTripDomesticEconomy_JED_DMM
+2017-10-30 18:05:34-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2017-10-30 18:10:05-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : Android
+2017-10-30 18:10:42-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_07_oneWayDomesticEconomy_RUH_TUU
+2017-10-30 18:14:43-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2017-10-30 18:14:46-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_08_oneWayDomesticEconomy_RUH_URY
+2017-10-30 18:18:46-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_09_oneWayDomesticEconomy_RUH_AJF
+2017-10-30 18:22:39-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_10_oneWayDomesticEconomy_RUH_ABT
+2017-10-30 18:26:36-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_26_oneWayDomesticEconomyChangeDate_AHB_ABT
+2017-10-30 18:30:22-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2017-10-30 18:30:25-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_27_oneWayDomesticEconomyCheckIn_ABH_BHH
+2017-10-30 18:34:18-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_28_oneWayDomesticEconomy_AHB_WAE
+2017-10-30 18:37:37-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_29_oneWayDomesticEconomy_AHB_GIZ
+2017-10-30 18:39:44-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2017-10-30 18:39:47-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_30_oneWayDomesticEconomy_AHB_SHW
+2017-10-30 18:43:12-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_31_oneWayInternationalEconomy_JED_DXB
+2017-10-30 18:47:32-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_32_oneWayInternationalEconomy_RUH_DXB
+2017-10-30 18:51:11-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_33_oneWayInternationalEconomy_RUH_AUH
+2017-10-30 18:54:43-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_34_oneWayInternationalEconomy_JED_AUH
+2017-10-30 18:58:22-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_35_oneWayInternationalEconomy_JED_KWI
+2017-10-30 19:01:51-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_36_oneWayInternationalEconomy_RUH_KWI
+2017-10-30 19:05:29-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_37_oneWayInternationalEconomy_MED_KWI
+2017-10-30 19:09:42-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_38_oneWayInternationalEconomy_TIF_KWI
+2017-10-30 19:13:38-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_39_oneWayInternationalEconomy_JED_ASW
+2017-10-30 19:17:08-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_40_oneWayInternationalEconomy_JED_HBE
+2017-10-30 19:20:40-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_41_oneWayInternationalEconomy_JED_HMB
+2017-10-30 19:25:07-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_42_oneWayInternationalEconomy_RUH_HMB
+2017-10-30 19:28:40-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_43_oneWayInternationalEconomy_JED_LXR
+2017-10-30 19:33:07-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_63_oneWayDomesticFlex_RUH_JED
+2017-10-30 19:37:12-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_64_oneWayDomesticFlex_RUH_DMM

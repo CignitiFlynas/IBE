@@ -1,0 +1,43 @@
+2018-04-05 13:28:03-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-04-05 13:28:30-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_02_g_oneWayDomesticSimpleSADAD
+2018-04-05 13:28:40-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-04-05 13:31:12-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-04-05 13:31:29-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_02_g_oneWayDomesticSimpleSADAD
+2018-04-05 13:31:38-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-04-05 13:33:10-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-04-05 13:33:28-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_02_g_oneWayDomesticSimpleSADAD
+2018-04-05 13:33:37-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-04-05 13:37:14-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-04-05 13:37:31-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_02_g_oneWayDomesticSimpleSADAD
+2018-04-05 13:37:57-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-04-05 13:42:00-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-04-05 13:42:20-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_01_d_verifyRegistrationFailureWithExistingMailID
+2018-04-05 13:42:48-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-04-05 13:44:45-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-04-05 13:45:01-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_02_b_oneWayDomBusiness1AdultCC
+2018-04-05 14:01:08-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-04-05 14:01:30-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_02_b_oneWayDomBusiness1AdultCC
+2018-04-05 15:07:53-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-04-05 15:08:08-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_02_b_oneWayDomBusiness1AdultCC
+2018-04-05 15:14:21-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-04-05 15:14:40-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_02_b_oneWayDomBusiness1AdultCC
+2018-04-05 15:17:00-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-04-05 15:17:18-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_02_b_oneWayDomBusiness1AdultCC
+2018-04-05 15:46:41-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-04-05 15:46:58-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_02_b_oneWayDomBusiness1AdultCC
+2018-04-05 15:47:55-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-04-05 15:48:17-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_02_b_oneWayDomBusiness1AdultCC
+2018-04-05 15:50:49-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-04-05 15:51:08-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_02_b_oneWayDomBusiness1AdultCC
+2018-04-05 15:56:58-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-04-05 15:57:30-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_02_b_oneWayDomBusiness1AdultCC
+2018-04-05 17:07:35-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-04-05 17:07:50-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_02_b_oneWayDomBusiness1AdultCC
+2018-04-05 17:10:29-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-04-05 17:10:43-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_02_b_oneWayDomBusiness1AdultCC
+2018-04-05 17:18:19-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-04-05 17:18:34-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_02_b_oneWayDomBusiness1AdultCC
+2018-04-05 17:33:53-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-04-05 17:34:10-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_02_b_oneWayDomBusiness1AdultCC
+2018-04-05 18:26:37-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-04-05 18:27:22-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_02_b_oneWayDomBusiness1AdultCC

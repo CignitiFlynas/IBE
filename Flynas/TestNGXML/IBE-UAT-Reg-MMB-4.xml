@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" > 
+
+<suite name="Flynas" allow-return-values="true" verbose="2">
+    
+    
+	<test name="IBE-UAT-Regression" >
+	    
+	   	<!--	<groups>
+				<run>
+					<include name="chrome"/>
+				</run>
+			</groups> -->
+		  
+			<classes>	 	
+					<!-- ********************************Total - 18*************************************************** -->
+					
+					
+						
+						<class name="flynas.web.uat.regression.TC49_RTIntlCancelDepartingleg"/>
+						
+						<class name="flynas.web.uat.regression.TC50_RTIntlCancelReturningleg"/>
+						<class name="flynas.web.uat.regression.TC51_RTIntlfullCancelVerifyMMB"/>
+													
+		 
+		</classes>
+	</test>
+	
+	
+
+</suite>

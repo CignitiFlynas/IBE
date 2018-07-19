@@ -1,0 +1,6 @@
+2017-10-26 14:41:47-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : Android
+2017-10-26 14:42:59-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : Android
+2017-10-26 14:44:31-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : Android
+2017-10-26 14:45:38-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_106_roundTripInternationalFlex_JED_SSH
+2017-10-26 16:27:16-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : Android
+2017-10-26 16:28:00-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_01_oneWayDomesticEconomy_RUH_JED

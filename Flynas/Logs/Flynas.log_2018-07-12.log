@@ -1,0 +1,3 @@
+2018-07-12 14:46:37-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-07-12 14:46:52-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : IBE_PromoTest
+2018-07-12 14:47:14-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot

@@ -1,0 +1,25 @@
+2018-06-05 00:00:39-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_162_oneWayInternationalBusiness_TIF_KWI
+2018-06-05 00:04:29-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_163_oneWayInternationalBusiness_JED_ASW
+2018-06-05 00:08:44-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_164_oneWayInternationalBusiness_JED_HBE
+2018-06-05 00:12:32-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_165_oneWayInternationalBusiness_JED_HMB
+2018-06-05 00:12:43-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-05 00:12:55-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_166_oneWayInternationalBusiness_RUH_HMB
+2018-06-05 00:13:05-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-05 00:13:17-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_167_oneWayInternationalBusiness_JED_LXR
+2018-06-05 00:13:28-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-05 00:13:40-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_168_roundTripInternationalBusiness_JED_SSH
+2018-06-05 00:13:50-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-05 00:14:03-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_169_roundTripInternationalBusiness_JED_CAI
+2018-06-05 00:14:13-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-05 00:14:25-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_170_roundTripInternationalBusiness_RUH_CAI
+2018-06-05 00:14:36-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-05 00:14:47-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_171_roundTripInternationalBusiness_RUH_ATZ
+2018-06-05 00:14:58-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-05 00:15:11-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_172_roundTripInternationalBusiness_JED_ATZ
+2018-06-05 00:19:06-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-05 00:19:21-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_173_roundTripInternationalBusiness_JED_AMM
+2018-06-05 00:23:30-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_174_roundTripInternationalBusiness_RUH_AMM
+2018-06-05 00:27:48-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_186_roundTripDomesticBusinessAddExtra_RUH_AHB
+2018-06-05 00:30:54-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-05 00:31:07-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_187_BaggageValidation
+2018-06-05 00:33:13-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot

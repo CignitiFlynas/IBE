@@ -1,0 +1,34 @@
+2017-12-22 00:02:43-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_148_roundTripDomesticBusiness_DMM_TUU
+2017-12-22 00:07:59-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_149_roundTripDomesticBusiness_DMM_ABT
+2017-12-22 00:11:36-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_150_oneWayDomesticBusiness_AHB_ABT
+2017-12-22 00:15:48-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_151_oneWayDomesticBusiness_AHB_BHH
+2017-12-22 00:19:43-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_152_oneWayDomesticBusiness_AHB_WAE
+2017-12-22 00:22:00-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_153_oneWayDomesticBusiness_AHB_GIZ
+2017-12-22 00:24:46-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_154_oneWayDomesticBusiness_AHB_SHW
+2017-12-22 00:27:20-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_155_oneWayInternationalBusiness_JED_DXB
+2017-12-22 00:30:04-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_156_oneWayInternationalBusiness_RUH_DXB
+2017-12-22 00:32:25-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_157_oneWayInternationalBusiness_RUH_AUH
+2017-12-22 00:35:25-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2017-12-22 00:35:25-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2017-12-22 00:35:42-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_158_oneWayInternationalBusiness_JED_AUH
+2017-12-22 00:38:45-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_159_oneWayInternationalBusiness_JED_KWI
+2017-12-22 00:41:07-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_160_oneWayInternationalBusiness_RUH_KWI
+2017-12-22 00:44:05-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_161_oneWayInternationalBusiness_MED_KWI
+2017-12-22 00:48:08-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_162_oneWayInternationalBusiness_TIF_KWI
+2017-12-22 00:51:04-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_163_oneWayInternationalBusiness_JED_ASW
+2017-12-22 01:01:17-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2017-12-22 01:01:17-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2017-12-22 01:01:48-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_164_oneWayInternationalBusiness_JED_HBE
+2017-12-22 01:04:40-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_165_oneWayInternationalBusiness_JED_HMB
+2017-12-22 01:07:50-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_166_oneWayInternationalBusiness_RUH_HMB
+2017-12-22 01:10:42-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_167_oneWayInternationalBusiness_JED_LXR
+2017-12-22 01:13:52-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_168_roundTripInternationalBusiness_JED_SSH
+2017-12-22 01:19:50-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_169_roundTripInternationalBusiness_JED_CAI
+2017-12-22 01:22:36-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_170_roundTripInternationalBusiness_RUH_CAI
+2017-12-22 01:25:08-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_171_roundTripInternationalBusiness_RUH_ATZ
+2017-12-22 01:29:21-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_172_roundTripInternationalBusiness_JED_ATZ
+2017-12-22 01:33:32-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_173_roundTripInternationalBusiness_JED_AMM
+2017-12-22 01:36:04-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_174_roundTripInternationalBusiness_RUH_AMM
+2017-12-22 01:38:31-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_186_roundTripDomesticBusinessAddExtra_RUH_AHB
+2017-12-22 01:41:09-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2017-12-22 01:41:24-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_187_BaggageValidation

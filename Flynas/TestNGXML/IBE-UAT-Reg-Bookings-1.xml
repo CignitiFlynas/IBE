@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" > 
+
+<suite name="Flynas" allow-return-values="true" verbose="2">
+    
+    
+	<test name="IBE-UAT-Regression" >
+	    
+	   	<!--	<groups>
+				<run>
+					<include name="chrome"/>
+				</run>
+			</groups> -->
+		  
+			<classes>	 	
+					<!-- ********************************Total - 26*************************************************** -->
+						
+						<class name="flynas.web.uat.regression.TC02_a_oneWayDomSimple1AdultCC"/>
+						<class name="flynas.web.uat.regression.TC02_b_oneWayDomBusiness1AdultCC"/>
+						<class name="flynas.web.uat.regression.TC02_c_RTDomSimple1AdultCC"/>
+						<class name="flynas.web.uat.regression.TC02_d_RTDomBusiness1AdultCC"/>
+						
+						
+		</classes>
+	</test>
+	
+	
+
+</suite>

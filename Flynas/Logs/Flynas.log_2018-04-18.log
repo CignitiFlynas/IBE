@@ -1,0 +1,48 @@
+2018-04-18 12:15:05-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-04-18 12:15:49-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_45_oneWayDomCancelverifyMMB
+2018-04-18 12:21:25-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-04-18 12:23:46-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-04-18 12:24:03-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_45_oneWayDomCancelverifyMMB
+2018-04-18 12:28:24-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-04-18 12:28:25-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-04-18 12:30:08-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-04-18 12:30:23-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_45_oneWayDomCancelverifyMMB
+2018-04-18 12:33:04-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-04-18 12:33:32-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-04-18 12:36:17-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_45_oneWayDomCancelverifyMMB
+2018-04-18 12:46:53-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-04-18 12:47:06-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_46_RTDomfullCancelVerifyMMB
+2018-04-18 12:54:21-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-04-18 12:54:34-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_47_RTDomCancelDepartingleg
+2018-04-18 13:03:18-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-04-18 13:03:32-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_48_RTDomCancelReturningleg
+2018-04-18 13:46:24-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-04-18 13:47:03-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_53_oneWayDomMMBChangeDateCheckIn
+2018-04-18 13:57:03-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-04-18 13:57:18-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_56_RTDomBothLegMMBChangedateSeatsExtrasBaggageLounge
+2018-04-18 14:05:52-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-04-18 14:05:52-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-04-18 15:02:19-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-04-18 15:02:31-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_59_RTIntlReturningLegMMBChangedateSeatsExtrasBaggageLounge
+2018-04-18 15:02:36-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-04-18 15:06:13-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-04-18 15:06:27-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_56_RTDomBothLegMMBChangedateSeatsExtrasBaggageLounge
+2018-04-18 15:15:00-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-04-18 15:15:00-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-04-18 15:15:57-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-04-18 15:16:09-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_56_RTDomBothLegMMBChangedateSeatsExtrasBaggageLounge
+2018-04-18 15:24:27-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-04-18 15:25:13-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-04-18 15:25:27-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_56_RTDomBothLegMMBChangedateSeatsExtrasBaggageLounge
+2018-04-18 15:31:57-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-04-18 15:37:49-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-04-18 15:38:03-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_56_RTDomBothLegMMBChangedateSeatsExtrasBaggageLounge
+2018-04-18 17:39:47-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-04-18 17:40:02-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_59_RTIntlReturningLegMMBChangedateSeatsExtrasBaggageLounge
+2018-04-18 17:45:22-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-04-18 18:11:35-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-04-18 18:11:50-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_59_RTIntlReturningLegMMBChangedateSeatsExtrasBaggageLounge
+2018-04-18 18:32:55-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-04-18 18:33:09-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC04c_oneWaySimpleIntlMutiPaxCheckinFail
+2018-04-18 18:41:07-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-04-18 18:41:22-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_06_oneWay2InternationalEco

@@ -1,0 +1,20 @@
+2018-01-31 12:52:50-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-01-31 12:53:17-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_02e_RTIntlBusiness1AdultCC
+2018-01-31 12:54:07-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-01-31 12:54:26-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_02_f_RTDomExtra1Adult1ChildCC
+2018-01-31 12:55:13-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-01-31 12:55:29-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_02_g_oneWayDomesticSimpleSADAD
+2018-01-31 12:56:16-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-01-31 12:56:34-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_06_oneWay2InternationalEco
+2018-01-31 12:57:21-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-01-31 17:07:02-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-01-31 17:07:37-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_01_a_memberRegistration
+2018-01-31 17:54:30-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-01-31 17:55:07-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_02e_RTIntlBusiness1AdultCC
+2018-01-31 17:56:03-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-01-31 17:56:26-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_02_f_RTDomExtra1Adult1ChildCC
+2018-01-31 17:57:26-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-01-31 17:57:44-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_02_g_oneWayDomesticSimpleSADAD
+2018-01-31 17:58:33-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-01-31 17:58:50-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_06_oneWay2InternationalEco
+2018-01-31 17:59:37-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot

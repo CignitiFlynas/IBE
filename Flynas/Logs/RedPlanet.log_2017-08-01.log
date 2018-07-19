@@ -1,0 +1,131 @@
+2017-08-01 14:10:07-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : Chrome
+2017-08-01 14:10:22-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_01_verifingChildDiscount
+2017-08-01 14:10:56-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : Chrome
+2017-08-01 14:11:15-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_01_verifingChildDiscount
+2017-08-01 14:15:37-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_02_verifingServiceChargeperPerson
+2017-08-01 14:17:15-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_03_verifingServiceChargeperPerson
+2017-08-01 14:19:48-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_04_verifingserviceChargeForRTEconyDomestic
+2017-08-01 14:22:37-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_05_verifingSerCharChildDisRTFlexDom
+2017-08-01 14:26:41-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_06_verifingServiceChargeRTBusinessDomestic
+2017-08-01 14:29:33-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2017-08-01 14:29:33-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2017-08-01 14:29:52-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_07_verifingServiceChargewithMTEco
+2017-08-01 14:31:48-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_08_verifingServiceChragewithMTSingleFlex
+2017-08-01 14:33:53-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2017-08-01 14:34:12-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_09_verifingServiceChargewithMTBussiness
+2017-08-01 14:36:14-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_10_verifingSerCharChildDisInArabic
+2017-08-01 14:39:14-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_11_verifingServiceChargeOWSingleBusAR
+2017-08-01 14:40:50-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_12_verifingServiceChargeRTSingleFlexIntAR
+2017-08-01 14:44:34-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_13_verifingServiceChargeRTSingleECoDOMAR
+2017-08-01 14:46:43-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_14_verifingSerCharChilDdisRTMulFlexDOMAR
+2017-08-01 14:49:38-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_15_verifingServiceChargeRTSingleBusDomesticAR
+2017-08-01 14:51:24-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_16_verifingServiceChargeMTSingleEco
+2017-08-01 14:56:43-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2017-08-01 14:57:05-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_17_verifingServiceChargeMTSingleFlexDom
+2017-08-01 14:59:35-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_18_verifingServiceChargeMTSingleBusinessIntl
+2017-08-01 15:01:26-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2017-08-01 15:01:47-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_19_verifingSerCharChildDisOWMultiEcoIntlTR
+2017-08-01 15:05:41-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_20_verifingServiceChargeOWSigleBusinessDomTR
+2017-08-01 15:07:41-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_21_verfingServiceChargeRTSingleFlexIntlTR
+2017-08-01 15:09:33-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_22_verifingServiceChargeRTSingleEcoDomTR
+2017-08-01 15:10:51-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2017-08-01 15:11:10-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_23_verifingSerCharChildDisRTMultiFlexDomTR
+2017-08-01 15:13:17-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2017-08-01 15:13:38-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_24_verifingServiceChargeRTSingleBusDomTR
+2017-08-01 15:16:20-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2017-08-01 15:16:40-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_25_verifingServiceChargeMTSingleEcoIntlTR
+2017-08-01 15:19:54-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_26_verifingServiceChargeMTSingleFlexDomTR
+2017-08-01 15:22:23-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2017-08-01 15:22:43-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_27_verifingSerCharChildDisMTSingleBusIntlTR
+2017-08-01 15:24:35-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_28_memberRegistration
+2017-08-01 15:25:24-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_29_modifyProfileNewRegister
+2017-08-01 15:26:43-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_34_BaggageValidation
+2017-08-01 15:28:19-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2017-08-01 15:30:35-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : Chrome
+2017-08-01 15:30:53-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_12_roundTripDomesticEconomy_JED_GIZ
+2017-08-01 15:32:49-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_17_roundTripDomesticEconomy_DMM_TIF
+2017-08-01 15:34:34-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_62_roundTripDomesticEconomyAddExtra_RUH_AHB
+2017-08-01 15:36:05-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2017-08-01 15:38:53-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : Chrome
+2017-08-01 15:39:13-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_06_verifingServiceChargeRTBusinessDomestic
+2017-08-01 15:41:28-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2017-08-01 15:41:49-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_08_verifingServiceChragewithMTSingleFlex
+2017-08-01 15:47:56-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2017-08-01 15:48:20-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_16_verifingServiceChargeMTSingleEco
+2017-08-01 15:50:35-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_18_verifingServiceChargeMTSingleBusinessIntl
+2017-08-01 15:52:41-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_22_verifingServiceChargeRTSingleEcoDomTR
+2017-08-01 15:54:52-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_23_verifingSerCharChildDisRTMultiFlexDomTR
+2017-08-01 15:59:40-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_24_verifingServiceChargeRTSingleBusDomTR
+2017-08-01 16:02:34-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_26_verifingServiceChargeMTSingleFlexDomTR
+2017-08-01 16:06:18-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_34_BaggageValidation
+2017-08-01 16:09:33-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : Chrome
+2017-08-01 16:09:54-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_63_oneWayDomesticFlex_RUH_JED
+2017-08-01 16:11:30-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_64_oneWayDomesticFlex_RUH_DMM
+2017-08-01 16:13:23-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_65_oneWayDomesticFlex_RUH_GIZ
+2017-08-01 16:14:57-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_66_oneWayDomesticFex_RUH_MED
+2017-08-01 16:16:23-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_67_oneWayDomesticFlex_RUH_TIF
+2017-08-01 16:17:53-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_68_oneWayDomesticFlex_RUH_HAS
+2017-08-01 16:19:24-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_69_oneWayDomestiFlex_RUH_TUU
+2017-08-01 16:20:53-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_70_oneWayDomesticFlex_RUH_URY
+2017-08-01 16:22:38-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_71_oneWayDomesticFlex_RUH_AJF
+2017-08-01 16:24:45-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_72_oneWayDomesticFlex_RUH_ABT
+2017-08-01 16:27:05-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_73_roundTripDomesticFlex_JED_DMM
+2017-08-01 16:33:59-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_74_roundTripDomesticFlex_JED_GIZ
+2017-08-01 16:37:40-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2017-08-01 16:37:40-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2017-08-01 16:37:57-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_75_roundTripDomesticFlex_JED_MED
+2017-08-01 16:39:46-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_76_roundTripDomesticFlex_JED_AHB
+2017-08-01 16:42:03-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_77_roundTripDomesticFlex_JED_TUU
+2017-08-01 16:43:49-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_78_roundTripDomesticFlex_JED_ELQ
+2017-08-01 16:45:33-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_79_roundTripDomesticFlex_DMM_TIF
+2017-08-01 16:47:23-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_80_roundTripDomesticFlex_DMM_AHB
+2017-08-01 16:49:26-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_81_roundTripDomesticFlex_DMM_YNB
+2017-08-01 16:51:06-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_82_roundTripDomesticFlex_DMM_MED
+2017-08-01 16:52:47-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_83_roundTripDomesticFlex_DMM_GIZ
+2017-08-01 16:54:58-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_84_roundTripDomesticFlex_DMM_ELQ
+2017-08-01 16:56:47-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_85_roundTripDomesticFlex_DMM_HAS
+2017-08-01 16:58:36-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2017-08-01 16:58:36-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2017-08-01 16:58:55-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_86_roundTripDomesticFlex_DMM_TUU
+2017-08-01 17:00:40-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_87_roundTripDomesticFlex_DMM_ABT
+2017-08-01 17:05:28-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_88_oneWayDomesticFlex_AHB_ABT
+2017-08-01 17:07:10-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_89_oneWayDomesticFlex_AHB_BHH
+2017-08-01 17:09:36-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_90_oneWayDomesticFlex_AHB_WAE
+2017-08-01 17:15:23-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_91_oneWayDomesticFlex_AHB_GIZ
+2017-08-01 17:17:05-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_92_oneWayDomesticFlex_AHB_SHW
+2017-08-01 17:19:37-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_93_oneWayInternationalFlex_JED_DXB
+2017-08-01 17:21:08-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_94_oneWayInternationalFlex_RUH_DXB
+2017-08-01 17:22:52-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_95_oneWayInternationalFlex_RUH_AUH
+2017-08-01 17:24:52-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_96_oneWayInternationalFlex_JED_AUH
+2017-08-01 17:27:48-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_97_oneWayInternationalFlex_JED_KWI
+2017-08-01 17:29:17-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_98_oneWayInternationalFlex_RUH_KWI
+2017-08-01 17:30:52-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_99_oneWayInternationalFlex_MED_KWI
+2017-08-01 17:32:36-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_100_oneWayInternationalFlex_TIF_KWI
+2017-08-01 17:34:12-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_101_oneWayInternationalFlex_JED_ASW
+2017-08-01 17:36:50-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_102_oneWayInternationalFlex_JED_HBE
+2017-08-01 17:38:51-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_104_oneWayInternationalFlex_RUH_HMB
+2017-08-01 17:40:23-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_105_oneWayInternationalFlex_JED_LXR
+2017-08-01 17:41:49-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_106_roundTripInternationalFlex_JED_SSH
+2017-08-01 17:45:33-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_107_roundTripInternationalFlex_JED_CAI
+2017-08-01 17:47:22-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_108_roundTripInternationalFlex_RUH_CAI
+2017-08-01 17:50:00-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_109_roundTripInternationalFlex_RUH_ATZ
+2017-08-01 17:52:06-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_110_roundTripInternationalFlex_JED_ATZ
+2017-08-01 17:54:06-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2017-08-01 17:54:07-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2017-08-01 17:54:27-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_111_roundTripInternationalFlex_JED_AMM
+2017-08-01 17:56:13-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_112_roundTripInternationalFlex_RUH_AMM
+2017-08-01 17:57:55-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_113_multicityInternationalFlex_JED_SAW
+2017-08-01 18:00:34-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_114_multicityInternationalFlex_RUH_SAW
+2017-08-01 18:02:59-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_115_multicityInternationalFlex_JED_HTY
+2017-08-01 18:05:51-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_116_multicityInternationalFlex_RUH_HTY
+2017-08-01 18:08:19-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_117_multicityInternationalFlex_JED_ADA
+2017-08-01 18:10:50-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_118_multicityInternationalFlex_JED_KRT
+2017-08-01 18:14:00-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_119_multicityInternationalFlex_RUH_KRT
+2017-08-01 18:16:41-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_120_multicityInternationalFlex_MED_KRT
+2017-08-01 18:21:14-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_121_multicityInternationalFlex_DMM_KRT
+2017-08-01 18:23:38-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_122_multicityInternationalFlex_RUH_BAH
+2017-08-01 18:24:02-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2017-08-01 18:24:18-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_123_multicityInternationalFlex_JED_BAH
+2017-08-01 18:24:39-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2017-08-01 18:24:57-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_124_roundTripDomesticFlexAddExtra_RUH_AHB
+2017-08-01 18:30:01-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_187_BaggageValidation

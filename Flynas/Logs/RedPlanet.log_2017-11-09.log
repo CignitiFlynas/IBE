@@ -1,0 +1,11 @@
+2017-11-09 15:01:31-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2017-11-09 15:01:46-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_02_oneWayDomesticEconomy_RUH_DMM
+2017-11-09 15:05:45-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2017-11-09 15:05:45-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2017-11-09 15:43:54-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : Android
+2017-11-09 15:44:13-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_02_oneWayDomesticEconomy_RUH_DMM
+2017-11-09 18:03:46-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : Android
+2017-11-09 18:06:13-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_03_oneWayDomesticEconomy_RUH_GIZ
+2017-11-09 18:07:18-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2017-11-09 18:16:44-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : Android
+2017-11-09 18:17:35-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_03_oneWayDomesticEconomy_RUH_GIZ

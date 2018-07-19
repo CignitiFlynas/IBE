@@ -1,0 +1,95 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" > 
+
+<suite name="Flynas" allow-return-values="true" verbose="2">
+    
+    
+	<test name="IBE-UAT-Regression" >
+	    
+	   	<!--	<groups>
+				<run>
+					<include name="chrome"/>
+				</run>
+			</groups> -->
+		  
+			<classes>	 	
+					<!-- ********************************Chrome*************************************************** -->
+						<class name="flynas.web.uat.regression.TC01_memberRegistrationResetPswdUpdateDetails"/>
+				 		<class name="flynas.web.uat.regression.TC01_d_verifyRegistrationFailureWithExistingMailID"/>
+						<class name="flynas.web.uat.regression.TC01_e_VerifyAccLockOn10IncorrectPswdEntries"/>
+						<class name="flynas.web.uat.regression.TC01_f_VerifyAlertChildRegistrationNBooking"/> 
+						<class name="flynas.web.uat.regression.TC02_a_oneWayDomSimple1AdultCC"/>
+						<class name="flynas.web.uat.regression.TC02_b_oneWayDomBusiness1AdultCC"/>
+						<class name="flynas.web.uat.regression.TC02_c_RTDomSimple1AdultCC"/>
+						<class name="flynas.web.uat.regression.TC02_d_RTDomBusiness1AdultCC"/>
+					 	<class name="flynas.web.uat.regression.TC02_e_RTIntlBusiness1AdultCC"/>
+						<class name="flynas.web.uat.regression.TC02_f_RTDomExtra1Adult1ChildCC"/>
+						<class name="flynas.web.uat.regression.TC02_g_oneWayDomesticSimpleSADAD"/>
+						<class name="flynas.web.uat.regression.TC03_a_oneWayDomesticChangeDate"/> 
+						<class name="flynas.web.uat.regression.TC03_b_oneWayIntlChangeDate"/>
+						<class name="flynas.web.uat.regression.TC04_a_oneWaySimpleDomOneAdultCheckin"/>
+						<class name="flynas.web.uat.regression.TC04_b_RtIntlOneAdultCheckinfail"/>
+						<class name="flynas.web.uat.regression.TC04_c_oneWaySimpleIntlMutiPaxCheckinFail"/>
+						<class name="flynas.web.uat.regression.TC04_d_oneWayExtraIntlMutiPaxCheckinFail"/>
+						<class name="flynas.web.uat.regression.TC04_e_oneWayBusinessIntlMutiPaxCheckinFail"/>
+						<class name="flynas.web.uat.regression.TC05_onewaydomestic8adultsBookingCheckin"/> 
+					  	<class name="flynas.web.uat.regression.TC06_oneWay2InternationalEco"/>
+						<class name="flynas.web.uat.regression.TC07_RTDom4adultBusinessCC"/> 
+						<class name="flynas.web.uat.regression.TC08_RTInt1adult1Child1infantBus"/>
+					 	<class name="flynas.web.uat.regression.TC10_OwIntlMultiPaxEconomyCordshareBookingMMB"/>
+				 		<class name="flynas.web.uat.regression.TC11_RTIntlMultiPaxEconomyPartCodeShare"/>
+						<class name="flynas.web.uat.regression.TC12_PayWithCreditShell"/> 
+						<class name="flynas.web.uat.regression.TC13_onewayDomesticwithUSdollars"/>
+						<class name="flynas.web.uat.regression.TC14_oneWayDomesticwithEuro"/>
+						<class name="flynas.web.uat.regression.TC15_EmpLoginOnewayOneAdultStaffStandByChangFlightCancel"/> 
+						<class name="flynas.web.uat.regression.TC16_EmpLoginStaffConfmedChangeDateCheckIn"/> 
+						<class name="flynas.web.uat.regression.TC17_RTChangeflightCheckIN"/> -->
+						<class name="flynas.web.uat.regression.TC18_corporateLoginRToneAdultCancelFlight"/>
+						<class name="flynas.web.uat.regression.TC19_agencyLoginRToneAdultoneChild"/> 
+						<class name="flynas.web.uat.regression.TC23_oneWayDomesticOneAdultCheckInAR"/> 
+					  	<class name="flynas.web.uat.regression.TC24_anonymousRtDomestic4AdultBusinessAR"/>
+					 	<class name="flynas.web.uat.regression.TC25_anonymousOneWayDomesticOneAdultCheckInTR"/> 
+					  	<class name="flynas.web.uat.regression.TC26_anonymousRtDomestic4AdultBusinessTR"/>
+					 	<class name="flynas.web.uat.regression.TC27_a_redemptionBookingwithBronzeMember"/>  
+					 	<class name="flynas.web.uat.regression.TC27_b_BookingwithInsufficientBronzepoints"/>
+						<class name="flynas.web.uat.regression.TC28_redemptionBookingwithSilverMember"/>
+						<class name="flynas.web.uat.regression.TC29_redemptionBookingwithGoldMember"/> 
+				 		<class name="flynas.web.uat.regression.TC30_redemptionBookingwithPlatinumMember"/>
+						<class name="flynas.web.uat.regression.TC31_anonymousVerifingBoardingPassVlues"/> 
+						<class name="flynas.web.uat.regression.TC32_anonymousReissueTheTicketWithHigherFare"/> 
+						<class name="flynas.web.uat.regression.TC33_anonymousRevalidateTheTicketWithSameFare"/> 
+						<class name="flynas.web.uat.regression.TC34_BaggageValidation"/>
+						<class name="flynas.web.uat.regression.TC35_AnonymousOneWayDomesticEconomy_MMB_ModifyExtrasSeat"/>
+						<class name="flynas.web.uat.regression.TC35_b_AnonymousOwIntlEconomy_MMB_ModifyExtrasSeat"/>
+					 	<class name="flynas.web.uat.regression.TC36_EmpLoginOnewayOneAdultStaffStandByModifyEXtras"/>
+						<class name="flynas.web.uat.regression.TC37_EmpLoginStaffConfirmedModifyExtras"/>
+						<class name="flynas.web.uat.regression.TC38_corporateLoginRoundTripModifyExtras"/>
+						<class name="flynas.web.uat.regression.TC39_agencyLoginRondTripModifyExtras"/>
+						<class name="flynas.web.uat.regression.TC45_oneWayDomCancelverifyMMB"/>
+						<class name="flynas.web.uat.regression.TC46_RTDomfullCancelVerifyMMB"/> 
+						<class name="flynas.web.uat.regression.TC47_RTDomCancelDepartingleg"/>
+						<class name="flynas.web.uat.regression.TC48_RTDomCancelReturningleg"/>
+						<class name="flynas.web.uat.regression.TC49_RTIntlCancelDepartingleg"/>
+						<class name="flynas.web.uat.regression.TC50_RTIntlCancelReturningleg"/>
+						<class name="flynas.web.uat.regression.TC51_RTIntlfullCancelVerifyMMB"/>
+						<class name="flynas.web.uat.regression.TC52_oneWayDomMMBChangeDateCancel"/>
+						<class name="flynas.web.uat.regression.TC53_oneWayDomMMBChangeDateCheckIn"/>
+						<class name="flynas.web.uat.regression.TC54_RtDOMBookingCheckinNaSmiles"/>
+					<!-- 	<class name="flynas.web.uat.regression.TC55_oneWayDomesticBusOneAdultMasterBookingAR"/>
+						<class name="flynas.web.uat.regression.TC56_RTDomBothLegMMBChangedateSeatsExtrasBaggageLounge"/>
+						<class name="flynas.web.uat.regression.TC57_RTDomDepartingLegMMBChangedateSeatsExtrasBaggageLounge"/>
+						<class name="flynas.web.uat.regression.TC58_RTDomReturningLegMMBChangedateSeatsExtrasBaggageLounge"/>
+						<class name="flynas.web.uat.regression.TC59_RTIntlReturningLegMMBChangedateSeatsExtrasBaggageLounge"/>
+						<class name="flynas.web.uat.regression.TC60_RTIntlBothLegMMBChangedateSeatsExtrasBaggageLounge"/>
+					 	<class name="flynas.web.uat.regression.TC61_EmpLoginVerifyAllowableFriendsBooking2A3C1I"/>
+						<class name="flynas.web.uat.regression.TC62_EmpLoginVerifyAlertOnExceedingfriendsbookinglimit3A3C"/>
+						<class name="flynas.web.uat.regression.TC63_EmpLoginVerifyAlertOnExceedingfriendsbookinglimit6Adults"/>
+						<class name="flynas.web.uat.regression.TC64_EmpLoginFriendsBookingCancellationLimitValidation"/>
+						<class name="flynas.web.uat.regression.TC65_EmpLoginFriendsBookingFeeVerification"/> 
+						<class name="flynas.web.uat.regression.TC66_PricelockDomFeeVerificationBookingConfirmationCancellation"/>
+						<class name="flynas.web.uat.regression.TC67_PricelockIntlFeeVerificationBookingConfirmationCancellation"/> -->
+		</classes>
+	</test>
+	
+	
+
+</suite>

@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE project [
+]>
+
+<project name="Flynas" default="Mobile" basedir=".">
+
+	<!-- ========== Initialize Properties =================================== -->
+	<property environment="env"/>
+
+	<property name="ws.home" value="${basedir}"/>
+	<property name="ws.jars" value="${user.home}/.m2/repository/"/>
+	<!--	<property name="ws.lib" value="${ws.home}/lib"/>-->
+	<property name="test.dest" value="${ws.home}/build"/>
+	<property name="test.src" value="${ws.home}/src"/>
+	<property name="ng.result" value="${ws.home}/TestNGResults/test-output"/>
+	<property name="ws.Run-Excel" value="${basedir}/Run_Excel"/>
+
+	<target name="deleteTransJars" unless="test.classpath">
+		<delete dir="${ws.jars}/com/google/collections"/>
+	</target>
+	<target name="setClassPath" depends="deleteTransJars">
+		<path id="classpath_jars">
+
+			<fileset dir="${ws.jars}" includes="**/*.jar"/>
+			<!-- <fileset dir="libs" includes="**/*.jar"/> -->
+
+		</path>
+		<pathconvert pathsep=":" 
+            property="test.classpath" 
+            refid="classpath_jars"/>
+	</target>
+
+	<target name="init" depends="setClassPath">
+		<tstamp>
+			<format property="start.time" pattern="MM/dd/yyyy hh:mm aa" />
+		</tstamp>
+		<condition property="ANT" 
+            value="${env.ANT_HOME}/bin/ant.bat" 
+            else="${env.ANT_HOME}/bin/ant">
+			<os family="windows" />
+		</condition>
+		<taskdef name="testng" classpath="${test.classpath}"
+    	               classname="org.testng.TestNGAntTask" />
+
+	</target>
+
+	<!-- all -->
+	<target name="all" description="all">
+	</target>
+
+	<!-- clean -->
+	<target name="clean" description="clean">
+		<delete dir="${test.dest}"/>
+	</target>
+
+	<!-- compile -->
+	<target name="compile" depends="init, clean" description="compile">
+		<delete includeemptydirs="true" quiet="true">
+			<fileset dir="${test.dest}" includes="**/*"/>
+		</delete>
+		<echo message="making directory..."/>
+		<mkdir dir="${test.dest}"/>
+		<echo message="compiling..."/>
+		<javac 
+            debug="true" 
+            destdir="${test.dest}" 
+            srcdir="${test.src}" 
+            target="1.8" 
+            classpath="${test.classpath}"
+        	 includeantruntime="false"
+        >
+		</javac>
+	</target>
+
+	<!-- build -->
+	<target name="build" depends="init" description="build">
+	</target>
+
+
+
+	<!-- run -->
+	<target name="runall" depends="compile" description="runall">
+
+		<delete includeemptydirs="true" quiet="true">
+			<fileset dir="${ng.result}" includes="**/*"/>
+		</delete>
+		<testng classpath="${test.classpath}:${test.dest}" suitename="suite1" haltOnfailure="false">
+			<classpath refid="test.run"/>
+
+			<xmlfileset dir="${ws.home}" includes="testNG.xml"/>
+		</testng>
+
+		<!--  Calling Failure text xml file-->
+		<antcall target="failure">
+		</antcall>
+	</target>
+
+	<!--  Checking wether file exists or not and then setting propery file.present -->
+	<target name="check-fileexists">
+		<available file="${ng.result}/testng-failed.xml" property="file.present"/>
+	</target>
+
+
+	<!-- excel -->
+	<target name="excel-testcases" depends="compile" description="excel-testcases">
+		<testng classpath="${test.classpath}:${test.dest}" suitename="Flynas" haltOnfailure="true">
+			<classpath refid="test.run"/>
+			<xmlfileset dir="${ws.Run-Excel}" includes="ExcelTestCase.xml"/>
+		</testng>
+	</target>
+
+
+	<!-- firefox -->
+	<target name="firefox" depends="compile" description="firefox">
+		<testng classpath="${test.classpath}:${test.dest}" groups="firefox"
+							suitename="Flynas" haltOnfailure="true">
+			<xmlfileset dir="${ws.home}" includes="testNG.xml" />
+		</testng>
+	</target>
+	<!-- au_region_ie -->
+	<target name="chrome" depends="compile" description="chrome">
+		<testng classpath="${test.classpath}:${test.dest}" groups="chrome"
+								suitename="Flynas" haltOnfailure="true" >
+			<xmlfileset dir="${ws.home}" includes="testNG.xml" />
+		</testng>
+	</target>
+
+	
+<!-- iPhone -->
+		<target name="Mobile" depends="compile" description="iPhone">
+			<testng classpath="${test.classpath}:${test.dest}" groups="Mobile"
+							suitename="Flynas" haltOnfailure="no" >
+				<xmlfileset dir="${ws.home}" includes="testNG.xml" />
+			</testng>
+		</target>
+	<!-- Android -->
+			<target name="Android" depends="compile" description="Android">
+				<testng classpath="${test.classpath}:${test.dest}" groups="Android"
+								suitename="FlynasAndroid" haltOnfailure="no" >
+					<xmlfileset dir="${ws.home}" includes="testNG2.xml" />
+				</testng>
+			</target>
+
+	<!-- Failure -->
+	<!--  Running the check failure target first and then executing if file is present-->
+	<target name="failure" depends="check-fileexists" if="file.present" description="failure">
+		<testng classpath="${test.classpath}:${test.dest}" 
+						suitename="failed" haltOnfailure="true">
+			<xmlfileset dir="${ng.result}" includes="testng-failed.xml" />
+
+		</testng>
+	</target>
+	<target name="usage">
+		<echo>
+            ant run will execute the test
+        </echo>
+	</target>
+
+	<path id="test.run">
+		<fileset dir="${ws.jars}" includes="**/*.jar"/>
+	</path>
+
+	<target name="makexsltreports">
+		<mkdir dir="${ws.home}/XSLT_Reports/output"/>
+
+		<xslt in="${ng.result}/testng-results.xml" style="src/xslt/testng-results.xsl"
+	              out="${ws.home}/TestNGResults/XSLT_Reports/output/index.html" classpathref="test.c" processor="SaxonLiaison">
+			<param name="testNgXslt.outputDir" expression="${ws.home}/XSLT_Reports/output/"/>
+			<param name="testNgXslt.showRuntimeTotals" expression="true"/>
+		</xslt>
+	</target>
+
+	<!-- ****************** targets not used ****************** -->
+
+</project>

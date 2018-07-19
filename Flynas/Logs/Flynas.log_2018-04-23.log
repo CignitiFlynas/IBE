@@ -1,0 +1,3 @@
+2018-04-23 13:01:13-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-04-23 13:01:34-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC04e_oneWayBusinessIntlMutiPaxCheckinFail
+2018-04-23 13:17:36-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot

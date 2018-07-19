@@ -1,0 +1,400 @@
+2018-06-04 12:22:30-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-06-04 12:22:47-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_01_verifingChildDiscount
+2018-06-04 12:23:02-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-06-04 12:23:15-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_01_verifingChildDiscount
+2018-06-04 12:26:56-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_02_verifingServiceChargeperPerson
+2018-06-04 12:30:46-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_03_verifingServiceChargeperPerson
+2018-06-04 12:32:18-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_04_verifingserviceChargeForRTEconyDomestic
+2018-06-04 12:36:35-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_05_verifingSerCharChildDisRTFlexDom
+2018-06-04 12:40:41-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_06_verifingServiceChargeRTBusinessDomestic
+2018-06-04 12:44:26-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 12:44:39-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_07_verifingServiceChargewithMTEco
+2018-06-04 12:45:33-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 12:45:52-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_08_verifingServiceChragewithMTSingleFlex
+2018-06-04 12:49:51-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 12:50:04-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_09_verifingServiceChargewithMTBussiness
+2018-06-04 12:54:10-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_10_verifingSerCharChildDisInArabic
+2018-06-04 12:54:21-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 12:54:36-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_11_verifingServiceChargeOWSingleBusAR
+2018-06-04 12:59:11-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 12:59:22-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_12_verifingServiceChargeRTSingleFlexIntAR
+2018-06-04 13:00:51-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_13_verifingServiceChargeRTSingleECoDOMAR
+2018-06-04 13:05:31-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 13:06:26-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-06-04 13:07:06-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_01_verifingChildDiscount
+2018-06-04 13:07:38-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-06-04 13:07:59-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_01_verifingChildDiscount
+2018-06-04 13:09:26-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-06-04 13:09:38-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_01_verifingChildDiscount
+2018-06-04 13:09:49-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 13:16:01-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-06-04 13:16:15-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_01_verifingChildDiscount
+2018-06-04 13:16:25-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 13:17:02-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-06-04 13:17:12-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_01_verifingChildDiscount
+2018-06-04 13:17:58-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-06-04 13:18:11-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_01_verifingChildDiscount
+2018-06-04 13:18:21-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 13:18:28-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-06-04 13:18:45-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_01_verifingChildDiscount
+2018-06-04 13:27:07-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-06-04 13:27:20-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_01_verifingChildDiscount
+2018-06-04 13:27:30-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 13:28:14-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-06-04 13:28:29-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_01_verifingChildDiscount
+2018-06-04 13:40:11-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-06-04 13:40:28-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_11_verifingServiceChargeOWSingleBusAR
+2018-06-04 13:47:37-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-06-04 13:47:53-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_01_verifingChildDiscount
+2018-06-04 13:52:50-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_02_verifingServiceChargeperPerson
+2018-06-04 13:53:00-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 13:53:14-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_03_verifingServiceChargeperPerson
+2018-06-04 13:53:25-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 13:53:38-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_04_verifingserviceChargeForRTEconyDomestic
+2018-06-04 13:57:41-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_05_verifingSerCharChildDisRTFlexDom
+2018-06-04 14:01:13-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_06_verifingServiceChargeRTBusinessDomestic
+2018-06-04 14:02:04-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 14:02:21-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_07_verifingServiceChargewithMTEco
+2018-06-04 14:03:14-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 14:03:32-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_08_verifingServiceChragewithMTSingleFlex
+2018-06-04 14:07:32-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 14:07:46-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_09_verifingServiceChargewithMTBussiness
+2018-06-04 14:11:58-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_10_verifingSerCharChildDisInArabic
+2018-06-04 14:15:29-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 14:15:40-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_11_verifingServiceChargeOWSingleBusAR
+2018-06-04 14:15:51-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 14:16:05-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_12_verifingServiceChargeRTSingleFlexIntAR
+2018-06-04 14:17:34-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_13_verifingServiceChargeRTSingleECoDOMAR
+2018-06-04 14:21:58-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_14_verifingSerCharChilDdisRTMulFlexDOMAR
+2018-06-04 14:22:08-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 14:22:24-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_15_verifingServiceChargeRTSingleBusDomesticAR
+2018-06-04 14:26:33-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 14:26:49-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_01_a_memberRegistration
+2018-06-04 14:27:58-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_29_modifyProfileNewRegister
+2018-06-04 14:28:08-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 14:28:22-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_30_BaggageValidation
+2018-06-04 14:31:15-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 14:45:35-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-06-04 14:45:50-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_08_verifingServiceChragewithMTSingleFlex
+2018-06-04 14:47:14-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 15:11:51-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-06-04 15:12:07-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_08_verifingServiceChragewithMTSingleFlex
+2018-06-04 15:16:06-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 15:19:47-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-06-04 15:20:01-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_06_verifingServiceChargeRTBusinessDomestic
+2018-06-04 15:23:04-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-06-04 15:23:17-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_08_verifingServiceChragewithMTSingleFlex
+2018-06-04 15:23:27-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 15:23:57-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-06-04 15:24:09-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_08_verifingServiceChragewithMTSingleFlex
+2018-06-04 15:24:20-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 15:24:31-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-06-04 15:24:46-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_08_verifingServiceChragewithMTSingleFlex
+2018-06-04 15:34:30-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-06-04 15:34:44-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_15_verifingServiceChargeRTSingleBusDomesticAR
+2018-06-04 15:39:21-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-06-04 15:39:33-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_08_verifingServiceChragewithMTSingleFlex
+2018-06-04 15:39:44-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-06-04 15:39:58-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_08_verifingServiceChragewithMTSingleFlex
+2018-06-04 15:43:28-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-06-04 15:43:43-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_08_verifingServiceChragewithMTSingleFlex
+2018-06-04 15:48:46-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-06-04 15:49:03-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_08_verifingServiceChragewithMTSingleFlex
+2018-06-04 15:53:01-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 15:53:14-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_10_verifingSerCharChildDisInArabic
+2018-06-04 15:53:24-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 15:53:36-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_15_verifingServiceChargeRTSingleBusDomesticAR
+2018-06-04 15:53:47-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 15:53:57-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_30_BaggageValidation
+2018-06-04 15:54:07-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 15:57:16-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-06-04 15:57:28-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_08_verifingServiceChragewithMTSingleFlex
+2018-06-04 16:00:50-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-06-04 16:01:04-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_01_oneWayDomesticEconomy_RUH_JED
+2018-06-04 16:03:31-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 16:03:46-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_02_oneWayDomesticEconomy_RUH_DMM
+2018-06-04 16:07:37-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_03_oneWayDomesticEconomy_RUH_GIZ
+2018-06-04 16:07:47-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 16:07:58-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_04_oneWayDomesticEconomy_RUH_MED
+2018-06-04 16:08:08-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 16:08:21-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_05_oneWayDomesticEconomy_RUH_TIF
+2018-06-04 16:08:32-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 16:08:44-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_06_oneWayDomesticEconomy_RUH_HAS
+2018-06-04 16:08:55-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 16:09:10-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_07_oneWayDomesticEconomy_RUH_TUU
+2018-06-04 16:12:43-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 16:12:54-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_08_oneWayDomesticEconomy_RUH_URY
+2018-06-04 16:13:04-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 16:13:17-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_09_oneWayDomesticEconomy_RUH_AJF
+2018-06-04 16:13:27-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 16:13:38-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_10_oneWayDomesticEconomy_RUH_ABT
+2018-06-04 16:13:48-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 16:14:03-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_11_roundTripDomesticEconomy_JED_DMM
+2018-06-04 16:17:46-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 16:17:57-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_12_roundTripDomesticEconomy_JED_GIZ
+2018-06-04 16:18:07-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 16:18:18-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_13_roundTripDomesticEconomy_JED_MED
+2018-06-04 16:18:28-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 16:18:42-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_14_roundTripDomesticEconomy_JED_AHB
+2018-06-04 16:22:48-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_15_roundTripDomesticEconomy_JED_TUU
+2018-06-04 16:22:58-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 16:23:14-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_16_roundTripDomesticEconomy_JED_ELQ
+2018-06-04 16:23:25-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 16:23:42-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_17_roundTripDomesticEconomy_DMM_TIF
+2018-06-04 16:27:50-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 16:28:06-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_18_roundTripDomesticEconomy_DMM_AHB
+2018-06-04 16:31:48-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 16:32:02-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_19_roundTripDomesticEconomy_DMM_YNB
+2018-06-04 16:36:04-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_20_roundTripDomesticEconomy_DMM_MED
+2018-06-04 16:36:14-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 16:36:28-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_21_roundTripDomesticEconomy_DMM_GIZ
+2018-06-04 16:40:32-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_22_roundTripDomesticEconomy_DMM_ELQ
+2018-06-04 16:44:13-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 16:44:36-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_23_roundTripDomesticEconomy_DMM_HAS
+2018-06-04 16:44:46-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 16:44:58-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_24_roundTripDomesticEconomy_DMM_TUU
+2018-06-04 16:45:08-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 16:45:25-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_25_roundTripDomesticEconomy_DMM_ABT
+2018-06-04 16:45:36-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 16:45:48-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_26_oneWayDomesticEconomy_AHB_ABT
+2018-06-04 16:45:59-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 16:46:14-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_27_oneWayDomesticEconomy_AHB_BHH
+2018-06-04 16:50:44-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_28_oneWayDomesticEconomy_AHB_WAE
+2018-06-04 16:50:54-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 16:51:10-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_29_oneWayDomesticEconomy_AHB_GIZ
+2018-06-04 16:54:38-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 16:54:49-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_30_oneWayDomesticEconomy_AHB_SHW
+2018-06-04 16:54:59-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 16:55:10-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_31_oneWayDomesticEconomy_JED_DXB
+2018-06-04 16:55:21-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 16:55:32-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_32_oneWayInternationalEconomy_RUH_DXB
+2018-06-04 16:55:43-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 16:55:58-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_33_oneWayInternationalEconomy_RUH_AUH
+2018-06-04 16:56:50-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 16:57:02-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_34_oneWayInternationalEconomy_JED_AUH
+2018-06-04 16:57:12-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 16:57:26-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_35_oneWayInternationalEconomy_JED_KWI
+2018-06-04 17:00:55-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 17:01:08-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_36_oneWayInternationalEconomy_RUH_KWI
+2018-06-04 17:04:37-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 17:04:50-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_37_oneWayInternationalEconomy_MED_KWI
+2018-06-04 17:12:14-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-06-04 17:12:26-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_01_oneWayDomesticEconomy_RUH_JED
+2018-06-04 17:12:36-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 17:13:17-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-06-04 17:13:36-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_01_oneWayDomesticEconomy_RUH_JED
+2018-06-04 17:13:47-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 17:14:50-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-06-04 17:15:07-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_01_oneWayDomesticEconomy_RUH_JED
+2018-06-04 17:18:06-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-06-04 17:18:21-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_01_oneWayDomesticEconomy_RUH_JED
+2018-06-04 17:20:42-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-06-04 17:21:09-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_01_oneWayDomesticEconomy_RUH_JED
+2018-06-04 17:21:25-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-06-04 17:21:41-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_01_oneWayDomesticEconomy_RUH_JED
+2018-06-04 17:25:58-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_02_oneWayDomesticEconomy_RUH_DMM
+2018-06-04 17:29:54-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_03_oneWayDomesticEconomy_RUH_GIZ
+2018-06-04 17:33:46-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_04_oneWayDomesticEconomy_RUH_MED
+2018-06-04 17:37:39-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_05_oneWayDomesticEconomy_RUH_TIF
+2018-06-04 17:37:49-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 17:38:03-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_06_oneWayDomesticEconomy_RUH_HAS
+2018-06-04 17:41:54-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_07_oneWayDomesticEconomy_RUH_TUU
+2018-06-04 17:42:04-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 17:42:16-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_08_oneWayDomesticEconomy_RUH_URY
+2018-06-04 17:42:27-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 17:42:42-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_09_oneWayDomesticEconomy_RUH_AJF
+2018-06-04 17:48:38-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 17:48:56-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_10_oneWayDomesticEconomy_RUH_ABT
+2018-06-04 17:54:51-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 17:55:08-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_11_roundTripDomesticEconomy_JED_DMM
+2018-06-04 17:59:16-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_12_roundTripDomesticEconomy_JED_GIZ
+2018-06-04 18:03:29-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_13_roundTripDomesticEconomy_JED_MED
+2018-06-04 18:07:42-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_14_roundTripDomesticEconomy_JED_AHB
+2018-06-04 18:11:51-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_15_roundTripDomesticEconomy_JED_TUU
+2018-06-04 18:15:57-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_16_roundTripDomesticEconomy_JED_ELQ
+2018-06-04 18:16:07-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 18:16:20-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_17_roundTripDomesticEconomy_DMM_TIF
+2018-06-04 18:16:30-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 18:16:45-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_18_roundTripDomesticEconomy_DMM_AHB
+2018-06-04 18:20:51-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_19_roundTripDomesticEconomy_DMM_YNB
+2018-06-04 18:24:55-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_20_roundTripDomesticEconomy_DMM_MED
+2018-06-04 18:25:06-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 18:25:20-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_21_roundTripDomesticEconomy_DMM_GIZ
+2018-06-04 18:29:24-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_22_roundTripDomesticEconomy_DMM_ELQ
+2018-06-04 18:29:35-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 18:29:47-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_23_roundTripDomesticEconomy_DMM_HAS
+2018-06-04 18:29:58-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 18:30:12-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_24_roundTripDomesticEconomy_DMM_TUU
+2018-06-04 18:30:23-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 18:30:35-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_25_roundTripDomesticEconomy_DMM_ABT
+2018-06-04 18:33:48-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 18:34:02-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_26_oneWayDomesticEconomy_AHB_ABT
+2018-06-04 18:35:21-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 18:35:43-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_27_oneWayDomesticEconomy_AHB_BHH
+2018-06-04 18:40:13-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_28_oneWayDomesticEconomy_AHB_WAE
+2018-06-04 18:40:23-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 18:40:33-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_29_oneWayDomesticEconomy_AHB_GIZ
+2018-06-04 18:40:44-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 18:40:54-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_30_oneWayDomesticEconomy_AHB_SHW
+2018-06-04 18:44:42-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_31_oneWayDomesticEconomy_JED_DXB
+2018-06-04 18:44:53-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 18:45:08-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_32_oneWayInternationalEconomy_RUH_DXB
+2018-06-04 18:49:00-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_33_oneWayInternationalEconomy_RUH_AUH
+2018-06-04 18:49:50-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 18:50:04-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_34_oneWayInternationalEconomy_JED_AUH
+2018-06-04 18:51:15-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 18:51:28-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_35_oneWayInternationalEconomy_JED_KWI
+2018-06-04 18:55:14-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 18:55:14-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 18:55:31-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_36_oneWayInternationalEconomy_RUH_KWI
+2018-06-04 18:59:24-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_37_oneWayInternationalEconomy_MED_KWI
+2018-06-04 18:59:35-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 18:59:51-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_38_oneWayInternationalEconomy_TIF_KWI
+2018-06-04 19:03:44-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_39_oneWayInternationalEconomy_JED_ASW
+2018-06-04 19:03:55-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 19:04:09-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_40_oneWayInternationalEconomy_JED_HBE
+2018-06-04 19:07:59-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_41_oneWayInternationalEconomy_JED_HMB
+2018-06-04 19:11:52-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_42_oneWayInternationalEconomy_RUH_HMB
+2018-06-04 19:15:45-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_43_oneWayInternationalEconomy_JED_LXR
+2018-06-04 19:19:37-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_44_roundTripInternationalEconomy_JED_SSH
+2018-06-04 19:19:47-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 19:20:00-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_45_roundTripInternationalEconomy_JED_CAI
+2018-06-04 19:20:10-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 19:20:25-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_46_roundTripInternationalEconomy_RUH_CAI
+2018-06-04 19:21:41-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 19:21:55-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_47_roundTripInternationalEconomy_RUH_ATZ
+2018-06-04 19:26:50-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_48_roundTripInternationalEconomy_JED_ATZ
+2018-06-04 19:30:58-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_49_roundTripInternationalEconomy_JED_AMM
+2018-06-04 19:35:01-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_50_roundTripInternationalEconomy_RUH_AMM
+2018-06-04 19:35:11-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 19:35:27-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_62_roundTripDomesticEconomyAddExtra_RUH_AHB
+2018-06-04 19:41:12-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_63_oneWayDomesticFlex_RUH_JED
+2018-06-04 19:45:06-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_64_oneWayDomesticFlex_RUH_DMM
+2018-06-04 19:45:17-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 19:45:29-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_65_oneWayDomesticFlex_RUH_GIZ
+2018-06-04 19:45:39-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 19:45:55-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_66_oneWayDomesticFex_RUH_MED
+2018-06-04 19:49:51-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_67_oneWayDomesticFlex_RUH_TIF
+2018-06-04 19:53:43-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_68_oneWayDomesticFlex_RUH_HAS
+2018-06-04 19:53:53-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 19:54:03-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_69_oneWayDomestiFlex_RUH_TUU
+2018-06-04 19:57:59-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_70_oneWayDomesticFlex_RUH_URY
+2018-06-04 20:03:56-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 20:04:12-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_71_oneWayDomesticFlex_RUH_AJF
+2018-06-04 20:10:09-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 20:10:23-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_72_oneWayDomesticFlex_RUH_ABT
+2018-06-04 20:16:19-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 20:16:31-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_73_roundTripDomesticFlex_JED_DMM
+2018-06-04 20:16:41-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 20:17:02-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_74_roundTripDomesticFlex_JED_GIZ
+2018-06-04 20:21:08-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_75_roundTripDomesticFlex_JED_MED
+2018-06-04 20:21:18-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 20:21:32-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_76_roundTripDomesticFlex_JED_AHB
+2018-06-04 20:25:35-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_77_roundTripDomesticFlex_JED_TUU
+2018-06-04 20:29:44-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_78_roundTripDomesticFlex_JED_ELQ
+2018-06-04 20:29:55-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 20:30:11-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_79_roundTripDomesticFlex_DMM_TIF
+2018-06-04 20:34:44-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_80_roundTripDomesticFlex_DMM_AHB
+2018-06-04 20:38:48-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_81_roundTripDomesticFlex_DMM_YNB
+2018-06-04 20:38:59-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 20:39:10-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_82_roundTripDomesticFlex_DMM_MED
+2018-06-04 20:39:21-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 20:39:35-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_83_roundTripDomesticFlex_DMM_GIZ
+2018-06-04 20:43:39-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_84_roundTripDomesticFlex_DMM_ELQ
+2018-06-04 20:47:50-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_85_roundTripDomesticFlex_DMM_HAS
+2018-06-04 20:51:54-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_86_roundTripDomesticFlex_DMM_TUU
+2018-06-04 20:56:00-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_87_roundTripDomesticFlex_DMM_ABT
+2018-06-04 20:56:10-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 20:56:24-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_88_oneWayDomesticFlex_AHB_ABT
+2018-06-04 21:00:12-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_89_oneWayDomesticFlex_AHB_BHH
+2018-06-04 21:04:24-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_90_oneWayDomesticFlex_AHB_WAE
+2018-06-04 21:05:14-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 21:05:24-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_91_oneWayDomesticFlex_AHB_GIZ
+2018-06-04 21:05:34-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 21:05:49-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_92_oneWayDomesticFlex_AHB_SHW
+2018-06-04 21:09:38-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_93_oneWayInternationalFlex_JED_DXB
+2018-06-04 21:09:48-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 21:10:02-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_94_oneWayInternationalFlex_RUH_DXB
+2018-06-04 21:13:54-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_95_oneWayInternationalFlex_RUH_AUH
+2018-06-04 21:14:44-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 21:14:58-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_96_oneWayInternationalFlex_JED_AUH
+2018-06-04 21:16:20-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 21:16:35-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_97_oneWayInternationalFlex_JED_KWI
+2018-06-04 21:20:27-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_98_oneWayInternationalFlex_RUH_KWI
+2018-06-04 21:24:20-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_99_oneWayInternationalFlex_MED_KWI
+2018-06-04 21:32:26-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_100_oneWayInternationalFlex_TIF_KWI
+2018-06-04 21:36:18-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_101_oneWayInternationalFlex_JED_ASW
+2018-06-04 21:36:29-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 21:36:44-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_102_oneWayInternationalFlex_JED_HBE
+2018-06-04 21:40:35-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_103_oneWayInternationalFlex_JED_HMB
+2018-06-04 21:40:45-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 21:40:58-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_104_oneWayInternationalFlex_RUH_HMB
+2018-06-04 21:41:08-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 21:41:27-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_105_oneWayInternationalFlex_JED_LXR
+2018-06-04 21:45:21-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_106_roundTripInternationalFlex_JED_SSH
+2018-06-04 21:51:58-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_107_roundTripInternationalFlex_JED_CAI
+2018-06-04 21:53:37-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 21:53:49-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_108_roundTripInternationalFlex_RUH_CAI
+2018-06-04 21:55:26-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 21:56:09-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_109_roundTripInternationalFlex_RUH_ATZ
+2018-06-04 22:01:01-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_110_roundTripInternationalFlex_JED_ATZ
+2018-06-04 22:01:12-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 22:01:27-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_111_roundTripInternationalFlex_JED_AMM
+2018-06-04 22:05:29-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_112_roundTripInternationalFlex_RUH_AMM
+2018-06-04 22:09:32-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_124_roundTripDomesticFlexAddExtra_RUH_AHB
+2018-06-04 22:15:42-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_125_oneWayDomesticBusiness_RUH_JED
+2018-06-04 22:15:52-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 22:16:12-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_126_oneWayDomesticBusiness_RUH_DMM
+2018-06-04 22:20:05-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_127_oneWayDomesticBusiness_RUH_GIZ
+2018-06-04 22:23:59-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_128_oneWayDomesticBusiness_RUH_MED
+2018-06-04 22:24:09-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 22:24:24-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_129_oneWayDomesticBusiness_RUH_TIF
+2018-06-04 22:28:23-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_130_oneWayDomesticBusiness_RUH_HAS
+2018-06-04 22:32:18-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_131_oneWayDomesticBusiness_RUH_TUU
+2018-06-04 22:36:13-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_132_oneWayDomesticBusiness_RUH_URY
+2018-06-04 22:36:23-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 22:36:37-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_133_oneWayDomesticBusiness_RUH_AJF
+2018-06-04 22:44:58-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 22:45:08-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_134_oneWayDomesticBusiness_RUH_ABT
+2018-06-04 22:53:30-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 22:53:44-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_135_roundTripDomesticBusiness_JED_DMM
+2018-06-04 22:53:54-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 22:54:08-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_136_roundTripDomesticBusiness_JED_GIZ
+2018-06-04 22:58:25-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_137_roundTripDomesticBusiness_JED_MED
+2018-06-04 23:02:23-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 23:02:38-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_138_roundTripDomesticBusiness_JED_AHB
+2018-06-04 23:06:46-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_139_roundTripDomesticBusiness_JED_TUU
+2018-06-04 23:10:54-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_140_roundTripDomesticBusiness_JED_ELQ
+2018-06-04 23:11:04-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 23:11:17-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_141_roundTripDomesticBusiness_DMM_TIF
+2018-06-04 23:15:51-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_142_roundTripDomesticBusiness_DMM_AHB
+2018-06-04 23:19:59-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_143_roundTripDomesticBusiness_DMM_YNB
+2018-06-04 23:20:09-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 23:20:23-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_144_roundTripDomesticBusiness_DMM_MED
+2018-06-04 23:24:36-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_145_roundTripDomesticBusiness_DMM_GIZ
+2018-06-04 23:28:49-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_146_roundTripDomesticBusiness_DMM_ELQ
+2018-06-04 23:28:59-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 23:29:15-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_147_roundTripDomesticBusiness_DMM_HAS
+2018-06-04 23:29:25-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 23:29:45-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_148_roundTripDomesticBusiness_DMM_TUU
+2018-06-04 23:33:54-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_149_roundTripDomesticBusiness_DMM_ABT
+2018-06-04 23:34:04-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 23:34:15-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_150_oneWayDomesticBusiness_AHB_ABT
+2018-06-04 23:34:26-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 23:34:37-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_151_oneWayDomesticBusiness_AHB_BHH
+2018-06-04 23:34:47-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 23:35:06-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_152_oneWayDomesticBusiness_AHB_WAE
+2018-06-04 23:39:00-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_153_oneWayDomesticBusiness_AHB_GIZ
+2018-06-04 23:39:11-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 23:39:28-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_154_oneWayDomesticBusiness_AHB_SHW
+2018-06-04 23:43:18-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_155_oneWayInternationalBusiness_JED_DXB
+2018-06-04 23:47:08-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_156_oneWayInternationalBusiness_RUH_DXB
+2018-06-04 23:47:19-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 23:47:31-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_157_oneWayInternationalBusiness_RUH_AUH
+2018-06-04 23:47:41-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 23:47:53-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_158_oneWayInternationalBusiness_JED_AUH
+2018-06-04 23:48:04-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 23:48:16-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_159_oneWayInternationalBusiness_JED_KWI
+2018-06-04 23:48:26-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-04 23:48:40-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_160_oneWayInternationalBusiness_RUH_KWI
+2018-06-04 23:52:34-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_161_oneWayInternationalBusiness_MED_KWI

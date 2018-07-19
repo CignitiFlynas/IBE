@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Chrome">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Results/Chrome/Chrome_2017-10-08_12_57_40_002.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Results/Chrome/Chrome_2017-10-09_15_14_10_148.zip!/" />
+      <root url="jar://$PROJECT_DIR$/Results/Chrome/Chrome_2017-10-09_11_46_58_688.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

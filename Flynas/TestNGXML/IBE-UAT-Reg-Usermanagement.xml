@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" > 
+
+<suite name="Flynas" allow-return-values="true" verbose="2">
+    
+    
+	<test name="IBE-UAT-Regression" >
+	    
+	   	<!--	<groups>
+				<run>
+					<include name="chrome"/>
+				</run>
+			</groups> -->
+		  
+			<classes>	 	
+					<!-- ********************************Total - 6*************************************************** -->
+						
+						<class name="flynas.web.uat.regression.TC01_a_memberRegistration"/>
+						<class name="flynas.web.uat.regression.TC01_b_verifyRegistrationFailureWithExistingMailID"/>
+						<class name="flynas.web.uat.regression.TC01_c_VerifyAlertChildRegistrationNBooking"/>
+						<class name="flynas.web.uat.regression.TC01_d_updatemyProfileOfMemberDetails"/>
+						<class name="flynas.web.uat.regression.TC01_e_VerifyAccLockOn10IncorrectPswdEntries"/>
+						<class name="flynas.web.uat.regression.TC01_f_resetPasswordusingmyProfile"/>
+						
+		</classes>
+	</test>
+	
+	
+
+</suite>

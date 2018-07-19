@@ -1,0 +1,54 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" > 
+
+<suite name="Flynas" allow-return-values="true" verbose="2">
+
+	<test name="IBE-PROD-Regression" >
+	    
+	    <!-- <groups>
+				<run>
+					<include name="chrome"/>
+				</run>
+			</groups> -->
+		  
+			<classes>	 		
+				
+			 	<class name="flynas.web.production.regression.TC01_verifingChildDiscount"/>  
+			 	<class name="flynas.web.production.regression.TC02_verifingServiceChargeperPerson"/> 	
+				<class name="flynas.web.production.regression.TC03_verifingServiceChargeForRTFlexInterna"/> 	
+				<class name="flynas.web.production.regression.TC04_verifingserviceChargeForRTEconyDomestic"/> 	 
+		 		<class name="flynas.web.production.regression.TC05_verifingSerCharChildDisRTFlexDom"/> 	
+				<class name="flynas.web.production.regression.TC06_verifingServiceChargeRTBusinessDomestic"/> 	
+			 	<class name="flynas.web.production.regression.TC07_verifingServiceChargewithMTEco"/> 	
+				<class name="flynas.web.production.regression.TC08_verifingServiceChragewithMTSingleFlex"/> 	
+				<class name="flynas.web.production.regression.TC09_verifingServiceChargewithMTBussiness"/> 	
+				<class name="flynas.web.production.regression.TC10_verifingSerCharChildDisInArabic"/> 	
+				<class name="flynas.web.production.regression.TC11_verifingServiceChargeOWSingleBusAR"/> 	 
+				<class name="flynas.web.production.regression.TC12_verifingServiceChargeRTSingleFlexIntAR"/>  	
+				<class name="flynas.web.production.regression.TC13_verifingServiceChargeRTSingleECoDOMAR"/> 	
+				<class name="flynas.web.production.regression.TC14_verifingSerCharChilDdisRTMulFlexDOMAR"/> 	
+				<class name="flynas.web.production.regression.TC15_verifingServiceChargeRTSingleBusDomesticAR"/> 
+				<class name="flynas.web.production.regression.TC19_verifingSerCharChildDisOWMultiEcoIntlTR"/> 	 
+				<class name="flynas.web.production.regression.TC20_verifingServiceChargeOWSigleBusinessDomTR"/> 	
+				<class name="flynas.web.production.regression.TC21_verfingServiceChargeRTSingleFlexIntlTR"/> 	
+				<class name="flynas.web.production.regression.TC22_verifingServiceChargeRTSingleEcoDomTR"/>  
+				<class name="flynas.web.production.regression.TC23_verifingSerCharChildDisRTMultiFlexDomTR"/>  	
+				<class name="flynas.web.production.regression.TC24_verifingServiceChargeRTSingleBusDomTR"/> 	
+			 	<class name="flynas.web.production.regression.TC25_verifingServiceChargeMTSingleEcoIntlTR"/>
+				<class name="flynas.web.production.regression.TC26_verifingServiceChargeMTSingleFlexDomTR"/>
+				<class name="flynas.web.production.regression.TC27_verifingSerCharChildDisMTSingleBusIntlTR"/>
+				<class name="flynas.web.production.regression.TC28_memberRegistration"/>
+				<class name="flynas.web.production.regression.TC29_modifyProfileNewRegister"/> 
+				<class name="flynas.web.production.regression.TC30_BaggageValidation"/>	
+				
+			<!-- 	********************************Multi-City Testcases*******************				-->
+				
+			<!-- <class name="flynas.web.production.regression.TC16_verifingServiceChargeMTSingleEco"/> 	
+				<class name="flynas.web.production.regression.TC17_verifingServiceChargeMTSingleFlexDom"/> 	
+				<class name="flynas.web.production.regression.TC18_verifingServiceChargeMTSingleBusinessIntl"/> -->
+				
+			
+		 
+		</classes>
+	</test>
+
+</suite>

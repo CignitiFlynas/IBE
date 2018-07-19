@@ -1,0 +1,46 @@
+2018-05-10 19:44:44-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-05-10 19:45:02-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_01_verifingChildDiscount
+2018-05-10 19:49:40-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_02_verifingServiceChargeperPerson
+2018-05-10 19:49:50-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-05-10 19:50:01-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_03_verifingServiceChargeperPerson
+2018-05-10 19:50:11-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-05-10 19:50:25-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_04_verifingserviceChargeForRTEconyDomestic
+2018-05-10 19:54:48-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-05-10 19:55:03-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_05_verifingSerCharChildDisRTFlexDom
+2018-05-10 19:58:20-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_06_verifingServiceChargeRTBusinessDomestic
+2018-05-10 20:01:47-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-05-10 20:02:00-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_07_verifingServiceChargewithMTEco
+2018-05-10 20:03:03-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_08_verifingServiceChragewithMTSingleFlex
+2018-05-10 20:07:28-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_09_verifingServiceChargewithMTBussiness
+2018-05-10 20:11:21-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_10_verifingSerCharChildDisInArabic
+2018-05-10 20:11:31-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-05-10 20:11:43-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_11_verifingServiceChargeOWSingleBusAR
+2018-05-10 20:11:53-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-05-10 20:12:04-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_12_verifingServiceChargeRTSingleFlexIntAR
+2018-05-10 20:12:14-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-05-10 20:12:29-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_13_verifingServiceChargeRTSingleECoDOMAR
+2018-05-10 20:16:39-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_14_verifingSerCharChilDdisRTMulFlexDOMAR
+2018-05-10 20:18:43-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-05-10 20:18:57-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_15_verifingServiceChargeRTSingleBusDomesticAR
+2018-05-10 20:19:07-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-05-10 20:19:24-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_19_verifingSerCharChildDisOWMultiEcoIntlTR
+2018-05-10 20:20:23-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_20_verifingServiceChargeOWSigleBusinessDomTR
+2018-05-10 20:20:34-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-05-10 20:20:47-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_21_verfingServiceChargeRTSingleFlexIntlTR
+2018-05-10 20:20:57-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-05-10 20:21:08-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_22_verifingServiceChargeRTSingleEcoDomTR
+2018-05-10 20:21:18-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-05-10 20:21:31-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_23_verifingSerCharChildDisRTMultiFlexDomTR
+2018-05-10 20:23:39-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-05-10 20:23:52-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_24_verifingServiceChargeRTSingleBusDomTR
+2018-05-10 20:27:44-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-05-10 20:27:55-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_25_verifingServiceChargeMTSingleEcoIntlTR
+2018-05-10 20:28:05-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-05-10 20:28:19-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_26_verifingServiceChargeMTSingleFlexDomTR
+2018-05-10 20:28:29-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-05-10 20:28:42-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_27_verifingSerCharChildDisMTSingleBusIntlTR
+2018-05-10 20:33:05-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_01_a_memberRegistration
+2018-05-10 20:34:06-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_29_modifyProfileNewRegister
+2018-05-10 20:34:17-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-05-10 20:34:26-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_30_BaggageValidation
+2018-05-10 20:34:37-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot

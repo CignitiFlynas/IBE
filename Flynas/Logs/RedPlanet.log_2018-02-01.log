@@ -1,0 +1,10 @@
+2018-02-01 12:31:16-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-02-01 12:31:38-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_01_a_memberRegistration
+2018-02-01 16:33:39-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-02-01 16:34:03-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_07_RTDom4adultBusinessCC
+2018-02-01 16:34:34-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_08_RTInt1adult1Child1infantBus
+2018-02-01 16:34:57-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-02-01 16:35:22-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_07_RTDom4adultBusinessCC
+2018-02-01 16:36:15-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-02-01 16:36:33-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_08_RTInt1adult1Child1infantBus
+2018-02-01 16:37:21-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot

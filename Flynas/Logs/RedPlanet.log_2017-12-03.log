@@ -1,0 +1,48 @@
+2017-12-03 12:44:27-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : Android
+2017-12-03 12:45:04-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : Chrome
+2017-12-03 12:45:32-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_21_updatemyProfileOfMemberDetails
+2017-12-03 12:46:54-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : Chrome
+2017-12-03 12:47:10-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_21_updatemyProfileOfMemberDetails
+2017-12-03 12:47:48-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2017-12-03 12:47:48-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2017-12-03 13:06:47-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : Chrome
+2017-12-03 13:07:06-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_21_updatemyProfileOfMemberDetails
+2017-12-03 13:07:46-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2017-12-03 13:07:46-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2017-12-03 13:33:54-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : Chrome
+2017-12-03 13:34:09-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_21_updatemyProfileOfMemberDetails
+2017-12-03 13:35:10-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2017-12-03 13:35:11-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2017-12-03 13:49:44-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : Chrome
+2017-12-03 13:50:01-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_21_updatemyProfileOfMemberDetails
+2017-12-03 13:50:47-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2017-12-03 13:50:48-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2017-12-03 13:52:54-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : Chrome
+2017-12-03 13:53:12-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_21_updatemyProfileOfMemberDetails
+2017-12-03 13:56:27-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : Chrome
+2017-12-03 13:56:47-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_21_updatemyProfileOfMemberDetails
+2017-12-03 13:57:31-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : Chrome
+2017-12-03 13:57:47-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_21_updatemyProfileOfMemberDetails
+2017-12-03 13:58:18-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2017-12-03 15:03:55-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : Chrome
+2017-12-03 15:04:11-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_21_updatemyProfileOfMemberDetails
+2017-12-03 15:05:46-main--INFO -com.ctaf.accelerators.TestEngine: Unable to get TscreenShot
+2017-12-03 15:55:14-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : Chrome
+2017-12-03 15:55:37-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_21_updatemyProfileOfMemberDetails
+2017-12-03 16:09:06-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : Chrome
+2017-12-03 16:09:23-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_21_updatemyProfileOfMemberDetails
+2017-12-03 16:10:58-main--INFO -com.ctaf.accelerators.TestEngine: Unable to get TscreenShot
+2017-12-03 16:17:17-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : Chrome
+2017-12-03 16:17:35-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_21_updatemyProfileOfMemberDetails
+2017-12-03 16:23:07-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : Chrome
+2017-12-03 16:23:25-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_21_updatemyProfileOfMemberDetails
+2017-12-03 16:25:50-main--INFO -com.ctaf.accelerators.TestEngine: Unable to get TscreenShot
+2017-12-03 16:43:22-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : Chrome
+2017-12-03 16:43:41-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_21_updatemyProfileOfMemberDetails
+2017-12-03 16:52:57-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : Chrome
+2017-12-03 16:53:23-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_21_updatemyProfileOfMemberDetails
+2017-12-03 17:08:05-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : Chrome
+2017-12-03 17:08:24-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_21_updatemyProfileOfMemberDetails
+2017-12-03 19:59:02-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : Chrome
+2017-12-03 19:59:21-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_20_memberRegistration
+2017-12-03 20:02:37-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot

@@ -1,0 +1,32 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" > 
+
+<suite name="Flynas" allow-return-values="true" verbose="2">
+
+	<test name="IBE-UAT-PnrRetrievalErrors" >
+	    
+	   <!-- <groups>
+				<run>
+					<include name="chrome"/>
+				</run>
+		</groups> -->
+			
+		<classes>
+		    
+		    <!-- **************************** MUST READ COMMENT ********************************
+		    	 Do not comment "TC31_validatingE..." This Test case has the code to create a PNR 
+		    	 Commenting this fail the suite 
+		    	 *******************************************************************************
+		     -->		
+		    		    
+			<class name="flynas.web.uat.errorMessages.TC31_validatingErrorMsgOnPnrRetrievalwithWrongEmialId"/>
+			<class name="flynas.web.uat.errorMessages.TC32_ValidatingEorrorMessageOnPNRRetrievalWithInvalidEmailID"/>
+			<class name="flynas.web.uat.errorMessages.TC33_ValidatingEorrorMessageOnPNRRetrievalWithWrongLastname"/>
+			<class name="flynas.web.uat.errorMessages.TC34_ValidatingEorrorMessageWithIncorrectPNRCorrectLastname"/>
+			<class name="flynas.web.uat.errorMessages.TC35_ValidatingEorrorMessageWithIncorrectPNRCorrectEmailID"/>
+			<class name="flynas.web.uat.errorMessages.TC36_ValidatingErrOnMMBWithBlnkFields"/>
+	
+		 
+		</classes>
+	</test>
+
+</suite>

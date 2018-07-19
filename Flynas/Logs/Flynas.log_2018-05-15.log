@@ -1,0 +1,39 @@
+2018-05-15 11:13:18-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-05-15 11:13:32-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_02d_RTDomBusiness1AdultCC
+2018-05-15 11:13:43-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-05-15 11:19:12-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-05-15 11:19:30-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_02d_RTDomBusiness1AdultCC
+2018-05-15 11:22:04-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-05-15 11:53:20-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-05-15 11:53:34-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_02d_RTDomBusiness1AdultCC
+2018-05-15 11:53:50-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-05-15 11:54:05-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_02d_RTDomBusiness1AdultCC
+2018-05-15 15:20:24-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-05-15 15:20:40-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_20_memberRegistration
+2018-05-15 15:20:49-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-05-15 15:21:06-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_20_memberRegistration
+2018-05-15 15:27:46-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-05-15 15:27:57-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_20_memberRegistration
+2018-05-15 15:28:13-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-05-15 15:49:50-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-05-15 15:50:10-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_20_memberRegistration
+2018-05-15 15:50:52-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-05-15 15:52:37-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-05-15 15:52:48-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_20_memberRegistration
+2018-05-15 15:53:04-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-05-15 15:53:13-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-05-15 15:53:24-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_20_memberRegistration
+2018-05-15 15:54:35-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-05-15 15:59:44-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-05-15 16:00:03-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_20_memberRegistration
+2018-05-15 16:01:18-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-05-15 16:02:12-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-05-15 16:02:26-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_20_memberRegistration
+2018-05-15 16:02:39-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-05-15 16:02:54-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_20_memberRegistration
+2018-05-15 16:18:03-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-05-15 17:51:51-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-05-15 17:52:08-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC00_BulkProfileUpdate
+2018-05-15 17:52:16-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-05-15 17:52:32-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC00_BulkProfileUpdate
+2018-05-15 18:30:43-main--INFO -com.ctaf.accelerators.TestEngine: Unable to get TscreenShot

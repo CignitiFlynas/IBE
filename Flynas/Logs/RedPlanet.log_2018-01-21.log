@@ -1,0 +1,116 @@
+2018-01-21 13:47:10-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-01-21 13:47:31-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_02_a_oneWayDomSimple1AdultCC
+2018-01-21 13:48:50-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-01-21 13:49:06-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_02_a_oneWayDomSimple1AdultCC
+2018-01-21 13:52:45-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_02_b_oneWayDomBusiness1AdultCC
+2018-01-21 13:55:59-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_02_c_RTDomSimple1AdultCC
+2018-01-21 13:56:42-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-01-21 13:57:00-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_02d_RTDomBusiness1AdultCC
+2018-01-21 13:57:43-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-01-21 16:32:29-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-01-21 16:32:29-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-01-21 16:33:03-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_02_a_oneWayDomSimple1AdultCC
+2018-01-21 16:33:03-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_19_agencyLoginRToneAdultoneChild
+2018-01-21 16:36:46-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_02_b_oneWayDomBusiness1AdultCC
+2018-01-21 16:36:53-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-01-21 16:36:53-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-01-21 16:37:16-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_39_agencyLoginRondTripModifyExtras
+2018-01-21 16:40:07-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_02_c_RTDomSimple1AdultCC
+2018-01-21 16:43:54-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-01-21 16:43:55-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-01-21 16:44:22-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_02d_RTDomBusiness1AdultCC
+2018-01-21 16:47:40-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-01-21 16:47:40-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-01-21 17:08:27-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-01-21 17:08:27-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-01-21 17:08:27-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-01-21 17:08:27-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-01-21 17:08:27-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-01-21 17:10:16-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_07_RTDom4adultBusinessCC
+2018-01-21 17:10:16-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_13_onewayDomesticwithUSdollars
+2018-01-21 17:10:17-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_30_redemptionBookingwithPlatinumMember
+2018-01-21 17:10:17-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_34_BaggageValidation
+2018-01-21 17:10:19-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_02e_RTIntlBusiness1AdultCC
+2018-01-21 17:19:07-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_08_RTInt1adult1Child1infantBus
+2018-01-21 17:19:08-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_31_anonymousVerifingBoardingPassVlues
+2018-01-21 17:19:09-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_14_oneWayDomesticwithEuro
+2018-01-21 17:19:10-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_02_f_RTDomExtra1Adult1ChildCC
+2018-01-21 17:24:11-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_24_anonymousRtDomestic4AdultBusinessAR
+2018-01-21 17:24:22-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_11oneAdultoneChildoneInfantPartCodeShare
+2018-01-21 17:25:29-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-01-21 17:25:54-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-01-21 17:26:07-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_12_PayWithCreditShell
+2018-01-21 17:26:30-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_32_anonymousReissueTheTicketWithHigherFare
+2018-01-21 17:28:37-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_26_anonymousRtDomestic4AdultBusinessTR
+2018-01-21 17:29:52-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_33_anonymousRevalidateTheTicketWithSameFare
+2018-01-21 17:31:51-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-01-21 17:35:18-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_34_BaggageValidation
+2018-01-21 17:36:59-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_55_oneWayDomesticBusOneAdultAmexBookingAR
+2018-01-21 17:38:58-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-01-21 17:51:34-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-01-21 17:51:34-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-01-21 17:51:34-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-01-21 17:51:34-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-01-21 17:51:39-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-01-21 17:53:20-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_35_AnonymousOneWayDomesticEconomy_MMB_ModifyExtrasSeat
+2018-01-21 17:53:21-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_52_oneWayDomMMBChangeDateCancel
+2018-01-21 17:53:35-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_03_oneWayDomesticChangeDate
+2018-01-21 17:53:36-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_46_RTDomfullCancelVerifyMMB
+2018-01-21 17:53:36-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_49_RTIntlCancelDepartingleg
+2018-01-21 17:57:57-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-01-21 17:59:12-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-01-21 17:59:12-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-01-21 18:00:00-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-01-21 18:00:01-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-01-21 18:00:40-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-01-21 18:00:41-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-01-21 18:01:06-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_35_b_AnonymousOwIntlEconomy_MMB_ModifyExtrasSeat
+2018-01-21 18:01:39-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_50_RTIntlCancelReturningleg
+2018-01-21 18:04:43-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-01-21 18:05:06-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_45_oneWayDomCancelverifyMMB
+2018-01-21 18:06:12-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_51_RTIntlfullCancelVerifyMMB
+2018-01-21 18:06:13-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-01-21 18:22:49-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-01-21 18:22:50-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-01-21 18:22:50-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-01-21 18:22:50-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-01-21 18:23:11-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-01-21 18:24:44-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_34_BaggageValidation
+2018-01-21 18:25:00-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_30_redemptionBookingwithPlatinumMember
+2018-01-21 18:25:00-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_33_anonymousRevalidateTheTicketWithSameFare
+2018-01-21 18:25:04-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_13_onewayDomesticwithUSdollars
+2018-01-21 18:25:50-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_58_RTDomReturningLegMMBChangedateSeatsExtrasBaggageLounge
+2018-01-21 18:27:31-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-01-21 18:29:39-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-01-21 18:29:52-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_59_RTIntlReturningLegMMBChangedateSeatsExtrasBaggageLounge
+2018-01-21 18:30:56-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_31_anonymousVerifingBoardingPassVlues
+2018-01-21 18:32:02-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_14_oneWayDomesticwithEuro
+2018-01-21 18:34:06-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-01-21 18:34:07-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-01-21 18:34:36-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_56_RTDomBothLegMMBChangedateSeatsExtrasBaggageLounge
+2018-01-21 18:34:37-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_34_BaggageValidation
+2018-01-21 18:36:48-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_55_oneWayDomesticBusOneAdultAmexBookingAR
+2018-01-21 18:37:02-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-01-21 18:37:25-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_32_anonymousReissueTheTicketWithHigherFare
+2018-01-21 18:38:04-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-01-21 18:38:05-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-01-21 18:39:04-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-01-21 18:44:34-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-01-21 18:44:34-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-01-21 18:44:34-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-01-21 18:44:34-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-01-21 18:44:44-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-01-21 18:47:19-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_53_oneWayDomMMBChangeDateCheckIn
+2018-01-21 18:47:19-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_17_RTChangeflightCheckIN
+2018-01-21 18:47:23-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_18_corporateLoginRToneAdultCancelFlight
+2018-01-21 18:47:23-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_01_a_memberRegistration
+2018-01-21 18:47:24-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC04a_oneWaySimpleDomOneAdultCheckin
+2018-01-21 18:55:56-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-01-21 18:55:56-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-01-21 18:57:58-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_54_RtDOMBookingCheckinNaSmiles
+2018-01-21 18:57:58-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_38_corporateLoginRoundTripModifyExtras
+2018-01-21 19:01:05-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-01-21 19:02:38-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_23_oneWayDomesticOneAdultCheckInAR
+2018-01-21 19:02:43-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-01-21 19:08:04-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_25_anonymousOneWayDomesticOneAdultCheckInTR
+2018-01-21 19:12:38-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot

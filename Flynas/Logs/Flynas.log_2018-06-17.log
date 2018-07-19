@@ -1,0 +1,35 @@
+2018-06-17 17:10:44-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-06-17 17:11:10-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_01_oneWayDomesticEconomy_RUH_JED
+2018-06-17 17:15:11-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-17 17:15:11-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-17 17:15:37-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_02_oneWayDomesticEconomy_RUH_DMM
+2018-06-17 17:15:47-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-17 17:16:00-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_03_oneWayDomesticEconomy_RUH_GIZ
+2018-06-17 17:19:17-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-17 17:19:32-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_04_oneWayDomesticEconomy_RUH_MED
+2018-06-17 17:22:52-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-17 17:23:04-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_05_oneWayDomesticEconomy_RUH_TIF
+2018-06-17 17:23:15-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-17 17:23:28-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_06_oneWayDomesticEconomy_RUH_HAS
+2018-06-17 17:26:47-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-17 17:26:59-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_07_oneWayDomesticEconomy_RUH_TUU
+2018-06-17 17:27:09-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-17 17:31:23-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-06-17 17:34:49-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-06-17 17:35:05-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_01_oneWayDomesticEconomy_RUH_JED
+2018-06-17 17:38:47-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-17 17:39:01-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_02_oneWayDomesticEconomy_RUH_DMM
+2018-06-17 17:41:07-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-17 17:41:22-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_03_oneWayDomesticEconomy_RUH_GIZ
+2018-06-17 17:44:39-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-17 17:44:51-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_04_oneWayDomesticEconomy_RUH_MED
+2018-06-17 17:45:02-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-17 17:45:17-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_05_oneWayDomesticEconomy_RUH_TIF
+2018-06-17 17:47:22-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-17 17:47:35-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_06_oneWayDomesticEconomy_RUH_HAS
+2018-06-17 17:49:38-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-17 17:49:53-TestNG--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_07_oneWayDomesticEconomy_RUH_TUU
+2018-06-17 17:51:58-TestNG--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-06-17 17:54:20-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-06-17 17:54:35-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_04_oneWayDomesticEconomy_RUH_MED
+2018-06-17 17:56:42-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
