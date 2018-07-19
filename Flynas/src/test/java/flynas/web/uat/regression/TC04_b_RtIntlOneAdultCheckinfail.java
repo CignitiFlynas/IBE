@@ -35,7 +35,6 @@ public class TC04_b_RtIntlOneAdultCheckinfail extends BookingPageFlow{
 			String username =Credentials[0];
 			String password =Credentials[1];
 			String lastname =Credentials[3];
-			
 			//click back to home button in case of error 500
 			clickBackToHomeButton();
 			
