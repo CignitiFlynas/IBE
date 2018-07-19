@@ -14,7 +14,7 @@ import flynas.web.workflows.BookingPageFlow;
 public class TC04_b_RtIntlOneAdultCheckinfail extends BookingPageFlow{
 	
 	ExcelReader xls = new ExcelReader(configProps.getProperty("TestDataIBEUAT"),"TC04_oneWayDomAdultCheckin");
-
+	
 	@Test(dataProvider = "testData",groups={"Chrome"})
 	public  void TC04b_RtIntlOneAdultCheckinFail ( String tripType, 
 			String origin, String dest, String deptDate,String origin2,String departure2, String retdate,
@@ -35,6 +35,7 @@ public class TC04_b_RtIntlOneAdultCheckinfail extends BookingPageFlow{
 			String username =Credentials[0];
 			String password =Credentials[1];
 			String lastname =Credentials[3];
+			
 			//click back to home button in case of error 500
 			clickBackToHomeButton();
 			
