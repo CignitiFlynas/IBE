@@ -70,3 +70,6 @@
 2018-07-18 21:57:21-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_31_anonymousVerifingBoardingPassVlues
 2018-07-18 22:08:10-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
 2018-07-18 22:08:22-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_31_anonymousVerifingBoardingPassVlues
+2018-07-19 15:57:43-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-07-19 15:58:09-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_57_RTDomDepartingLegMMBChangedateSeatsExtrasBaggageLounge
+2018-07-19 16:04:26-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
