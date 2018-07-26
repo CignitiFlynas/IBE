@@ -45,6 +45,7 @@ public class TC16_EmpLoginStaffConfmedChangeDateCheckIn extends BookingPageFlow{
 			login(username,password);
 			inputBookingDetails(triptype,origin, dest, deptdate, "", "", rtrndate,adult, child, infant,"","",paymentType);
 			selectClassForStaff(BookingClass);
+			System.out.println(BookingClass);
 			continueOnPassengerDetails();
 			coninueOnBaggage();
 			continueOnSeatSelection();

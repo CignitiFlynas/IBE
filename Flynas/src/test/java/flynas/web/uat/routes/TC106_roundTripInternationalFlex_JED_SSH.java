@@ -13,6 +13,7 @@ import com.ctaf.support.HtmlReportSupport;
 import com.ctaf.utilities.Reporter;
 
 import flynas.web.testObjects.BookingPageLocators;
+import flynas.web.workflows.BookingPage;
 import flynas.web.workflows.BookingPageFlow;
 
 public class TC106_roundTripInternationalFlex_JED_SSH extends  BookingPageFlow{
@@ -34,15 +35,14 @@ public class TC106_roundTripInternationalFlex_JED_SSH extends  BookingPageFlow{
 			String password =Credentials[1];			
 			String deptDate = pickDate(depDate);
 			String retrnDate = pickDate(rtnDate);
-			click(BookingPageLocators.login_lnk, "Login");
+			BookingPage.clickLogin();
 			login(username,password);
 			inputBookingDetails(triptype,origin, dest, deptDate , "", "", retrnDate,adult, child, infant,"","","");
 			selectClass(bookingClass, bundle); 
 			clickContinueBtn();
-			upSellPopUpAction("Continue");
-			waitforElement(BookingPageLocators.passengerDetailsTittle);
-			waitUtilElementhasAttribute(BookingPageLocators.body);
-			clickContinueBtn();
+			//upSellPopUpAction("Continue");
+			continueOnPassengerDetails();
+			chooseInsurance("Add");
 			waitforElement(BookingPageLocators.baggagetittle);
 			waitUtilElementhasAttribute(BookingPageLocators.body);
 			clickContinueBtn();

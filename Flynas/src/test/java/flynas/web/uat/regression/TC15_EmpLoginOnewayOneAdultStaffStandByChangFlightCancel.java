@@ -46,6 +46,7 @@ public class TC15_EmpLoginOnewayOneAdultStaffStandByChangFlightCancel extends Bo
 			login(username,password);
 			inputBookingDetails(triptype,origin, dest, depdat, "", "", "",adult, child, infant,"","",paymentType);
 			selectClassForStaff(BookingClass);
+			System.out.println(BookingClass);
 			//Clicking continue button on Passenger details page
 			continueOnPassengerDetails();
 			

@@ -11,14 +11,20 @@ import com.ctaf.utilities.Reporter;
 import flynas.web.testObjects.BookingPageLocators;
 
 public class BookingPage<RenderedWebElement> extends BookingPageLocators {
-	
+	BookingPageFlow<RenderedWebElement> bookingPageFlow=new BookingPageFlow<RenderedWebElement>();
 	public void waitforpageload() throws InterruptedException{
 		
 		waitUtilElementhasAttribute(BookingPageLocators.body);	
 	}
 	
-	public void clickLogin() throws Throwable{
-		waitforpageload();
+	public static void clickLogin() throws Throwable{
+		/*waitforpageload();
+		click(BookingPageLocators.login_lnk, "Login");*/
+		
+		//click back to home button in case of error 500
+		BookingPageFlow.clickBackToHomeButton();
+					
+		waitForVisibilityOfElement(BookingPageLocators.login_lnk, "Login");	
 		click(BookingPageLocators.login_lnk, "Login");
 	}
 	

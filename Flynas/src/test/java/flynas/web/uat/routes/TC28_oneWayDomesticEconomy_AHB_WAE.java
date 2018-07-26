@@ -32,7 +32,8 @@ public class TC28_oneWayDomesticEconomy_AHB_WAE extends BookingPageFlow{
 			TestEngine.testDescription.put(HtmlReportSupport.tc_name, Description);
 			String[] Credentials = pickCredentials("UserCredentials");
 			String username =Credentials[0];
-			String password =Credentials[1];			
+			String password =Credentials[1];
+			String lastname =Credentials[3];
 			String deptDate = pickDate(depDate);		
 			
 			inputBookingDetails(triptype,origin, dest, deptDate , "", "", rtnDate,adult, child, infant,"","","");
@@ -44,6 +45,7 @@ public class TC28_oneWayDomesticEconomy_AHB_WAE extends BookingPageFlow{
 			waitforElement(BookingPageLocators.baggagetittle);
 			waitUtilElementhasAttribute(BookingPageLocators.body);
 			clickContinueBtn();
+			chooseInsurance("Add");
 			waitforElement(BookingPageLocators.selectseattittle);
 			waitUtilElementhasAttribute(BookingPageLocators.body);
 			clickContinueBtn();

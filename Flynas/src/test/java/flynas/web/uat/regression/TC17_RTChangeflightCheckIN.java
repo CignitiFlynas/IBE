@@ -15,6 +15,7 @@ import com.ctaf.support.HtmlReportSupport;
 import com.ctaf.utilities.Reporter;
 
 import flynas.web.testObjects.BookingPageLocators;
+import flynas.web.workflows.BookingPage;
 import flynas.web.workflows.BookingPageFlow;
 
 public class TC17_RTChangeflightCheckIN extends BookingPageFlow {
@@ -41,11 +42,7 @@ public class TC17_RTChangeflightCheckIN extends BookingPageFlow {
 			String password =Credentials[1];
 			String lastname =Credentials[3];
 			
-			//click back to home button in case of error 500
-			clickBackToHomeButton();
-			
-			waitForVisibilityOfElement(BookingPageLocators.login_lnk, "Login");	
-			click(BookingPageLocators.login_lnk, "Login");
+			BookingPage.clickLogin();
 			login(username,password);
 			inputBookingDetails(triptype,origin, dest, deptdate , "", "", rtrndate,adult, child, infant,"","","");
 			selectClass(BookingClass, bundle); 

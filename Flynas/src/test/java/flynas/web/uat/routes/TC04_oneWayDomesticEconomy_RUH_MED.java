@@ -13,6 +13,7 @@ import com.ctaf.support.HtmlReportSupport;
 import com.ctaf.utilities.Reporter;
 
 import flynas.web.testObjects.BookingPageLocators;
+import flynas.web.workflows.BookingPage;
 import flynas.web.workflows.BookingPageFlow;
 
 public class TC04_oneWayDomesticEconomy_RUH_MED extends BookingPageFlow{
@@ -35,20 +36,22 @@ public class TC04_oneWayDomesticEconomy_RUH_MED extends BookingPageFlow{
 			String username =Credentials[0];
 			String password =Credentials[1];			
 			String deptDate = pickDate(depDate);
-			click(BookingPageLocators.login_lnk, "Login");
+			BookingPage.clickLogin();	
 			login(username,password);
 			inputBookingDetails(triptype,origin, dest, deptDate , "", "", rtnDate,adult, child, infant,"","","");
 			selectClass(bookingClass, bundle); 
 			clickContinueBtn();
 			upSellPopUpAction("Continue");
-			waitforElement(BookingPageLocators.passengerDetailsTittle);
-			waitUtilElementhasAttribute(BookingPageLocators.body);
-			clickContinueBtn();
+			//Clicking continue button on Passenger details page
+			continueOnPassengerDetails();
 			Baggage_Extra(triptype);
 			clickContinueBtn();
+			chooseInsurance("Add");//Add insurance
 			waitforElement(BookingPageLocators.selectseattittle);
 			waitUtilElementhasAttribute(BookingPageLocators.body);
 			clickContinueBtn();
+			
+			
 			if(isElementDisplayedTemp(BookingPageLocators.ok)){
 				click(BookingPageLocators.ok, "OK");
 			}

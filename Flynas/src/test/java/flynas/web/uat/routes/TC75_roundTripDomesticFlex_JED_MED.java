@@ -13,6 +13,7 @@ import com.ctaf.support.HtmlReportSupport;
 import com.ctaf.utilities.Reporter;
 
 import flynas.web.testObjects.BookingPageLocators;
+import flynas.web.workflows.BookingPage;
 import flynas.web.workflows.BookingPageFlow;
 
 public class TC75_roundTripDomesticFlex_JED_MED extends BookingPageFlow{
@@ -38,18 +39,17 @@ public class TC75_roundTripDomesticFlex_JED_MED extends BookingPageFlow{
 			
 			TestEngine.testDescription.put(HtmlReportSupport.tc_name, Description);
 										
-			click(BookingPageLocators.login_lnk, "Login");
+			BookingPage.clickLogin();
 			
 			login(username,password);
 			inputBookingDetails(triptype,origin, dest, deptDate , "", "", retrnDate,adult, child, infant,"","","");
 			selectClass(bookingClass, bundle); 
 			clickContinueBtn();
 			upSellPopUpAction("Continue");
-			waitforElement(BookingPageLocators.passengerDetailsTittle);
-			waitUtilElementhasAttribute(BookingPageLocators.body);
-			clickContinueBtn();
+			continueOnPassengerDetails();
 			Baggage_Extra(triptype);
 			clickContinueBtn();
+			chooseInsurance("Add");
 			waitforElement(BookingPageLocators.selectseattittle);
 			waitUtilElementhasAttribute(BookingPageLocators.body);
 			clickContinueBtn();

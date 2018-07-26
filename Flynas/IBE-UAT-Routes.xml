@@ -119,7 +119,7 @@
 		
 		<!-- ****************************************Business***************************************************** -->
 		
-				<!--		<class name="flynas.web.uat.routes.TC125_oneWayDomesticBusiness_RUH_JED"/>  
+						<class name="flynas.web.uat.routes.TC125_oneWayDomesticBusiness_RUH_JED"/>  
 						<class name="flynas.web.uat.routes.TC126_oneWayDomesticBusiness_RUH_DMM"/> 
 						<class name="flynas.web.uat.routes.TC127_oneWayDomesticBusiness_RUH_GIZ"/> 
 						<class name="flynas.web.uat.routes.TC128_oneWayDomesticBusiness_RUH_MED"/> 
@@ -169,7 +169,7 @@
 						<class name="flynas.web.uat.routes.TC172_roundTripInternationalBusiness_JED_ATZ"/>
 						<class name="flynas.web.uat.routes.TC173_roundTripInternationalBusiness_JED_AMM"/>
 						<class name="flynas.web.uat.routes.TC174_roundTripInternationalBusiness_RUH_AMM"/>
-						<class name="flynas.web.uat.routes.TC186_roundTripDomesticBusinessAddExtra_RUH_AHB"/>   -->
+						<class name="flynas.web.uat.routes.TC186_roundTripDomesticBusinessAddExtra_RUH_AHB"/>   
 											
 						
 						

@@ -418,8 +418,8 @@ public class BookingPageFlow<RenderedWebElement> extends BookingPageLocators{
 							lightBtns.get(j).click();
 						}
 						else if(bundle.equalsIgnoreCase("Plus")){
-							List <WebElement> PlusBtns = driver.findElements(By.xpath("//*[@class='table flight_table']/tbody["+i+"]/tr[2]/td/div/table/tbody[1]/tr/td[3]/div[2]/div[2]"));
-							PlusBtns.get(j).click();							
+							//List <WebElement> PlusBtns = driver.findElements(By.xpath("//*[@class='table flight_table']/tbody["+i+"]/tr[2]/td/div/table/tbody[1]/tr/td[3]/div[2]/div[2]"));
+							//PlusBtns.get(j).click();							
 						}
 						else if(bundle.equalsIgnoreCase("Premium")){	
 							List <WebElement> PremiumBtns = driver.findElements(By.xpath("//*[@class='table flight_table']/tbody["+i+"]/tr[2]/td/div/table/tbody[1]/tr/td[4]/div[2]/div[2]"));
@@ -1395,7 +1395,8 @@ public class BookingPageFlow<RenderedWebElement> extends BookingPageLocators{
 	
 	public String getReferenceNumber() throws Throwable{
 		waitUtilElementhasAttribute(BookingPageLocators.body);
-		waitforElement(BookingPageLocators.summaryRefNumber);
+		waitForVisibilityOfElement(BookingPageLocators.summaryRefNumber, "Reference Number");
+		//waitforElement(BookingPageLocators.summaryRefNumber);
 		return getText(BookingPageLocators.summaryRefNumber, "Reference Number");			
 	}
 	
@@ -1483,7 +1484,8 @@ public class BookingPageFlow<RenderedWebElement> extends BookingPageLocators{
 		{
 		searchFlight(referenceNum, email, mobile, lastName);
 		Thread.sleep(10000);
-		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", driver.findElement(BookingPageLocators.btnchngFlight));
+		//((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", driver.findElement(BookingPageLocators.btnchngFlight));
+		waitForVisibilityOfElement(BookingPageLocators.btnchngFlight, "Change Flight");
 		click(BookingPageLocators.btnchngFlight, "Change Flight");
 		waitforElement(BookingPageLocators.btnpopupchngFlight);
 		List<WebElement> calenders = driver.findElements(BookingPageLocators.calender);
@@ -1599,9 +1601,14 @@ public class BookingPageFlow<RenderedWebElement> extends BookingPageLocators{
 		waitforElement(BookingPageLocators.checkinTitle);
 		List<WebElement> passengers = driver.findElements(BookingPageLocators.passengers_incheckin);
 		System.out.println(passengers.size());
-		for(int i=0;i<passengers.size();i++)
+		for(int i=1;i<=passengers.size();i++)
 		{
-			passengers.get(i).click();
+			//System.out.println(passengers.get(i));
+			//passengers.get(i).click();
+			System.out.println(BookingPageLocators.passengers_incheckinvalue(i));
+			click(BookingPageLocators.passengers_incheckinvalue(i), "Passenger Name");
+			
+			
 		}
 		waitUtilElementhasAttribute(BookingPageLocators.body);
 		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", driver.findElement(BookingPageLocators.continueBtn));
@@ -1609,13 +1616,15 @@ public class BookingPageFlow<RenderedWebElement> extends BookingPageLocators{
 		clickContinueBtn();
 		waitforElement(BookingPageLocators.emailAdd);
 		waitUtilElementhasAttribute(BookingPageLocators.body);
+		waitForVisibilityOfElement(BookingPageLocators.emailAdd, "EmailAddress");
 		String emailformat = getText(BookingPageLocators.emailAdd, "EmailAddress");
 		if(emailformat.contains("@")==false)
 		{
 			driver.findElement(BookingPageLocators.emailAdd).clear();
 			type(BookingPageLocators.emailAdd, "flynasqa@gmail.com", "EmailAddress");
 		}
-		waitforElement(BookingPageLocators.continueBtn);
+		waitForVisibilityOfElement(BookingPageLocators.continueBtn, "Continue Button");
+		//waitforElement(BookingPageLocators.continueBtn);
 		clickContinueBtn();
 		coninueOnBaggage();
 		waitforElement(BookingPageLocators.selectseattittle);
@@ -2230,11 +2239,18 @@ public class BookingPageFlow<RenderedWebElement> extends BookingPageLocators{
 		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", driver.findElement(BookingPageLocators.summaryCancelFlight));
 		click(BookingPageLocators.summaryCancelFlight, "CancelFlight");
 		List<WebElement> cancelflights = driver.findElements(BookingPageLocators.selectFlightstoCancel);
+		System.out.println(cancelflights);
 		Thread.sleep(1000);
 		if(flightway.equalsIgnoreCase("Departing")){
-			cancelflights.get(0).click();
+			//cancelflights.get(0).click();
+			System.out.println(cancelflights.get(0));
+			System.out.println(BookingPageLocators.selectFlightstoCancelDeparting);
+			click(BookingPageLocators.selectFlightstoCancelDeparting,"Departing Flight");
 		}else if (flightway.equalsIgnoreCase("Returning")){
-			cancelflights.get(1).click();
+			//cancelflights.get(1).click();
+			System.out.println(BookingPageLocators.selectFlightstoCancelReturning);
+			click(BookingPageLocators.selectFlightstoCancelReturning,"Returning Flight");
+			
 		}else
 		for(int i=0;i<cancelflights.size();i++)
 		{
@@ -4173,7 +4189,7 @@ public class BookingPageFlow<RenderedWebElement> extends BookingPageLocators{
 
   }
 
-    	 public  void clickBackToHomeButton() throws Throwable{
+    	 public static void clickBackToHomeButton() throws Throwable{
     		 if(isElementDisplayedTemp(BookingPageLocators.backToHomeBtn)==true){
     		 click(BookingPageLocators.backToHomeBtn, "Back To Home Button");
     		 }

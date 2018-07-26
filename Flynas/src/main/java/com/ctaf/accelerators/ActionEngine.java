@@ -2785,6 +2785,8 @@ public class ActionEngine extends TestEngine {
 		try {
 			String dd = value.split("-")[0];
 			String mmYY = value.split("-")[1];
+			System.out.println(dd);
+			System.out.println(mmYY);
 			
 			for(int i=1;i<16;i++){
 				String expMMYY = driver.findElement(By.xpath(locator + "/thead/tr/th[2]/button/strong")).getText();

@@ -1,72 +1,47 @@
-2018-07-18 11:50:42-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
-2018-07-18 11:50:57-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_16_EmpLoginStaffConfmedChangeDateCheckIn
-2018-07-18 11:55:34-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
-2018-07-18 12:29:18-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
-2018-07-18 12:29:50-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_17_RTChangeflightCheckIN
-2018-07-18 12:34:39-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
-2018-07-18 12:47:35-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
-2018-07-18 12:47:46-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_35_AnonymousOneWayDomesticEconomy_MMB_ModifyExtrasSeat
-2018-07-18 12:51:38-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
-2018-07-18 12:52:38-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
-2018-07-18 12:52:49-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_35_AnonymousOneWayDomesticEconomy_MMB_ModifyExtrasSeat
-2018-07-18 12:56:42-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
-2018-07-18 14:33:27-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
-2018-07-18 14:33:40-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_35_b_AnonymousOwIntlEconomy_MMB_ModifyExtrasSeat
-2018-07-18 14:37:40-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
-2018-07-18 14:42:54-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
-2018-07-18 14:43:06-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_35_b_AnonymousOwIntlEconomy_MMB_ModifyExtrasSeat
-2018-07-18 14:47:29-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
-2018-07-18 14:48:52-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
-2018-07-18 14:49:05-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_35_b_AnonymousOwIntlEconomy_MMB_ModifyExtrasSeat
-2018-07-18 14:52:24-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
-2018-07-18 14:52:57-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
-2018-07-18 14:53:08-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_35_b_AnonymousOwIntlEconomy_MMB_ModifyExtrasSeat
-2018-07-18 15:00:36-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
-2018-07-18 15:00:50-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
-2018-07-18 15:01:03-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_35_b_AnonymousOwIntlEconomy_MMB_ModifyExtrasSeat
-2018-07-18 15:05:25-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
-2018-07-18 15:05:45-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
-2018-07-18 15:05:57-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_35_b_AnonymousOwIntlEconomy_MMB_ModifyExtrasSeat
-2018-07-18 15:18:21-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
-2018-07-18 15:18:37-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_35_b_AnonymousOwIntlEconomy_MMB_ModifyExtrasSeat
-2018-07-18 15:30:44-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
-2018-07-18 15:30:57-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_35_AnonymousOneWayDomesticEconomy_MMB_ModifyExtrasSeat
-2018-07-18 15:33:12-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
-2018-07-18 15:41:34-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
-2018-07-18 15:41:46-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_37_EmpLoginStaffConfirmedModifyExtras
-2018-07-18 15:47:41-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
-2018-07-18 15:56:34-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
-2018-07-18 15:56:47-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_33_anonymousRevalidateTheTicketWithSameFare
-2018-07-18 15:59:19-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
-2018-07-18 16:01:22-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
-2018-07-18 16:01:34-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_33_anonymousRevalidateTheTicketWithSameFare
-2018-07-18 16:07:52-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
-2018-07-18 16:08:07-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_32_anonymousReissueTheTicketWithHigherFare
-2018-07-18 17:01:30-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
-2018-07-18 17:01:41-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_31_anonymousVerifingBoardingPassVlues
-2018-07-18 17:10:53-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
-2018-07-18 17:17:17-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
-2018-07-18 17:17:29-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_31_anonymousVerifingBoardingPassVlues
-2018-07-18 17:20:36-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
-2018-07-18 17:38:48-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
-2018-07-18 17:39:00-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_31_anonymousVerifingBoardingPassVlues
-2018-07-18 17:44:49-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
-2018-07-18 17:46:25-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
-2018-07-18 17:47:42-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
-2018-07-18 17:47:55-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_31_anonymousVerifingBoardingPassVlues
-2018-07-18 18:11:52-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
-2018-07-18 18:12:32-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_31_anonymousVerifingBoardingPassVlues
-2018-07-18 18:20:23-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
-2018-07-18 18:20:37-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_31_anonymousVerifingBoardingPassVlues
-2018-07-18 18:29:21-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
-2018-07-18 18:29:34-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_31_anonymousVerifingBoardingPassVlues
-2018-07-18 18:41:19-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
-2018-07-18 18:45:33-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
-2018-07-18 18:45:46-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_31_anonymousVerifingBoardingPassVlues
-2018-07-18 21:41:48-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
-2018-07-18 21:42:09-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_31_anonymousVerifingBoardingPassVlues
-2018-07-18 21:51:34-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
-2018-07-18 21:57:08-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
-2018-07-18 21:57:21-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_31_anonymousVerifingBoardingPassVlues
-2018-07-18 22:08:10-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
-2018-07-18 22:08:22-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_31_anonymousVerifingBoardingPassVlues
+2018-07-26 11:36:33-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-07-26 11:36:48-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC03a_oneWayDomesticChangeDate
+2018-07-26 11:48:00-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-07-26 11:48:13-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC03b_oneWayIntlChangeDate
+2018-07-26 11:49:03-main--INFO -com.ctaf.accelerators.TestEngine: Unable to get TscreenShot
+2018-07-26 12:15:16-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-07-26 12:15:27-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC04a_oneWaySimpleDomOneAdultCheckin
+2018-07-26 12:21:53-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-07-26 12:21:53-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-07-26 12:26:33-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-07-26 12:26:44-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC03a_oneWayDomesticChangeDate
+2018-07-26 12:50:10-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-07-26 12:50:20-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC04a_oneWaySimpleDomOneAdultCheckin
+2018-07-26 12:55:22-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-07-26 12:55:22-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-07-26 13:05:48-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-07-26 13:06:01-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC04a_oneWaySimpleDomOneAdultCheckin
+2018-07-26 13:11:31-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-07-26 13:12:58-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-07-26 13:13:12-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC04a_oneWaySimpleDomOneAdultCheckin
+2018-07-26 13:19:23-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-07-26 13:19:23-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-07-26 13:21:01-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-07-26 13:21:14-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC04a_oneWaySimpleDomOneAdultCheckin
+2018-07-26 13:28:19-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-07-26 13:41:42-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-07-26 13:41:53-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC04a_oneWaySimpleDomOneAdultCheckin
+2018-07-26 13:51:05-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-07-26 13:51:15-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC04a_oneWaySimpleDomOneAdultCheckin
+2018-07-26 13:56:36-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-07-26 14:17:55-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-07-26 14:18:09-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC04a_oneWaySimpleDomOneAdultCheckin
+2018-07-26 14:44:57-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-07-26 14:45:09-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC04a_oneWaySimpleDomOneAdultCheckin
+2018-07-26 15:01:28-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-07-26 15:01:38-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC04a_oneWaySimpleDomOneAdultCheckin
+2018-07-26 16:55:01-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-07-26 16:55:13-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_12_PayWithCreditShell
+2018-07-26 17:03:02-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-07-26 18:11:12-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-07-26 18:11:51-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_12_PayWithCreditShell
+2018-07-26 18:19:57-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-07-26 18:26:53-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-07-26 18:27:09-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_12_PayWithCreditShell
+2018-07-26 18:53:03-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-07-26 18:53:16-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_15_EmpLoginOnewayOneAdultStaffStandByChangFlightCancel
+2018-07-26 18:58:18-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
