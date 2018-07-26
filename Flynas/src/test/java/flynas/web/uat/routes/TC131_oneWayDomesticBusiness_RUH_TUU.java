@@ -13,6 +13,7 @@ import com.ctaf.support.HtmlReportSupport;
 import com.ctaf.utilities.Reporter;
 
 import flynas.web.testObjects.BookingPageLocators;
+import flynas.web.workflows.BookingPage;
 import flynas.web.workflows.BookingPageFlow;
 
 public class TC131_oneWayDomesticBusiness_RUH_TUU extends BookingPageFlow{
@@ -31,21 +32,22 @@ public class TC131_oneWayDomesticBusiness_RUH_TUU extends BookingPageFlow{
 			TestEngine.testDescription.put(HtmlReportSupport.tc_name, Description);
 			String[] Credentials = pickCredentials("UserCredentials");
 			String username =Credentials[0];
-			String password =Credentials[1];			
+			String password =Credentials[1];		
+			String lastname=Credentials[3];	
 			String deptDate = pickDate(depDate);
 			String retrnDate = pickDate(rtnDate);
-			click(BookingPageLocators.login_lnk, "Login");
+			
+			BookingPage.clickLogin();
 			
 			login(username,password);
 			inputBookingDetails(triptype,origin, dest, deptDate , "", "", retrnDate,adult, child, infant,"","","");
 			selectClass(bookingClass, bundle); 
 			clickContinueBtn();
-			upSellPopUpAction("Continue");
-			waitforElement(BookingPageLocators.passengerDetailsTittle);
-			waitUtilElementhasAttribute(BookingPageLocators.body);
-			clickContinueBtn();
+			//upSellPopUpAction("Continue");
+			continueOnPassengerDetails();
 			Baggage_Extra(triptype);
 			clickContinueBtn();
+			chooseInsurance("Add");
 			waitforElement(BookingPageLocators.selectseattittle);
 			waitUtilElementhasAttribute(BookingPageLocators.body);
 			clickContinueBtn();
@@ -57,7 +59,7 @@ public class TC131_oneWayDomesticBusiness_RUH_TUU extends BookingPageFlow{
 			String strPNR = strpnr.trim();
 			System.out.println(strPNR);
 			validate_ticketStatus(strPNR);
-			searchFlightCheckin(strPNR, username, "", "");
+			searchFlightCheckin(strPNR, username, "", lastname);
 			performCheckin(seatSelect, paymentType, "");
 			validateCheckin();
 		

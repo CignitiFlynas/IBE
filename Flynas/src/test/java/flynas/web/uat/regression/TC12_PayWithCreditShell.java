@@ -9,6 +9,7 @@ import com.ctaf.support.HtmlReportSupport;
 import com.ctaf.utilities.Reporter;
 
 import flynas.web.testObjects.BookingPageLocators;
+import flynas.web.workflows.BookingPage;
 import flynas.web.workflows.BookingPageFlow;
 
 public class TC12_PayWithCreditShell extends BookingPageFlow{
@@ -34,12 +35,7 @@ public class TC12_PayWithCreditShell extends BookingPageFlow{
 			String username =Credentials[0];
 			String password =Credentials[1];
 			String lastname =Credentials[3];
-			//click back to home button in case of error 500
-			clickBackToHomeButton();
-			
-			waitForVisibilityOfElement(BookingPageLocators.login_lnk, "Login");	
-			click(BookingPageLocators.login_lnk, "Login");
-			switchtoChildWindow();
+			BookingPage.clickLogin();
 			login(username,password);
 			
 			//Entering Booking Details			
@@ -60,6 +56,7 @@ public class TC12_PayWithCreditShell extends BookingPageFlow{
 			
 			//Click continue on Baggage page
 			coninueOnBaggage();
+			
 			
 			selectSeat(SelectSeat, bookingtype);
 			payment(paymenttype,"");
@@ -94,6 +91,7 @@ public class TC12_PayWithCreditShell extends BookingPageFlow{
 				System.out.println("No Baggage Page");
 			}	
 			
+			chooseInsurance("Add");
 			//Selecting seat
 			selectSeat(SelectSeat, bookingtype);
 			

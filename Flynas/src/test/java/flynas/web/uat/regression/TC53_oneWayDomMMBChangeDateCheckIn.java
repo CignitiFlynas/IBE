@@ -9,6 +9,7 @@ import com.ctaf.support.HtmlReportSupport;
 import com.ctaf.utilities.Reporter;
 
 import flynas.web.testObjects.BookingPageLocators;
+import flynas.web.workflows.BookingPage;
 import flynas.web.workflows.BookingPageFlow;
 
 public class TC53_oneWayDomMMBChangeDateCheckIn extends BookingPageFlow{
@@ -35,12 +36,7 @@ public class TC53_oneWayDomMMBChangeDateCheckIn extends BookingPageFlow{
 			String username =Credentials[0];
 			String password =Credentials[1];
 			String lastname =Credentials[3];
-			//click back to home button in case of error 500
-			clickBackToHomeButton();
-			
-			waitForVisibilityOfElement(BookingPageLocators.login_lnk, "Login");	
-			click(BookingPageLocators.login_lnk, "Login");
-			switchtoChildWindow();
+			BookingPage.clickLogin();
 			login(username,password);
 					
 			inputBookingDetails(tripType, origin, dest, deptdate, origin2, departure2, retrndate,Adult, Child, infant,promo,Currency,paymenttype);

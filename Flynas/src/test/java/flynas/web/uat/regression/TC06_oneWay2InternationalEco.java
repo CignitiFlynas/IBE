@@ -57,7 +57,7 @@ public class TC06_oneWay2InternationalEco extends BookingPageFlow {
 			
 			selectClass(strBookingClass, bundle);
 			clickContinueBtn();
-			upSellPopUpAction("Continue");
+			//upSellPopUpAction("Continue");
 			
 			
 			//Entering passenger details

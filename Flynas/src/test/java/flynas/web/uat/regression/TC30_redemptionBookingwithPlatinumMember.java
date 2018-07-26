@@ -9,6 +9,7 @@ import com.ctaf.support.HtmlReportSupport;
 import com.ctaf.utilities.Reporter;
 
 import flynas.web.testObjects.BookingPageLocators;
+import flynas.web.workflows.BookingPage;
 import flynas.web.workflows.BookingPageFlow;
 
 public class TC30_redemptionBookingwithPlatinumMember extends BookingPageFlow{
@@ -29,12 +30,7 @@ public class TC30_redemptionBookingwithPlatinumMember extends BookingPageFlow{
 			String[] Credentials = pickCredentials("PlatinumCreds");
 			String username =Credentials[0];
 			String password =Credentials[1];
-			//click back to home button in case of error 500
-			clickBackToHomeButton();
-			
-			waitForVisibilityOfElement(BookingPageLocators.login_lnk, "Login");	
-			click(BookingPageLocators.login_lnk, "Login");
-			switchtoChildWindow();
+			BookingPage.clickLogin();
 			login(username,password);
 			
 			inputBookingDetails(tripType, origin, dest, deptdate, origin2, departure2, retdate,Adult, Child, infant,promo,Currency,paymenttype);

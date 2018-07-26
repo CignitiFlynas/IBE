@@ -33,7 +33,7 @@ public class TC186_roundTripDomesticBusinessAddExtra_RUH_AHB extends BookingPage
 			inputBookingDetails(triptype,origin, dest, deptDate , "RUH", "AMM", retrnDate,adult, child, infant,"","","");
 			selectClass(bookingClass, bundle); 
 			clickContinueBtn();
-			upSellPopUpAction("Continue");
+			//upSellPopUpAction("Continue");
 			inputPassengerDetails("Domestic", "2", "Afghanistan", "National ID Card", 
 					"F123456", "1234567890", mobilenum, username,"","","");
 			Baggage_Extra(triptype);
@@ -41,6 +41,7 @@ public class TC186_roundTripDomesticBusinessAddExtra_RUH_AHB extends BookingPage
 			Select_A_Meal();
 			Select_lounge();
 			inputExtras("12");
+			chooseInsurance("Add");
 			selectallSeats(seatSelect,"2",triptype);
 			payment(paymentType, "");
 			String strpnr = getReferenceNumber();

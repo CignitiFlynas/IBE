@@ -14,10 +14,11 @@ import com.ctaf.utilities.Reporter;
 
 import flynas.web.testObjects.BookingPageLocators;
 import flynas.web.workflows.BookingPageFlow;
+import flynas.web.workflows.BookingPage;
 
 public class TC01_oneWayDomesticEconomy_RUH_JED extends BookingPageFlow{
 	ExcelReader xls = new ExcelReader(configProps.getProperty("TestDataIBEUATRoutes"),"AllRoutes");
-
+	
 	@Test(dataProvider = "testData",groups={"Economy"})
 	public  void TC_01_oneWayDomesticEconomy_RUH_JED(String bookingClass, String bundle,String mobilenum,
 			String paymentType,String newDate,String depDate,String rtnDate,String origin,String dest,String triptype,
@@ -31,17 +32,23 @@ public class TC01_oneWayDomesticEconomy_RUH_JED extends BookingPageFlow{
 			String password =Credentials[1];			
 			String deptDate = pickDate(depDate);
 			
-			click(BookingPageLocators.login_lnk, "Login");				
+			BookingPage.clickLogin();	
+			
 			login(username,password);
 			inputBookingDetails(triptype,origin, dest, deptDate , "", "", rtnDate,adult, child, infant,"","","");
 			selectClass(bookingClass, bundle); 
 			clickContinueBtn();
 			upSellPopUpAction("Continue");
-			waitforElement(BookingPageLocators.passengerDetailsTittle);
+			/*waitforElement(BookingPageLocators.passengerDetailsTittle);
 			waitUtilElementhasAttribute(BookingPageLocators.body);
-			clickContinueBtn();
+			clickContinueBtn();*/
+			
+			//Clicking continue button on Passenger details page
+			continueOnPassengerDetails();
+			
 			Baggage_Extra(triptype);
 			clickContinueBtn();
+			chooseInsurance("Add");
 			waitforElement(BookingPageLocators.selectseattittle);
 			waitUtilElementhasAttribute(BookingPageLocators.body);
 			clickContinueBtn(); 
