@@ -21,7 +21,9 @@ public class TC20_verifingServiceChargeOWSigleBusinessDomTR extends BookingPageF
 		try {
 			
 			TestEngine.testDescription.put(HtmlReportSupport.tc_name, Description);
-			String deptDate = pickDate(departuredate);					
+			String deptDate = pickDate(departuredate);		
+			BookingPageFlow.clickBackToHomeButton();
+			waitforElement(BookingPageLocators.Arabic_pdctn_AR("Türkçe"));
 			click(BookingPageLocators.Arabic_pdctn_AR("Türkçe"), "Tarkish Language");
 			String[] Credentials = pickCredentials("UserCredentials");
 			String username =Credentials[0];

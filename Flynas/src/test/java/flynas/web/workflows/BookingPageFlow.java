@@ -347,11 +347,13 @@ public class BookingPageFlow<RenderedWebElement> extends BookingPageLocators{
 		waitUtilElementhasAttribute(BookingPageLocators.body);
 		try{	
 		if(action.equalsIgnoreCase("Continue")){
+			waitforElement(BookingPageLocators.continueBundle);
 			click(BookingPageLocators.continueBundle,"Conitnue with bundle");
 			//driver.findElement(By.xpath("//a[contains(text(),'continue')]")).click();
 			}
 		else if(action.equalsIgnoreCase("Upgrade")){
-			click(BookingPageLocators.upgradeBundle,"Conitnue with bundle");
+			waitforElement(BookingPageLocators.upgradeBundle);
+			click(BookingPageLocators.upgradeBundle,"Upgrade bundle");
 			//driver.findElement(By.xpath("//a[contains(text(),'ADD THIS BUNDLE')]")).click();
 			}
 		Reporter.SuccessReport("Handling pop-up", "Successfully clicked on "+action+" Button");
@@ -3030,14 +3032,22 @@ public class BookingPageFlow<RenderedWebElement> extends BookingPageLocators{
 				System.out.println(DOB[0]+"-"+DOB[1]+"-"+DOB[2]);
 				
 				//Entering Date of birth
+				waitforElement(By.xpath(BookingPageLocators.dd.replace("#", String.valueOf(count))));
 				click(By.xpath(BookingPageLocators.dd.replace("#", String.valueOf(count))), "DD");
 				//Thread.sleep(3000);
+				waitforElement(By.xpath(BookingPageLocators.selectDD.replace("#", String.valueOf(count))+DOB[0]+"]"));
+				waitForVisibilityOfElement(By.xpath(BookingPageLocators.selectDD.replace("#", String.valueOf(count))+DOB[0]+"]"), "DD");
 				click(By.xpath(BookingPageLocators.selectDD.replace("#", String.valueOf(count))+DOB[0]+"]"), "DD");
 				
+				waitforElement(By.xpath(BookingPageLocators.mm.replace("#", String.valueOf(count))));
 				click(By.xpath(BookingPageLocators.mm.replace("#", String.valueOf(count))), "MM");
 				//Thread.sleep(3000);
+				
+				waitforElement(By.xpath(BookingPageLocators.selectMM.replace("#", String.valueOf(count))+DOB[1]+"]"));
+				waitForVisibilityOfElement(By.xpath(BookingPageLocators.selectMM.replace("#", String.valueOf(count))+DOB[1]+"]"), "MM");
 				click(By.xpath(BookingPageLocators.selectMM.replace("#", String.valueOf(count))+DOB[1]+"]"), "MM");
 				
+				waitforElement(By.xpath(BookingPageLocators.yyyy.replace("#", String.valueOf(count))));
 				click(By.xpath(BookingPageLocators.yyyy.replace("#", String.valueOf(count))), "YYYY");
 				//Thread.sleep(3000);				
 				executor.executeScript("arguments[0].click();",driver.findElement(By.xpath("//div[@class='pass_tab']/div["+count+"]//descendant::div[@class='dob_conyear']/div/ul/li//descendant::div[@class='ui-select-choices-row']["+DOB[2]+"]")));
@@ -3258,6 +3268,7 @@ public class BookingPageFlow<RenderedWebElement> extends BookingPageLocators{
 	public void verifyPNRforSadad_Arabic() throws Throwable{
 		waitforElement(BookingPageLocators.body);
 		Thread.sleep(15000);
+		waitforElement(BookingPageLocators.summaryRefNumber_AR_uat);
 		if(isElementPresent(BookingPageLocators.summaryRefNumber_AR_uat, "Booking Reference")){
 		String Status= getText(BookingPageLocators.summaryStatus_AR, "PNR Status");
 		if (Status.equalsIgnoreCase("قيد الانتظار")){
@@ -3901,7 +3912,9 @@ public class BookingPageFlow<RenderedWebElement> extends BookingPageLocators{
 	public void clickContinueBtn() throws Throwable{
 		waitUtilElementhasAttribute(BookingPageLocators.body);	
 		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", driver.findElement(BookingPageLocators.continueBtn));
-		Thread.sleep(1000);
+		Thread.sleep(3000);
+		waitforElement(BookingPageLocators.continueBtn);
+		waitForVisibilityOfElement(BookingPageLocators.continueBtn, "Continue");
 		click(BookingPageLocators.continueBtn, "Continue");
 	}
 	
@@ -4050,10 +4063,12 @@ public class BookingPageFlow<RenderedWebElement> extends BookingPageLocators{
 		
 		public void continueOnPassengerDetails() throws Throwable{
 			waitforElement(BookingPageLocators.passengerDetailsTittle);
+			waitForVisibilityOfElement(BookingPageLocators.passengerDetailsTittle, "Booking page locators");
 			clickContinueBtn();
 			Thread.sleep(5000);
 			if(isElementDisplayedTemp(BookingPageLocators.okBtn)==true)
 			{
+				waitForVisibilityOfElement(BookingPageLocators.okBtn, "OK");
 				click(BookingPageLocators.okBtn, "OK");
 				clickContinueBtn();
 			}
@@ -4118,6 +4133,7 @@ public class BookingPageFlow<RenderedWebElement> extends BookingPageLocators{
             {      if(choice.equalsIgnoreCase("Add")){
             	 	click(BookingPageLocators.Add, "Travel insurance selected");
             	 	Thread.sleep(7000);
+            	 	waitforElement(BookingPageLocators.insuranceFeeText);
             	 	waitForVisibilityOfElement(BookingPageLocators.insuranceFeeText,"Insurance Fees Amount in Page");
             	 	compareInsuranceDetailsInSummary();
             	 	

@@ -24,11 +24,13 @@ public class TC13_verifingServiceChargeRTSingleECoDOMAR extends BookingPageFlow{
 			TestEngine.testDescription.put(HtmlReportSupport.tc_name, Description);
 			String deptDate = pickDate(departuredate);		
 			String rtrnDate = pickDate(rtnDate);
+			BookingPageFlow.clickBackToHomeButton();
+			waitforElement(BookingPageLocators.Arabic_pdctn_AR("العربية"));
 			click(BookingPageLocators.Arabic_pdctn_AR("العربية"), "Arabic Language");
 			String[] Credentials = pickCredentials("UserCredentials");
 			String username =Credentials[0];
 			String password =Credentials[1];
-			
+			waitforElement(BookingPageLocators.login_lnk);
 			click(BookingPageLocators.login_lnk, "Login");
 			login(username,password);
 			inputBookingDetails_Arabic(triptype,origin, dest, deptDate , "", "", rtrnDate,adult, child, infant,"","","");

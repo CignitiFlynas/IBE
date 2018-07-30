@@ -13,6 +13,7 @@ import com.ctaf.support.HtmlReportSupport;
 import com.ctaf.utilities.Reporter;
 
 import flynas.web.testObjects.BookingPageLocators;
+import flynas.web.workflows.BookingPage;
 import flynas.web.workflows.BookingPageFlow;
 
 public class TC03_oneWayDomesticEconomy_RUH_GIZ extends BookingPageFlow {
@@ -36,7 +37,7 @@ public class TC03_oneWayDomesticEconomy_RUH_GIZ extends BookingPageFlow {
 			String username =Credentials[0];
 			String password =Credentials[1];					
 				
-			click(BookingPageLocators.login_lnk, "Login");				
+			BookingPage.clickLogin();			
 			login(username,password);
 			inputBookingDetails(triptype,origin, dest, deptDate , "", "", retrnDate,adult, child, infant,"","","");
 			selectClass(bookingClass, bundle);
@@ -50,6 +51,7 @@ public class TC03_oneWayDomesticEconomy_RUH_GIZ extends BookingPageFlow {
 			}else{
 				System.out.println("No Baggae Page Available");
 			}
+			chooseInsurance("Add");
 			continueOnSeatSelection();
 			payment(paymentType, "");
 			String strpnr = getReferenceNumber();

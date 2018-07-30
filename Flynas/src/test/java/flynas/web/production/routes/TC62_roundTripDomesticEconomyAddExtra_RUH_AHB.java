@@ -13,6 +13,7 @@ import com.ctaf.support.HtmlReportSupport;
 import com.ctaf.utilities.Reporter;
 
 import flynas.web.testObjects.BookingPageLocators;
+import flynas.web.workflows.BookingPage;
 import flynas.web.workflows.BookingPageFlow;
 
 public class TC62_roundTripDomesticEconomyAddExtra_RUH_AHB extends BookingPageFlow{
@@ -31,7 +32,7 @@ public class TC62_roundTripDomesticEconomyAddExtra_RUH_AHB extends BookingPageFl
 			String username =Credentials[0];
 			String password =Credentials[1];					
 				
-			click(BookingPageLocators.login_lnk, "Login");				
+			BookingPage.clickLogin();			
 			login(username,password);
 			inputBookingDetails(triptype,origin, dest, deptDate , "RUH", "AMM", retrnDate,adult, child, infant,"","","");
 			selectClass(bookingClass, bundle);

@@ -13,6 +13,7 @@ import com.ctaf.support.HtmlReportSupport;
 import com.ctaf.utilities.Reporter;
 
 import flynas.web.testObjects.BookingPageLocators;
+import flynas.web.workflows.BookingPage;
 import flynas.web.workflows.BookingPageFlow;
 
 public class TC73_roundTripDomesticFlex_JED_DMM  extends BookingPageFlow{
@@ -35,8 +36,8 @@ public class TC73_roundTripDomesticFlex_JED_DMM  extends BookingPageFlow{
 				String username =Credentials[0];
 				String password =Credentials[1];					
 				
-				click(BookingPageLocators.login_lnk, "Login");				
-				login(username,password);
+			BookingPage.clickLogin();			
+			login(username,password);
 			inputBookingDetails(triptype,origin, dest, deptDate , "", "", retrnDate,adult, child, infant,"","","");
 			selectClass(bookingClass, bundle);
 			clickContinueBtn();

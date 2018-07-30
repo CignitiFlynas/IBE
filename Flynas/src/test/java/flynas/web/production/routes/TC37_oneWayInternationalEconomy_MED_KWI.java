@@ -1,6 +1,7 @@
 package flynas.web.production.routes;
 
 import java.text.DateFormat;
+
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
@@ -14,6 +15,7 @@ import com.ctaf.utilities.Reporter;
 
 import flynas.web.testObjects.BookingPageLocators;
 import flynas.web.workflows.BookingPageFlow;
+import flynas.web.workflows.BookingPage;
 
 public class TC37_oneWayInternationalEconomy_MED_KWI extends BookingPageFlow{
 	ExcelReader xls = new ExcelReader(configProps.getProperty("TestDataProdRoutes"),"Chrome_TestData");
@@ -35,7 +37,7 @@ public class TC37_oneWayInternationalEconomy_MED_KWI extends BookingPageFlow{
 				String username =Credentials[0];
 				String password =Credentials[1];					
 				
-				click(BookingPageLocators.login_lnk, "Login");				
+			BookingPage.clickLogin();			
 				login(username,password);
 			inputBookingDetails(triptype,origin, dest, deptDate , "", "", retrnDate,adult, child, infant,"","","");
 			selectClass(bookingClass, bundle);

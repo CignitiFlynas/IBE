@@ -22,12 +22,14 @@ public class TC11_verifingServiceChargeOWSingleBusAR extends BookingPageFlow{
 		try {
 			
 			TestEngine.testDescription.put(HtmlReportSupport.tc_name, Description);
-			String deptDate = pickDate(departuredate);					
+			String deptDate = pickDate(departuredate);	
+			BookingPageFlow.clickBackToHomeButton();
+			waitforElement(BookingPageLocators.Arabic_pdctn_AR("العربية"));
 			click(BookingPageLocators.Arabic_pdctn_AR("العربية"), "Arabic Language");
 			String[] Credentials = pickCredentials("UserCredentials");
 			String username =Credentials[0];
 			String password =Credentials[1];
-			
+			waitforElement(BookingPageLocators.login_lnk);
 			click(BookingPageLocators.login_lnk, "Login");
 			login(username,password);
 			inputBookingDetails_Arabic(triptype,origin, dest, deptDate , "", "", rtnDate,adult, child, infant,"","","");
