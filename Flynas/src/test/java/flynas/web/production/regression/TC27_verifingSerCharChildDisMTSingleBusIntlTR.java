@@ -24,6 +24,8 @@ public class TC27_verifingSerCharChildDisMTSingleBusIntlTR extends BookingPageFl
 			TestEngine.testDescription.put(HtmlReportSupport.tc_name, Description);
 			String deptDate = pickDate(departuredate);	
 			String rtrnDate = pickDate(rtnDate);
+			BookingPageFlow.clickBackToHomeButton();
+			waitforElement(BookingPageLocators.Arabic_pdctn_AR("Türkçe"));
 			click(BookingPageLocators.Arabic_pdctn_AR("Türkçe"), "Türkçe Language");
 			String[] Credentials = pickCredentials("UserCredentials");
 			String username =Credentials[0];

@@ -26,6 +26,8 @@ public class TC19_verifingSerCharChildDisOWMultiEcoIntlTR extends BookingPageFlo
 			String[] Credentials = pickCredentials("UserCredentials");
 			String username =Credentials[0];
 			
+			BookingPageFlow.clickBackToHomeButton();
+			waitforElement(BookingPageLocators.Arabic_pdctn_AR("Türkçe"));
 			click(BookingPageLocators.Arabic_pdctn_AR("Türkçe"), "Arabic Language");
 			inputBookingDetails_Tarkish(triptype,origin, dest, deptDate , "", "", rtnDate,adult, child, infant,"","");
 			selectClass(bookingClass, bundle);

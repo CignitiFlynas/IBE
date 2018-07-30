@@ -25,7 +25,7 @@ public class TC10_verifingSerCharChildDisInArabic extends BookingPageFlow {
 			String deptDate = pickDate(departuredate);	
 			String[] Credentials = pickCredentials("UserCredentials");
 			String username =Credentials[0];
-			
+			BookingPageFlow.clickBackToHomeButton();
 			click(BookingPageLocators.Arabic_pdctn_AR("العربية"), "Arabic Language");
 			inputBookingDetails_Arabic(triptype,origin, dest, deptDate , "", "", rtnDate,adult, child, infant,"","","");
 			selectClass(bookingClass, bundle);

@@ -11,6 +11,7 @@ import com.ctaf.support.HtmlReportSupport;
 import com.ctaf.utilities.Reporter;
 
 import flynas.web.testObjects.BookingPageLocators;
+import flynas.web.workflows.BookingPage;
 import flynas.web.workflows.BookingPageFlow;
 
 public class TC29_modifyProfileNewRegister extends BookingPageFlow{
@@ -22,7 +23,7 @@ public class TC29_modifyProfileNewRegister extends BookingPageFlow{
 		try {
 			
 			TestEngine.testDescription.put(HtmlReportSupport.tc_name, Description);
-			click(BookingPageLocators.login_lnk, " Login");
+			BookingPage.clickLogin();
 			login(EmailAddress, Password);
 			waitforElement(BookingPageLocators.myProfile);
 			waitUtilElementhasAttribute(BookingPageLocators.body);
