@@ -53,7 +53,7 @@ public class TC16_EmpLoginStaffConfmedChangeDateCheckIn extends BookingPageFlow{
 			String strpnr = getReferenceNumber();
 			String strPNR = strpnr.trim();
 			System.out.println(strPNR);
-			
+			closetoast();
 			String newdate = nextDateof(deptdate);
 			String strPNRChangeDate = changeDate("G3R1VY", username, mobilenum,lastname, newdate, selectseat,"",BookingClass,0);
 			waitUtilElementhasAttribute(BookingPageLocators.body);

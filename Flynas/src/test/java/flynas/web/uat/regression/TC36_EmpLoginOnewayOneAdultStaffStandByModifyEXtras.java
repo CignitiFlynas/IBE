@@ -53,6 +53,8 @@ public class TC36_EmpLoginOnewayOneAdultStaffStandByModifyEXtras extends Booking
 			continueOnSeatSelection();
 			payment(paymentType, "");
 			String strpnr = getReferenceNumber().trim();
+			System.out.println(strpnr);
+			validate_ticketStatus(strpnr);
 			searchFlight(strpnr, username, "",lastname);
 			modifyExtras();
 			Baggage_Extra(triptype);

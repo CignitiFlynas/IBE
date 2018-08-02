@@ -17,14 +17,14 @@
 				<class name="flynas.web.production.regression.TC03_verifingServiceChargeForRTFlexInterna"/> 	
 				<class name="flynas.web.production.regression.TC04_verifingserviceChargeForRTEconyDomestic"/> 	 
 		 		<class name="flynas.web.production.regression.TC05_verifingSerCharChildDisRTFlexDom"/> 	
-				<class name="flynas.web.production.regression.TC06_verifingServiceChargeRTBusinessDomestic"/> 	
+				<class name="flynas.web.production.regression.TC06_verifingServiceChargeRTBusinessDomestic"/>   
 			 	<class name="flynas.web.production.regression.TC10_verifingSerCharChildDisInArabic"/> 	
 				<class name="flynas.web.production.regression.TC11_verifingServiceChargeOWSingleBusAR"/> 	 
 				<class name="flynas.web.production.regression.TC12_verifingServiceChargeRTSingleFlexIntAR"/>  	
 				<class name="flynas.web.production.regression.TC13_verifingServiceChargeRTSingleECoDOMAR"/> 	
 				<class name="flynas.web.production.regression.TC14_verifingSerCharChilDdisRTMulFlexDOMAR"/> 	
 				<class name="flynas.web.production.regression.TC15_verifingServiceChargeRTSingleBusDomesticAR"/>				
-				<class name="flynas.web.production.regression.TC28_memberRegistration"/>
+			  	<class name="flynas.web.production.regression.TC28_memberRegistration"/>
 				<class name="flynas.web.production.regression.TC29_modifyProfileNewRegister"/> 
 				<class name="flynas.web.production.regression.TC30_BaggageValidation"/>
 				

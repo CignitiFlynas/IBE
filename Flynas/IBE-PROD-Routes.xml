@@ -43,7 +43,7 @@
 						<class name="flynas.web.production.routes.TC27_oneWayDomesticEconomy_AHB_BHH"/>	
 						<class name="flynas.web.production.routes.TC28_oneWayDomesticEconomy_AHB_WAE"/>	
 						<class name="flynas.web.production.routes.TC29_oneWayDomesticEconomy_AHB_GIZ"/>	
-						<class name="flynas.web.production.routes.TC30_oneWayDomesticEconomy_AHB_SHW"/>	-->  
+						<class name="flynas.web.production.routes.TC30_oneWayDomesticEconomy_AHB_SHW"/>	 
 						<class name="flynas.web.production.routes.TC31_oneWayInternationalEconomy_JED_DXB"/>
 						<class name="flynas.web.production.routes.TC32_oneWayInternationalEconomy_RUH_DXB"/>
 						<class name="flynas.web.production.routes.TC33_oneWayInternationalEconomy_RUH_AUH"/>

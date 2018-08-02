@@ -44,7 +44,7 @@ public class TC62_roundTripDomesticEconomyAddExtra_RUH_AHB extends BookingPageFl
 			//Select_A_Meal();
 			Select_lounge();
 			inputExtras("12");
-			
+			chooseInsurance("Add");
 			selectallSeats(seatSelect,"2",triptype);
 			payment(paymentType, "");
 			String strpnr = getReferenceNumber();

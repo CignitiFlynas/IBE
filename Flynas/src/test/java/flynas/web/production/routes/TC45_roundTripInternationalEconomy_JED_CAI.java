@@ -37,9 +37,10 @@ public class TC45_roundTripInternationalEconomy_JED_CAI extends BookingPageFlow{
 				String password =Credentials[1];					
 				
 			BookingPage.clickLogin();			
-				login(username,password);
+			login(username,password);
 			inputBookingDetails(triptype,origin, dest, deptDate , "", "", retrnDate,adult, child, infant,"","","");
 			selectClass(bookingClass, bundle);
+			System.out.println(bundle);
 			clickContinueBtn();
 			upSellPopUpAction("Continue");
 			continueOnPassengerDetails();

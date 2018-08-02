@@ -51,6 +51,7 @@ public class TC04_b_RtIntlOneAdultCheckinfail extends BookingPageFlow{
 			continueOnPassengerDetails();
 			
 			Baggage_Extra(tripType);
+			clickContinueBtn();
 			chooseInsurance("Add");
 			//clickContinueBtn();
 			selectSeat(SelectSeat, bookingtype);

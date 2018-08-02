@@ -39,6 +39,7 @@ public class TC23_oneWayDomesticOneAdultCheckInAR extends BookingPageFlow{
 			String lastname[]=inputPassengerDetails_Arabic(FlightType, totalpass, nationality, Doctypr,docNumber,"", Mobile, email, "", "", "");
 			Baggage_Extra(tripType);
 			clickContinueBtn();
+			chooseInsurance("Add");
 			selectSeat(SelectSeat, bookingtype);
 			payment(paymenttype, "");
 			String strPNR = getReferenceNumber();

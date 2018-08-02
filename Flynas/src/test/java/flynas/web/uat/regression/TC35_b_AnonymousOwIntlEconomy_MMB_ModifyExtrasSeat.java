@@ -34,6 +34,7 @@ public class TC35_b_AnonymousOwIntlEconomy_MMB_ModifyExtrasSeat extends BookingP
 					inputBookingDetails(strTripType, strOrigin, strDestination, deptdate,origin2,departure2, rtrndate,
 							strAdultCount, strChildCount, strInfantCount, strPromo,Currency,strPaymentType);
 					selectClass(strBookingClass, bundle);
+					System.out.println(bundle);
 					clickContinueBtn();
 					upSellPopUpAction("Continue");
 					String LastName[] = inputPassengerDetails(strFlightType, strTotalPessenger, strNationality, strDocumentType, 

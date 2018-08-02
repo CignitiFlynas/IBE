@@ -12,6 +12,7 @@ import com.ctaf.support.HtmlReportSupport;
 import com.ctaf.utilities.Reporter;
 
 import flynas.web.testObjects.BookingPageLocators;
+import flynas.web.workflows.BookingPage;
 import flynas.web.workflows.BookingPageFlow;
 
 public class TC03_b_oneWayIntlChangeDate extends BookingPageFlow {
@@ -34,8 +35,7 @@ public class TC03_b_oneWayIntlChangeDate extends BookingPageFlow {
 					String	deptdate = pickDate(strDepatureDate);
 					String	retrndate = pickDate(strReturnDate);
 					
-					click(BookingPageLocators.login_lnk, "Login");
-					switchtoChildWindow();
+					BookingPage.clickLogin();
 					String[] Credentials = pickCredentials("UserCredentials");
 					String username =Credentials[0];
 					String password =Credentials[1];	

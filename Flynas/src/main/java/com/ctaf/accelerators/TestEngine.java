@@ -164,9 +164,9 @@ public class TestEngine extends HtmlReportSupport {
 				 }
 				 else
 				 {
-//					 url = (configProps.getProperty("URL_PRODUCTION"));
-//					 mmburl = (configProps.getProperty("URL_PROD_MMB"));
-//					 loginurl = (configProps.getProperty("URL_PROD_Login"));
+					/* url = (configProps.getProperty("URL_PRODUCTION"));
+					 mmburl = (configProps.getProperty("URL_PROD_MMB"));
+					 loginurl = (configProps.getProperty("URL_PROD_Login"));*/
 					 
 //		********* Comment the above lines and uncomment below lines while running scripts individually to test on UAT
 					 
