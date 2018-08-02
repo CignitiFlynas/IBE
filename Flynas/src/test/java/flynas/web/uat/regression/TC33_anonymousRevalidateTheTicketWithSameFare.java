@@ -29,6 +29,7 @@ ExcelReader xls = new ExcelReader(configProps.getProperty("TestDataIBEUAT"),"FL_
 					inputBookingDetails(strTripType, strOrigin, strDestination, deptdate,origin2, departure2,strReturnDate,
 							strAdultCount, strChildCount, strInfantCount, strPromo,Currency,strPaymentType);
 					selectClass(strBookingClass, bundle);
+					
 					clickContinueBtn();
 					upSellPopUpAction("Continue");
 					String strLastName[] = inputPassengerDetails(strFlightType, strTotalPessenger, strNationality, strDocumentType, 

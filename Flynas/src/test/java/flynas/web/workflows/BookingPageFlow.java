@@ -1396,6 +1396,7 @@ public class BookingPageFlow<RenderedWebElement> extends BookingPageLocators{
 	}
 	
 	public String getReferenceNumber() throws Throwable{
+		waitforElement(BookingPageLocators.body);
 		waitUtilElementhasAttribute(BookingPageLocators.body);
 		waitForVisibilityOfElement(BookingPageLocators.summaryRefNumber, "Reference Number");
 		//waitforElement(BookingPageLocators.summaryRefNumber);
@@ -1487,6 +1488,7 @@ public class BookingPageFlow<RenderedWebElement> extends BookingPageLocators{
 		searchFlight(referenceNum, email, mobile, lastName);
 		Thread.sleep(10000);
 		//((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", driver.findElement(BookingPageLocators.btnchngFlight));
+		waitforElement(BookingPageLocators.btnchngFlight);
 		waitForVisibilityOfElement(BookingPageLocators.btnchngFlight, "Change Flight");
 		click(BookingPageLocators.btnchngFlight, "Change Flight");
 		waitforElement(BookingPageLocators.btnpopupchngFlight);
@@ -3912,7 +3914,7 @@ public class BookingPageFlow<RenderedWebElement> extends BookingPageLocators{
 	public void clickContinueBtn() throws Throwable{
 		waitUtilElementhasAttribute(BookingPageLocators.body);	
 		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", driver.findElement(BookingPageLocators.continueBtn));
-		Thread.sleep(3000);
+		Thread.sleep(5000);
 		waitforElement(BookingPageLocators.continueBtn);
 		waitForVisibilityOfElement(BookingPageLocators.continueBtn, "Continue");
 		click(BookingPageLocators.continueBtn, "Continue");
@@ -4003,6 +4005,7 @@ public class BookingPageFlow<RenderedWebElement> extends BookingPageLocators{
 	
 	public static void clickModifySeats() throws Throwable{	
 		waitUtilElementhasAttribute(BookingPageLocators.body);
+		waitforElement(BookingPageLocators.modifySeat);
 		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", driver.findElement(BookingPageLocators.modifySeat));
 		Thread.sleep(2000);
 		click(BookingPageLocators.modifySeat, "Seat Selection");
@@ -4063,7 +4066,7 @@ public class BookingPageFlow<RenderedWebElement> extends BookingPageLocators{
 		
 		public void continueOnPassengerDetails() throws Throwable{
 			waitforElement(BookingPageLocators.passengerDetailsTittle);
-			waitForVisibilityOfElement(BookingPageLocators.passengerDetailsTittle, "Booking page locators");
+			//waitForVisibilityOfElement(BookingPageLocators.passengerDetailsTittle, "Booking page locators");
 			clickContinueBtn();
 			Thread.sleep(5000);
 			if(isElementDisplayedTemp(BookingPageLocators.okBtn)==true)
@@ -4126,11 +4129,12 @@ public class BookingPageFlow<RenderedWebElement> extends BookingPageLocators{
 
      public void chooseInsurance(String choice) throws Throwable{
 
-            Thread.sleep(5000);
+            Thread.sleep(7000);
 
             if(isElementDisplayedTemp(BookingPageLocators.Add)==true)
 
             {      if(choice.equalsIgnoreCase("Add")){
+            		waitForVisibilityOfElement(BookingPageLocators.Add, "Travel insurance selected");
             	 	click(BookingPageLocators.Add, "Travel insurance selected");
             	 	Thread.sleep(7000);
             	 	waitforElement(BookingPageLocators.insuranceFeeText);

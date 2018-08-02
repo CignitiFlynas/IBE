@@ -63,7 +63,8 @@ public class TC56_RTDomBothLegMMBChangedateSeatsExtrasBaggageLounge extends Book
 			modifyExtras();								// Adding Extras 
 			Baggage_Extra(tripType);					// Adding Baggage
 			Select_lounge();							// Selecting Business lounge
-			clickContinueBtn();						
+			clickContinueBtn();	
+			chooseInsurance("Add");
 			payonMMB(paymenttype);						// Payment on MMB
 			validate_ticketStatus(strPNR);				// Verifying booking status
 			

@@ -42,6 +42,7 @@ public class TC08_oneWayDomesticEconomy_RUH_URY extends BookingPageFlow{
 				login(username,password);
 			inputBookingDetails(triptype,origin, dest, deptDate , "", "", rtnDate,adult, child, infant,"","","");
 			selectClass(bookingClass, bundle);
+			System.out.println(bundle);
 			clickContinueBtn();
 			upSellPopUpAction("Continue");
 			continueOnPassengerDetails();

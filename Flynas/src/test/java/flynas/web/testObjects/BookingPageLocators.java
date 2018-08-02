@@ -15,7 +15,7 @@ public class BookingPageLocators extends ActionEngine{
 	public static By closepopup = By.xpath("//button[@type='submit']");
 	public static By naSmileTaost = By.xpath("//iframe[@id='yief130002']");
 	public static By closeTst= By.xpath("//*[@id='yie-close-button-f2ccb518-bf80-582c-b7cc-23a3ba0d9675']");
-	public static By closeTstnew= By.xpath("//span[@id='yie-close-button-11a7723b-2851-5ac2-b8b6-15cc3b61e1bf']");	
+	public static By closeTstnew= By.xpath("//span[@id='yie-close-button-eb5f1bbf-334e-5f81-8f3e-4fc8a5f3a2f5']");
 	public static By closetoast = By.xpath("//span[@id='close']");
 	public static By alertText = By.xpath("//div[@class='modal-body']/div");
 	public static By overlay = By.xpath("//class[contains(text(),'overlay')]");

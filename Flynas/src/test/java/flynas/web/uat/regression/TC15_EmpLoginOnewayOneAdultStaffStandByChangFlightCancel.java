@@ -53,12 +53,13 @@ public class TC15_EmpLoginOnewayOneAdultStaffStandByChangFlightCancel extends Bo
 			//Clicking continue button on Baggage details page
 			coninueOnBaggage();
 			//Clicking continue button on Seat selection page
-			continueOnSeatSelection();
+			//continueOnSeatSelection();
 			
 			payment(paymentType, "");
 			String strpnr = getReferenceNumber();
 			String strPNR = strpnr.trim();
 			System.out.println(strPNR);
+			closetoast();
 			
 			String	newdate  = nextDateof(depdat);
 			String strPNRChangeDate = changeDate(strPNR, username, mobilenum, lastname, newdate, "","",BookingClass,0);

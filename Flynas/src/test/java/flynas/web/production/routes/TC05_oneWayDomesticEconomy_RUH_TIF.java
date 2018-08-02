@@ -38,8 +38,8 @@ public class TC05_oneWayDomesticEconomy_RUH_TIF  extends BookingPageFlow{
 				String username =Credentials[0];
 				String password =Credentials[1];					
 				
-				BookingPage.clickLogin();			
-				login(username,password);
+			BookingPage.clickLogin();			
+			login(username,password);
 			inputBookingDetails(triptype,origin, dest, deptDate , "", "", retrnDate,adult, child, infant,"","","");
 			selectClass(bookingClass, bundle);
 			clickContinueBtn();
