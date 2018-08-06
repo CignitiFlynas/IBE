@@ -38,6 +38,7 @@ public class TC14_verifingSerCharChilDdisRTMulFlexDOMAR extends BookingPageFlow{
 			clickContinueBtn();
 			upSellPopUpAction("Continue");
 			inputPassengerDetails_Arabic(flightType, totalpass, nationality, Doctype, docNum, naSmile, mobilenum, username, "", "", "");
+			//String[] FirstLastName=	inputPassengerDetails_Arabic(flightType, totalpass, nationality, rtrnDate, docNum, naSmile, mobilenum, username, "", "", "");
 			coninueOnBaggage();
 			continueOnSeatSelection();
 			payment_Production_Arabic(paymentType);
