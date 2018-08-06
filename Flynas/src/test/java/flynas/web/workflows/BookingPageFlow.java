@@ -1127,13 +1127,14 @@ public class BookingPageFlow<RenderedWebElement> extends BookingPageLocators{
 				for(int i=0;i<paymentss.size();i++){
 					if(paymentss.get(i).getText().contains("Credit/Debit Card")
 					||paymentss.get(i).getText().contains("Kredi Kartı")
-					||paymentss.get(i).getText().contains("البطاقات الإئتمانية")){
+					||paymentss.get(i).getText().contains("البطاقات الإئتمانية")
+					||paymentss.get(i).getText().contains("بطاقة ائتمانية/صراف")){
 						paymentss.get(i).click();
 						waitUtilElementhasAttribute(BookingPageLocators.body);
 						break;
 					}
 				}
-				//waitforElement(BookingPageLocators.cardNumber);
+				waitforElement(BookingPageLocators.cardNumber);
 				waitForVisibilityOfElement(BookingPageLocators.cardNumber, "CardNumber");
 				type(BookingPageLocators.cardNumber,configProps.getProperty("cardNumber").trim(),"Card Number");
 				type(BookingPageLocators.cardName,configProps.getProperty("cardHolderName"),"Card Holder Name");
@@ -3011,6 +3012,8 @@ public class BookingPageFlow<RenderedWebElement> extends BookingPageLocators{
 						DOB = getyakeenDOB("Adult","PsprtDOB");
 					else if (travelDoc.equalsIgnoreCase("Iqama"))
 						DOB = getyakeenDOB("Adult","IqamaDOB");
+					else if (travelDoc.equalsIgnoreCase("الهوية الوطنية"))
+						DOB = getyakeenDOB("Adult","NidDOB");
 					}
 				else if(getText(By.xpath(BookingPageLocators.passType.replace("#", String.valueOf(count))), "Passenger Title").contains("طفل")){
 					//fetching Child passenger's DOB from Yakeen data sheet based on the document type
@@ -3020,6 +3023,8 @@ public class BookingPageFlow<RenderedWebElement> extends BookingPageLocators{
 						DOB = getyakeenDOB("Child","PsprtDOB");
 					else if (travelDoc.equalsIgnoreCase("Iqama"))
 						DOB = getyakeenDOB("Child","IqamaDOB");
+					else if (travelDoc.equalsIgnoreCase("الهوية الوطنية"))
+						DOB = getyakeenDOB("Child","NidDOB");
 					}
 				else if(getText(By.xpath(BookingPageLocators.passType.replace("#", String.valueOf(count))), "Passenger Title").contains("رضيع")){
 					//fetching infant's  DOB from Yakeen data sheet based on the document type
@@ -3029,6 +3034,8 @@ public class BookingPageFlow<RenderedWebElement> extends BookingPageLocators{
 						DOB = getyakeenDOB("infant","PsprtDOB");
 					else if (travelDoc.equalsIgnoreCase("Iqama"))
 						DOB = getyakeenDOB("infant","IqamaDOB");
+					else if (travelDoc.equalsIgnoreCase("الهوية الوطنية"))
+						DOB = getyakeenDOB("infant","NidDOB");
 				}	
 				
 				System.out.println(DOB[0]+"-"+DOB[1]+"-"+DOB[2]);
@@ -3062,7 +3069,12 @@ public class BookingPageFlow<RenderedWebElement> extends BookingPageLocators{
 				
 				//Selecting travel document Type and entering document number				
 				click(By.xpath(BookingPageLocators.travelDoc.replace("#", String.valueOf(count))),"Travel Document");
-				click(By.xpath("//div[text()='"+travelDoc+"']"), "Travel Document");
+				System.out.println(travelDoc);
+			
+				
+				//waitforElement(By.xpath("//div[text()='"+travelDoc+"']"));
+				//waitForElementPresent(By.xpath("//div[text()='"+travelDoc+"']"), "Travel Document");
+				//click(By.xpath("//div[text()='"+travelDoc+"']"), "Travel Document");
 				WebElement psngrDtlsRow = driver.findElement(By.xpath(BookingPageLocators.inputDoc.replace("#", String.valueOf(count))));
 				WebElement Documentnmbr = psngrDtlsRow.findElement(By.name("idnumber"));
 				Documentnmbr.clear();
@@ -3074,6 +3086,8 @@ public class BookingPageFlow<RenderedWebElement> extends BookingPageLocators{
 						Documentnmbr.sendKeys( getyakeenDOC("Adult","Passport"));
 					else if (travelDoc.equalsIgnoreCase("Iqama"))
 						Documentnmbr.sendKeys( getyakeenDOC("Adult","Iqama"));
+					else if (travelDoc.equalsIgnoreCase("الهوية الوطنية"))
+						Documentnmbr.sendKeys( getyakeenDOC("Adult","National ID card"));
 				}
 				else if(getText(By.xpath(BookingPageLocators.passType.replace("#", String.valueOf(count))), "Passenger Title").contains("طفل")){
 					if (travelDoc.equalsIgnoreCase(" الهوية الوطنية "))
@@ -3082,6 +3096,8 @@ public class BookingPageFlow<RenderedWebElement> extends BookingPageLocators{
 						Documentnmbr.sendKeys( getyakeenDOC("Child","Passport"));
 					else if (travelDoc.equalsIgnoreCase("Iqama"))
 						Documentnmbr.sendKeys( getyakeenDOC("Child","Iqama"));
+					else if (travelDoc.equalsIgnoreCase("الهوية الوطنية"))
+						Documentnmbr.sendKeys( getyakeenDOC("Child","National ID card"));
 				}
 				else if(getText(By.xpath(BookingPageLocators.passType.replace("#", String.valueOf(count))), "Passenger Title").contains("رضيع")){					
 					if (travelDoc.equalsIgnoreCase(" الهوية الوطنية "))
@@ -3089,11 +3105,13 @@ public class BookingPageFlow<RenderedWebElement> extends BookingPageLocators{
 					else if (travelDoc.equalsIgnoreCase("جواز سفر"))
 						Documentnmbr.sendKeys( getyakeenDOC("infant","Passport"));
 					else if (travelDoc.equalsIgnoreCase("Iqama"))
-						Documentnmbr.sendKeys( getyakeenDOC("infant","Iqama"));			
+						Documentnmbr.sendKeys( getyakeenDOC("infant","Iqama"));		
+					else if (travelDoc.equalsIgnoreCase("الهوية الوطنية"))
+						Documentnmbr.sendKeys( getyakeenDOC("infant","National ID card"));
 				}
 				
 				//Entering Expire date  if travel document is a passport
-				if (travelDoc.equalsIgnoreCase("جواز سفر")||(travelDoc.equalsIgnoreCase(" الهوية الوطنية ") && flightType.contains("International")))
+				if (travelDoc.equalsIgnoreCase("جواز سفر")||(travelDoc.equalsIgnoreCase(" الهوية الوطنية ") || (travelDoc.equalsIgnoreCase("الهوية الوطنية") && flightType.contains("International"))))
 				{	
 			
 					click(By.xpath(BookingPageLocators.ppExpDD.replace("#", String.valueOf(count))), "DD");
@@ -3914,7 +3932,7 @@ public class BookingPageFlow<RenderedWebElement> extends BookingPageLocators{
 	public void clickContinueBtn() throws Throwable{
 		waitUtilElementhasAttribute(BookingPageLocators.body);	
 		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", driver.findElement(BookingPageLocators.continueBtn));
-		Thread.sleep(5000);
+		Thread.sleep(7000);
 		waitforElement(BookingPageLocators.continueBtn);
 		waitForVisibilityOfElement(BookingPageLocators.continueBtn, "Continue");
 		click(BookingPageLocators.continueBtn, "Continue");
