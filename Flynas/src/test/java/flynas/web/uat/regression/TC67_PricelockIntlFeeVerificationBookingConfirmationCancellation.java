@@ -65,7 +65,8 @@ public class TC67_PricelockIntlFeeVerificationBookingConfirmationCancellation ex
 			verifyPLCK(FlightType);
 			clickContinueBtn();
 			enterCardDetails(cardType);
-			submit3Dsecurepin();
+			//submit3Dsecurepin();
+			handleSecurePage();
 			strPNR = getReferenceNumber();
 			System.out.println(strPNR);
 			validate_ticketStatus(strPNR);

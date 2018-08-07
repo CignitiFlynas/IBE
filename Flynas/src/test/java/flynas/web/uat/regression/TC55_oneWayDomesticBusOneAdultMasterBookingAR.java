@@ -40,12 +40,15 @@ public class TC55_oneWayDomesticBusOneAdultMasterBookingAR extends BookingPageFl
 			continueOnPassengerDetails();
 			coninueOnBaggage();
 			continueOnSeatSelection();
-			selectPaymentType(paymenttype);
+			payment(paymenttype, "");
+			String strPNR = getReferenceNumber();
+			System.out.println(strPNR);
+			/*selectPaymentType(paymenttype);
 			enterCardDetails("Master");
 			waitforElement(BookingPageLocators.summaryRefNumber_AR_uat);
 			String strpnr = getText(BookingPageLocators.summaryRefNumber_AR_uat,"PNR");
 			String strPNR = strpnr.trim();
-			System.out.println(strPNR);
+			System.out.println(strPNR);*/
 			validate_ticketStatus_AR(strPNR);
 		
 			updateStatus("IBE_UAT_Reg","TC55_oneWayDomesticBusOneAdultMasterBookingAR","Pass");
