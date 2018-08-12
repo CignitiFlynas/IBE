@@ -25,7 +25,7 @@ public class MemberRegistrationPage<RenderedWebElement> extends BookingPageLocat
 			email = userID;
 		}else{		
 			username = randomString(8);
-			email = username+"@cigniti.com";
+			email = username+"@yopmail.com";
 		}
 		final String[] Doctype = {"Passport", "National ID Card", "Iqama"};
 		Random random = new Random();

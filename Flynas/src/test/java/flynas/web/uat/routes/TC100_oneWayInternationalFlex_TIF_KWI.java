@@ -36,7 +36,6 @@ public class TC100_oneWayInternationalFlex_TIF_KWI extends BookingPageFlow {
 			String password =Credentials[1];			
 			String deptDate = pickDate(depDate);
 			BookingPage.clickLogin();
-			BookingPage.clickLogin();
 
 			login(username,password);
 			inputBookingDetails(triptype,origin, dest, deptDate , "", "", rtnDate,adult, child, infant,"","","");

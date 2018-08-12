@@ -28,7 +28,9 @@ public class TC124_roundTripDomesticFlexAddExtra_RUH_AHB extends BookingPageFlow
 			TestEngine.testDescription.put(HtmlReportSupport.tc_name, Description);
 			String[] Credentials = pickCredentials("UserCredentials");
 			String username =Credentials[0];
-			String password =Credentials[1];			
+			String password =Credentials[1];	
+			String firstname=Credentials[2];
+			String lastname=Credentials[3];
 			String deptDate = pickDate(depDate);
 			String retrnDate = pickDate(rtnDate);			
 			inputBookingDetails(triptype,origin, dest, deptDate , "RUH", "AMM", retrnDate,adult, child, infant,"","","");
@@ -36,7 +38,7 @@ public class TC124_roundTripDomesticFlexAddExtra_RUH_AHB extends BookingPageFlow
 			clickContinueBtn();
 			upSellPopUpAction("Continue");
 			inputPassengerDetails(flightType, totalPassenger, nationality, documentType,
-					docNumber, nasmiles, mobilenum, username,"","","");
+					docNumber, nasmiles, mobilenum, username,firstname,lastname,"");
 			Baggage_Extra(triptype);
 			addSportsEqpmnt(triptype);
 			Select_A_Meal();
