@@ -32,7 +32,8 @@ public class TC36_oneWayInternationalEconomy_RUH_KWI extends BookingPageFlow{
 			TestEngine.testDescription.put(HtmlReportSupport.tc_name, Description);
 			String[] Credentials = pickCredentials("UserCredentials");
 			String username =Credentials[0];
-			String password =Credentials[1];			
+			String password =Credentials[1];
+			String lastname=Credentials[3];
 			String deptDate = pickDate(depDate);
 			String retrnDate = pickDate(rtnDate);
 			BookingPage.clickLogin();
@@ -60,7 +61,7 @@ public class TC36_oneWayInternationalEconomy_RUH_KWI extends BookingPageFlow{
 			validate_ticketStatus(strPNR);
 			
 			String newdate = pickDate(newDate);
-			String strPNRChangeDate = changeDate(strPNR, username, mobilenum, "", newdate, seatSelect,"",bookingClass,0);
+			String strPNRChangeDate = changeDate(strPNR, username, mobilenum, lastname, newdate, seatSelect,"",bookingClass,0);
 			
 			waitUtilElementhasAttribute(BookingPageLocators.body);
 			if(strPNRChangeDate.trim().equalsIgnoreCase(strPNR)){

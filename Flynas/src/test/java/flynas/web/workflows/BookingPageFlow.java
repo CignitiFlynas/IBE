@@ -1629,7 +1629,7 @@ public class BookingPageFlow<RenderedWebElement> extends BookingPageLocators{
 			type(BookingPageLocators.emailAdd, "flynasqa@gmail.com", "EmailAddress");
 		}
 		waitForVisibilityOfElement(BookingPageLocators.continueBtn, "Continue Button");
-		//waitforElement(BookingPageLocators.continueBtn);
+		waitforElement(BookingPageLocators.continueBtn);
 		clickContinueBtn();
 		coninueOnBaggage();
 		waitforElement(BookingPageLocators.selectseattittle);
@@ -4293,6 +4293,7 @@ public class BookingPageFlow<RenderedWebElement> extends BookingPageLocators{
 		
 		public void isFileDownloaded(String fileName) throws Throwable {
 			File dir = new File(System.getenv("USERPROFILE")+"\\Downloads");
+			System.out.println(System.getenv("USERPROFILE")+"\\Downloads");
 			File[] dirContents = dir.listFiles();
 			flag = false;		
 			for (int i = 0; i < dirContents.length; i++) {

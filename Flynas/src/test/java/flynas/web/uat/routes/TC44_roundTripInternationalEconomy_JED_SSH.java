@@ -32,7 +32,8 @@ public class TC44_roundTripInternationalEconomy_JED_SSH extends  BookingPageFlow
 			TestEngine.testDescription.put(HtmlReportSupport.tc_name, Description);
 			String[] Credentials = pickCredentials("UserCredentials");
 			String username =Credentials[0];
-			String password =Credentials[1];			
+			String password =Credentials[1];	
+			String lastname=Credentials[3];
 			String deptDate = pickDate(depDate);
 			String retrnDate = pickDate(rtnDate);
 			BookingPage.clickLogin();
@@ -52,7 +53,7 @@ public class TC44_roundTripInternationalEconomy_JED_SSH extends  BookingPageFlow
 			String strPNR = strpnr.trim();
 			System.out.println(strPNR);
 			validate_ticketStatus(strPNR);
-			searchFlight(strPNR, username, "", "");
+			searchFlight(strPNR, username, "", lastname);
 			cancelFlight("All");
 		
 			Reporter.SuccessReport("TC44_roundTripInternationalEconomy_JED_SSH", "Pass");
