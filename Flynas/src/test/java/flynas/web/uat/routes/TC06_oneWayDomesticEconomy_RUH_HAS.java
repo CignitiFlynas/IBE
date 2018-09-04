@@ -58,7 +58,8 @@ public class TC06_oneWayDomesticEconomy_RUH_HAS extends BookingPageFlow{
 			String strPNR = strpnr.trim();
 			System.out.println(strPNR);
 			validate_ticketStatus(strPNR);
-			searchFlight(strPNR, username, "",lastname);
+			//searchFlight(strPNR, username, "",lastname);
+			searchFlightCheckin(strPNR, username, "",lastname);
 			performCheckin(seatSelect, paymentType, "");
 			validateCheckin();
 			

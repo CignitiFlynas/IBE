@@ -39,9 +39,10 @@ public class TC46_roundTripInternationalEconomy_RUH_CAI extends BookingPageFlow{
 			BookingPage.clickLogin();			
 				login(username,password);
 			inputBookingDetails(triptype,origin, dest, deptDate , "", "", retrnDate,adult, child, infant,"","","");
-			selectClass(bookingClass, bundle);
+			//selectClass(bookingClass, bundle);
+			selectClassWithoutBundle(bookingClass, bundle);
 			clickContinueBtn();
-			upSellPopUpAction("Continue");
+			//upSellPopUpAction("Continue");
 			continueOnPassengerDetails();
 			coninueOnBaggage();
 			continueOnSeatSelection();

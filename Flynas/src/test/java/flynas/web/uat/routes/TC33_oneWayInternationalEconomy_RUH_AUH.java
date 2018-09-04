@@ -38,9 +38,10 @@ public class TC33_oneWayInternationalEconomy_RUH_AUH extends BookingPageFlow{
 			BookingPage.clickLogin();
 			login(username,password);
 			inputBookingDetails(triptype,origin, dest, deptDate , "", "", retrnDate,adult, child, infant,"","","");
-			selectClass(bookingClass, bundle); 
-			clickContinueBtn();
-			upSellPopUpAction("Continue");
+			//selectClass(bookingClass, bundle); 
+			//clickContinueBtn();
+			//upSellPopUpAction("Continue");
+			selectClassCodeShare(bookingClass, bundle);
 			continueOnPassengerDetails();
 			waitforElement(BookingPageLocators.baggagetittle);
 			waitUtilElementhasAttribute(BookingPageLocators.body);

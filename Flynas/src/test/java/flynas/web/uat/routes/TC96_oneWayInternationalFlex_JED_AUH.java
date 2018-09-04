@@ -39,11 +39,11 @@ public class TC96_oneWayInternationalFlex_JED_AUH extends BookingPageFlow {
 
 			login(username,password);
 			inputBookingDetails(triptype,origin, dest, deptDate , "", "", retrnDate,adult, child, infant,"","","");
-			selectClass(bookingClass, bundle); 
-			clickContinueBtn();
+			selectClassCodeShare(bookingClass, bundle);
+			//clickContinueBtn();
 			//upSellPopUpAction("Continue");
 			continueOnPassengerDetails();
-			waitforElement(BookingPageLocators.baggagetittle);
+			/*waitforElement(BookingPageLocators.baggagetittle);
 			waitUtilElementhasAttribute(BookingPageLocators.body);
 			clickContinueBtn();
 			chooseInsurance("Add");
@@ -52,7 +52,7 @@ public class TC96_oneWayInternationalFlex_JED_AUH extends BookingPageFlow {
 			clickContinueBtn();
 			if(isElementDisplayedTemp(BookingPageLocators.ok)){
 				click(BookingPageLocators.ok, "OK");
-			}
+			}*/
 			payment(paymentType, "");
 			String strpnr = getReferenceNumber();
 			String strPNR = strpnr.trim();

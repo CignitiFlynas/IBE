@@ -46,6 +46,7 @@ public class TC37_EmpLoginStaffConfirmedModifyExtras extends BookingPageFlow{
 			continueOnSeatSelection();
 			payment(paymentType, "");
 			String strpnr = getReferenceNumber().trim();
+			validate_ticketStatus(strpnr);
 			searchFlight(strpnr, username, "",lastname);
 			modifyExtras();
 			Baggage_Extra(triptype);

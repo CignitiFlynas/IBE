@@ -43,7 +43,7 @@ public class TC158_oneWayInternationalBusiness_JED_AUH extends BookingPageFlow {
 			clickContinueBtn();
 			//upSellPopUpAction("Continue");
 			continueOnPassengerDetails();
-			Baggage_Extra(triptype);
+			/*Baggage_Extra(triptype);
 			clickContinueBtn();
 			chooseInsurance("Add");
 			waitforElement(BookingPageLocators.selectseattittle);
@@ -51,7 +51,7 @@ public class TC158_oneWayInternationalBusiness_JED_AUH extends BookingPageFlow {
 			clickContinueBtn();
 			if(isElementDisplayedTemp(BookingPageLocators.ok)){
 				click(BookingPageLocators.ok, "OK");
-			}
+			}*/
 			payment(paymentType, "");
 			String strpnr = getReferenceNumber();
 			String strPNR = strpnr.trim();

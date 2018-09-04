@@ -35,14 +35,11 @@ public class TC90_oneWayDomesticFlex_AHB_WAE extends BookingPageFlow{
 			String password =Credentials[1];	
 			String lastname=Credentials[3];
 			String deptDate = pickDate(depDate);
-			String retrnDate = pickDate(rtnDate);/*click(BookingPageLocators.login_lnk, "Login");
-		
-			Thread.sleep(3000);
-			login(username,password);*/
-			
+			String retrnDate = pickDate(rtnDate);
 			BookingPage.clickLogin();
-			
 			login(username,password);
+			
+			
 			inputBookingDetails(triptype,origin, dest, deptDate , "", "", retrnDate,adult, child, infant,"","","");
 			selectClass(bookingClass, bundle); 
 			clickContinueBtn();
@@ -90,7 +87,7 @@ public class TC90_oneWayDomesticFlex_AHB_WAE extends BookingPageFlow{
 	    		xls.getCellValue("Origin", "Value28"),
 	    		xls.getCellValue("Destination", "Value28"),
 	    		xls.getCellValue("Trip Type", "Value"),
-	    		xls.getCellValue("Adults Count", "Value2"),
+	    		xls.getCellValue("Adults Count", "Value"),
 	    		xls.getCellValue("Child Count", "Value"),
 	    		xls.getCellValue("Infant Count", "Value"),
 	    		xls.getCellValue("Select Seat", "Value"),

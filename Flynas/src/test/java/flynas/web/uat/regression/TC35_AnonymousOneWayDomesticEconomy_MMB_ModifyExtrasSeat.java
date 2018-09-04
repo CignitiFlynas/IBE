@@ -41,6 +41,7 @@ public class TC35_AnonymousOneWayDomesticEconomy_MMB_ModifyExtrasSeat extends Bo
 					continueOnSeatSelection();
 					payment(strPaymentType, "");
 					String strpnr = getReferenceNumber().trim();
+					validate_ticketStatus(strpnr);
 					searchFlight(strpnr, strEmail, "",LastName[1]);
 					modifyExtras();
 					Baggage_Extra(strTripType);
