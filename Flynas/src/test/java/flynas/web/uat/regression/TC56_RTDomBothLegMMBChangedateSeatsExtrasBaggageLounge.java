@@ -32,6 +32,9 @@ public class TC56_RTDomBothLegMMBChangedateSeatsExtrasBaggageLounge extends Book
 			String	retrndate = pickDate(retdate);
 			String	changeDeptDt = nextDateof(deptdate);
 			String	changertrnDt = nextDateof(retrndate);
+			System.out.println(changeDeptDt);
+			System.out.println(changertrnDt);
+			
 			
 			//Pick credentials and login
 			String[] Credentials = pickCredentials("UserCredentials");

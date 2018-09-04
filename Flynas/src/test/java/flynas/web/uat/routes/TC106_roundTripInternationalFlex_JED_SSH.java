@@ -40,12 +40,13 @@ public class TC106_roundTripInternationalFlex_JED_SSH extends  BookingPageFlow{
 			inputBookingDetails(triptype,origin, dest, deptDate , "", "", retrnDate,adult, child, infant,"","","");
 			selectClass(bookingClass, bundle); 
 			clickContinueBtn();
-			//upSellPopUpAction("Continue");
+			upSellPopUpAction("Continue");
 			continueOnPassengerDetails();
-			chooseInsurance("Add");
+			//chooseInsurance("Add");
 			waitforElement(BookingPageLocators.baggagetittle);
 			waitUtilElementhasAttribute(BookingPageLocators.body);
 			clickContinueBtn();
+			chooseInsurance("Add");
 			selectSeat(seatSelect, "");
 			payment(paymentType, "");
 			String strpnr = getReferenceNumber();

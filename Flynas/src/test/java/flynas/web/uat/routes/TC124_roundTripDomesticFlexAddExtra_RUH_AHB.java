@@ -32,7 +32,8 @@ public class TC124_roundTripDomesticFlexAddExtra_RUH_AHB extends BookingPageFlow
 			String firstname=Credentials[2];
 			String lastname=Credentials[3];
 			String deptDate = pickDate(depDate);
-			String retrnDate = pickDate(rtnDate);			
+			String retrnDate = pickDate(rtnDate);	
+			
 			inputBookingDetails(triptype,origin, dest, deptDate , "RUH", "AMM", retrnDate,adult, child, infant,"","","");
 			selectClass(bookingClass, bundle); 
 			clickContinueBtn();
@@ -75,7 +76,7 @@ public class TC124_roundTripDomesticFlexAddExtra_RUH_AHB extends BookingPageFlow
 	    		xls.getCellValue("Destination", "Value62"),
 	    		xls.getCellValue("Trip Type", "Value2"),
 	    		xls.getCellValue("Adults Count", "Value"),
-	    		xls.getCellValue("Child Count", "Value2"),
+	    		xls.getCellValue("Child Count", "Value"),
 	    		xls.getCellValue("Infant Count", "Value"),
 	    		xls.getCellValue("Flight Type", "Value"),    		
 	    		xls.getCellValue("Booking Class", "Value"),

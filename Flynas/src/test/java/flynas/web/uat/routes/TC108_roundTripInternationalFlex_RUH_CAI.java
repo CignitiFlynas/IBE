@@ -40,9 +40,9 @@ public class TC108_roundTripInternationalFlex_RUH_CAI extends BookingPageFlow{
 
 			login(username,password);
 			inputBookingDetails(triptype,origin, dest, deptDate , "", "", retrnDate,adult, child, infant,"","","");
-			selectClass(bookingClass, bundle); 
+			selectClassWithoutBundle(bookingClass, bundle);
 			clickContinueBtn();
-			upSellPopUpAction("Continue");
+			//upSellPopUpAction("Continue");
 			continueOnPassengerDetails();
 			Baggage_Extra(triptype);
 			clickContinueBtn();

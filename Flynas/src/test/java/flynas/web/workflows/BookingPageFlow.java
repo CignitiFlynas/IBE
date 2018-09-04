@@ -284,6 +284,7 @@ public class BookingPageFlow<RenderedWebElement> extends BookingPageLocators{
 						if(bundle.equalsIgnoreCase("Light")){
 							List <WebElement> lightBtns = driver.findElements(By.xpath("//*[@class='table flight_table']/tbody["+i+"]/tr[2]/td/div/table/tbody[1]/tr/td[2]/div[2]/div[3]"));
 							lightBtns.get(j).click();
+						
 						}
 						else if(bundle.equalsIgnoreCase("Plus")){
 							//List <WebElement> PlusBtns = driver.findElements(By.xpath("//*[@class='table flight_table']/tbody["+i+"]/tr[2]/td/div/table/tbody[1]/tr/td[3]/div[2]/div[3]"));
@@ -342,6 +343,244 @@ public class BookingPageFlow<RenderedWebElement> extends BookingPageLocators{
 		return flag;
 	}
 	
+	//method for code share flights
+	
+	public void selectClassCodeShare(String bookingClass, String bundle) throws Throwable{
+		waitforElement(BookingPageLocators.selectflightsection);
+		//waitUtilElementhasAttribute(BookingPageLocators.body);
+		int count=0;
+		List<WebElement> flighttables = driver.findElements(By.xpath("//table[@class='table flight_table']"));
+		List<WebElement> current = driver.findElements(By.xpath("//li[@class='current']"));
+		int j = 1;
+		for(int i=0;i<flighttables.size();i++)
+			{
+				boolean flag=false;
+				//Below if condition will work only in round-trip journey. this is to change the return date if 
+				//there is any change in the onward journey date due to no flights.
+			
+				
+				//taking all flight rows into a list
+				
+				List<WebElement> Flights = flighttables.get(i).findElements(By.tagName("tbody"));
+				System.out.println("Flights :"+Flights.size());
+				//Below while loop executes to change the date of flight in case of no flights in current date selection	
+				while(Flights.size()<1 && j<7){						
+						current.get(i).findElement(By.xpath("following-sibling::li["+j+"]")).click();
+						Flights = flighttables.get(i).findElements(By.tagName("tbody"));
+						j++;
+					}
+				
+				//Below for loop iterates through each row of the flights table to checks for part-code share flights and
+				//select the class
+				for(int k=1;k<=Flights.size();k++)
+					{ 
+					
+						count=0;
+						List <WebElement> Flight_Rows = driver.findElements(By.xpath("//table[@class='table flight_table']/tbody["+k+"]/tr"));
+						System.out.println("Flight_Rows COUNT "+ Flight_Rows.size());
+						List<WebElement> Flights_td = Flight_Rows.get(i).findElements(By.tagName("td"));
+						System.out.println("COL COUNT "+ Flights_td.size());											
+						//if(stop.contains("1 Stop"))
+						//{
+							WebElement Flightnumber_span =Flights_td.get(3).findElement(By.xpath("div/div/span"));
+							String Flightnumber = Flightnumber_span.getText();
+							System.out.println(Flightnumber);
+							for(int l=0;l<Flightnumber.length();l++){
+							 char result = Flightnumber.charAt(l);
+							 	 if(Character.isDigit(result)) {
+								 count++;
+								 System.out.println("Count : "+count);
+							 	 }
+							 
+								 
+							
+						//	}
+						
+						if((count==8)||(count==4))
+						{
+							((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);",Flights.get(k-1));
+							if(bookingClass.equalsIgnoreCase("Economy")){
+//								if((Flights_td.get(4).findElement(By.tagName("div")).getText().equalsIgnoreCase("Sold out"))){
+//									System.out.println("Sold out");
+//								}
+								
+								List <WebElement> pricelables = Flights_td.get(4).findElements(By.xpath("div"));
+								String clsname =null;
+								if(pricelables.size()==1){
+									clsname = pricelables.get(0).getText();
+								}
+								else{
+									pricelables = Flights_td.get(4).findElements(By.xpath("button/div"));
+									clsname = pricelables.get(0).getText();
+								}
+								System.out.println("Class name : "+clsname);
+								if(clsname.equalsIgnoreCase("Sold out"))
+								{
+									System.out.println("Sold Out");
+									JavascriptExecutor jse = (JavascriptExecutor)driver;
+									jse.executeScript("window.scrollBy(0,50)", "");
+								}
+								else{
+									Flights_td.get(4).findElement(By.tagName("button")).click();
+									Thread.sleep(2000);
+									flag=true;
+									break;									
+								}
+							}
+							if(bookingClass.equalsIgnoreCase("Business")){
+								List <WebElement> pricelables = Flights_td.get(5).findElements(By.xpath("div"));
+								String clsname =null;
+								if(pricelables.size()==1){
+									clsname = pricelables.get(0).getText();
+								}
+								else{
+									pricelables = Flights_td.get(4).findElements(By.xpath("button/div"));
+									clsname = pricelables.get(0).getText();
+								}
+								System.out.println("Class name : "+clsname);
+								if(clsname.equalsIgnoreCase("Sold out"))
+								{
+									System.out.println("Sold Out");
+									JavascriptExecutor jse = (JavascriptExecutor)driver;
+									jse.executeScript("window.scrollBy(0,50)", "");
+								}else{
+									Flights_td.get(5).findElement(By.tagName("button")).click();
+									Thread.sleep(2000);
+									flag=true;
+									break;
+									
+								}
+							}
+						}
+					 }
+						break;						
+					}
+					
+				if(flag!=true)
+					{
+						Reporter.failureReport("Selecting class in a part code share flight", "Partcodeshare flightis not listed in the page");
+					}
+			}
+			
+			clickContinueBtn();
+			waitUtilElementhasAttribute(BookingPageLocators.body);		
+	}
+	
+	// method to select class without bundles
+	
+	public boolean selectClassWithoutBundle(String bookingClass, String bundle) throws Throwable{
+		boolean flag=false;
+		waitforElement(BookingPageLocators.selectflightsection);
+		List<WebElement> flighttables = driver.findElements(By.xpath("//table[contains(@class,'table flight_table')]"));
+		List<WebElement> current = driver.findElements(By.xpath("//li[@class='current']"));
+		for(int j=0;j<flighttables.size();j++)
+		{	
+			List<WebElement> Ecocols = flighttables.get(j).findElements(By.xpath("tbody/tr/td[5]"));
+			List<WebElement> Buscols = flighttables.get(j).findElements(By.xpath("tbody/tr/td[6]"));
+			
+			System.out.println("E"+Ecocols.size()+"B"+Buscols.size());
+		
+			int li=1;
+			for(int count = 0;count<10;count++)
+				{if(Ecocols.size()==0 || Buscols.size()==0 )
+					{
+						flighttables.get(j).findElement(By.xpath("preceding::a[1]")).click();
+						current.get(j).findElement(By.xpath("following-sibling::li["+li+"]")).click();
+						waitUtilElementhasAttribute(BookingPageLocators.body);
+						Ecocols = flighttables.get(j).findElements(By.xpath("tbody/tr/td[5]"));
+						Buscols = flighttables.get(j).findElements(By.xpath("tbody/tr/td[6]"));
+						li=li+1;					
+					}
+				else{
+					break;
+					}
+				}			
+		
+			boolean classfound = true;
+			if(bookingClass.equalsIgnoreCase("Economy"))
+			{
+				List<WebElement> ClassEco = flighttables.get(j).findElements(By.xpath("tbody/tr/td[5]"));
+				for(int i=1;i<=ClassEco.size();i++){			
+					List <WebElement> pricelables = ClassEco.get(i-1).findElements(By.xpath("div"));
+					String clsname =null;
+					if(pricelables.size()==1){
+						clsname = pricelables.get(0).getText();
+					}
+					else{
+						pricelables = ClassEco.get(i-1).findElements(By.xpath("button/div"));
+						clsname = pricelables.get(0).getText();
+					}
+					System.out.println("Class name : "+clsname);
+					if(clsname.equalsIgnoreCase("Sold out"))
+					{
+						System.out.println("Sold Out");
+						JavascriptExecutor jse = (JavascriptExecutor)driver;
+						jse.executeScript("window.scrollBy(0,50)", "");
+						classfound=false;
+					}
+					else{
+						ClassEco.get(i-1).click();
+						/*if(bundle.equalsIgnoreCase("Light")){
+							List <WebElement> lightBtns = driver.findElements(By.xpath("//*[@class='table flight_table']/tbody["+i+"]/tr[2]/td/div/table/tbody[1]/tr/td[2]/div[2]/div[3]"));
+							lightBtns.get(j).click();
+						
+						}
+						else if(bundle.equalsIgnoreCase("Plus")){
+							//List <WebElement> PlusBtns = driver.findElements(By.xpath("//*[@class='table flight_table']/tbody["+i+"]/tr[2]/td/div/table/tbody[1]/tr/td[3]/div[2]/div[3]"));
+							//PlusBtns.get(j).click();							
+						}
+						else if(bundle.equalsIgnoreCase("Premium")){	
+							List <WebElement> PremiumBtns = driver.findElements(By.xpath("//*[@class='table flight_table']/tbody["+i+"]/tr[2]/td/div/table/tbody[1]/tr/td[4]/div[2]/div[3]"));
+							System.out.println("PremiumBTns Size : "+PremiumBtns.size());
+							System.out.println("j = "+j);
+							PremiumBtns.get(j).click();		
+						}*/
+						classfound=true;
+						break;
+					}
+					
+				}
+				if(classfound==false){
+					Reporter.failureReport("Selecting class fare", "All the flights show the simple fare to be 'Sold out'");
+				}
+			}
+	
+			else if(bookingClass.equalsIgnoreCase("Business")){
+				List<WebElement> ClassBusines = flighttables.get(j).findElements(By.xpath("tbody/tr/td[6]"));
+				for(int i=1;i<=ClassBusines.size();i++){
+					List <WebElement> pricelables = ClassBusines.get(i-1).findElements(By.xpath("div"));
+					String clsname =null;
+					if(pricelables.size()==1){
+						clsname = pricelables.get(0).getText();
+					}
+					else{
+						pricelables = ClassBusines.get(i-1).findElements(By.xpath("button/div"));
+						clsname = pricelables.get(0).getText();
+					}
+					System.out.println("Class name : "+clsname);
+					if(clsname.equalsIgnoreCase("Sold out"))
+					{
+						System.out.println("Sold Out");
+						JavascriptExecutor jse = (JavascriptExecutor)driver;
+						jse.executeScript("window.scrollBy(0,50)", "");
+						classfound=false;
+					}else{
+						ClassBusines.get(i-1).click();
+						waitUtilElementhasAttribute(BookingPageLocators.body);
+						break;
+					}
+					
+				}
+				
+			}		
+		
+		}
+		
+//		clickContinueBtn();
+//		waitUtilElementhasAttribute(BookingPageLocators.body);
+		flag=true;
+		return flag;
+	}
 	//method to handle upsell pop-up. Consumes values(Continue,Upgrade)
 	public static void upSellPopUpAction(String action) throws Throwable {
 		waitUtilElementhasAttribute(BookingPageLocators.body);
@@ -1290,6 +1529,7 @@ public class BookingPageFlow<RenderedWebElement> extends BookingPageLocators{
 						{
 							type(BookingPageLocators.pasword, "1234", "Password");
 							click(BookingPageLocators.ccSubmit,"Submit Button");
+							Thread.sleep(5000);
 							if(isElementDisplayedTemp(BookingPageLocators.ok)==true){
 								click(BookingPageLocators.ok, "OK");
 								//payment("Credit Card", "");								
@@ -1610,11 +1850,13 @@ public class BookingPageFlow<RenderedWebElement> extends BookingPageLocators{
 		{
 			//System.out.println(passengers.get(i));
 			//passengers.get(i).click();
-			System.out.println(BookingPageLocators.passengers_incheckinvalue(i));
-			click(BookingPageLocators.passengers_incheckinvalue(i), "Passenger Name");
+			/*System.out.println(BookingPageLocators.passengers_incheckinvalue(i));
+			click(BookingPageLocators.passengers_incheckinvalue(i), "Passenger Name");*/
+			System.out.println(BookingPageLocators.passengers_checkinvalue(i));			
 			
 			
 		}
+		click(BookingPageLocators.passengers_checkinvalue(1), "Passenger Name");
 		waitUtilElementhasAttribute(BookingPageLocators.body);
 		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", driver.findElement(BookingPageLocators.continueBtn));
 		click(BookingPageLocators.passengers_checkterms, "CheckBox for agriment");
@@ -1865,6 +2107,7 @@ public class BookingPageFlow<RenderedWebElement> extends BookingPageLocators{
 		Calendar c = Calendar.getInstance();
 		c.setTime(sdf.parse(dt));
 		c.add(Calendar.DATE,1);  // number of days to add
+		//c.add(Calendar.DATE,30);  // number of days to add
 		dt = sdf.format(c.getTime());  // dt is now the new date
 		return dt;
 	}
@@ -2159,8 +2402,8 @@ public class BookingPageFlow<RenderedWebElement> extends BookingPageLocators{
 									break;
 							}		
 						
-						passengers.get(p).click();
-						select.get(k).click();
+						//passengers.get(p).click();
+						//select.get(k).click();
 						waitUtilElementhasAttribute(BookingPageLocators.body);
 						Reporter.SuccessReport("Selecting Meal", "Selected");
 						k=k+2;
@@ -2174,7 +2417,9 @@ public class BookingPageFlow<RenderedWebElement> extends BookingPageLocators{
 		}else{
 			System.out.println("NO Meal Available in this Route");
 			Reporter.SuccessReport("Select meal", "NO Meal Available in this Route");
-		}removeMeal();
+			
+		}
+		//removeMeal();
 	}
 	
 	public void removeMeal() throws Throwable{
@@ -4157,7 +4402,7 @@ public class BookingPageFlow<RenderedWebElement> extends BookingPageLocators{
             	 	Thread.sleep(7000);
             	 	waitforElement(BookingPageLocators.insuranceFeeText);
             	 	waitForVisibilityOfElement(BookingPageLocators.insuranceFeeText,"Insurance Fees Amount in Page");
-            	 	compareInsuranceDetailsInSummary();
+            	 	//compareInsuranceDetailsInSummary();
             	 	
             	
             }                       

@@ -37,14 +37,15 @@ public class TC33_oneWayInternationalEconomy_RUH_AUH extends BookingPageFlow{
 				String password =Credentials[1];					
 				
 			BookingPage.clickLogin();			
-				login(username,password);
+			login(username,password);
 			inputBookingDetails(triptype,origin, dest, deptDate , "", "", retrnDate,adult, child, infant,"","","");
-			selectClass(bookingClass, bundle);
-			clickContinueBtn();
-			upSellPopUpAction("Continue");
+			//selectClass(bookingClass, bundle);
+			selectClassCodeShare(bookingClass, bundle);
+			//clickContinueBtn();
+			//upSellPopUpAction("Continue");
 			continueOnPassengerDetails();
-			coninueOnBaggage();
-			continueOnSeatSelection();
+			//coninueOnBaggage();
+			//continueOnSeatSelection();
 			payment(paymentType, "");
 			String strpnr = getReferenceNumber();
 			String strPNR = strpnr.trim();
