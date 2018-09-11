@@ -1354,6 +1354,288 @@ public class BookingPageFlow<RenderedWebElement> extends BookingPageLocators{
 	
 	
 
+	public boolean payment_UAETI(String paymentType,String value) throws Throwable 
+	{		
+ 		waitforElement(BookingPageLocators.paymentTittle);
+		waitUtilElementhasAttribute(BookingPageLocators.body);
+		System.out.println(paymentType);
+		
+		if(paymentType.equalsIgnoreCase("Credit Card"))
+			{
+				List<WebElement> paymentss = driver.findElements(BookingPageLocators.paymentType);
+				for(int i=0;i<paymentss.size();i++){
+					if(paymentss.get(i).getText().contains("Credit/Debit Card")
+					||paymentss.get(i).getText().contains("Kredi Kartı")
+					||paymentss.get(i).getText().contains("البطاقات الإئتمانية")
+					||paymentss.get(i).getText().contains("بطاقة ائتمانية/صراف")){
+						paymentss.get(i).click();
+						waitUtilElementhasAttribute(BookingPageLocators.body);
+						break;
+					}
+				}
+				waitforElement(BookingPageLocators.cardNumber);
+				waitForVisibilityOfElement(BookingPageLocators.cardNumber, "CardNumber");
+				type(BookingPageLocators.cardNumber,configProps.getProperty("cardNumber").trim(),"Card Number");
+				type(BookingPageLocators.cardName,configProps.getProperty("cardHolderName"),"Card Holder Name");
+				click(BookingPageLocators.expMonth,"Expiry Month");
+				//	driver.findElement(By.xpath("//a/div[text()='"+configProps.getProperty("expMM")+"' OR text()='يناير']")).click();
+				driver.findElement(By.xpath("//a/div[contains(text(),'"+configProps.getProperty("expMM")+"') or ./text()='يناير' or ./text()='Ocak']")).click();
+				//	selectValueFromDropDown(BookingPageLocators.selectExpMonth, "Expiry Month", configProps.getProperty("expMM"));
+				click(BookingPageLocators.expYear,"Expiry Year");
+				driver.findElement(By.xpath("//a/div[text()='"+configProps.getProperty("expYYYY")+"']")).click();
+				//selectValueFromDropDown(BookingPageLocators.selectExpYear, "Expiry Year", configProps.getProperty("expYYYY"));
+				type(BookingPageLocators.cvvNum,configProps.getProperty("cvv"),"cvv");
+			}
+		
+			else if(paymentType.equalsIgnoreCase("Voucher"))
+			{
+				type(BookingPageLocators.voucherNum,configProps.getProperty("voucher"),"Voucher");
+				click(BookingPageLocators.retrieveVoucher, "Retrieve Voucher");
+			} 
+		
+			else if(paymentType.equalsIgnoreCase("SADAD"))
+			{
+		
+				List<WebElement>  paymentss = driver.findElements(BookingPageLocators.paymentType);
+				for(int i=0;i<paymentss.size();i++)
+				{
+					if(paymentss.get(i).getText().equalsIgnoreCase("SADAD"))
+					{
+						paymentss.get(i).click();					
+						break;
+					}
+				}
+				
+			}
+		
+			else if(paymentType.equalsIgnoreCase("SADAD Account"))
+			{
+		
+				List<WebElement>  paymentss = driver.findElements(BookingPageLocators.paymentType);
+				for(int i=0;i<paymentss.size();i++)
+				{
+					if(paymentss.get(i).getText().equalsIgnoreCase("SADAD Account"))
+					{
+						paymentss.get(i).click();					
+						break;
+					}
+				}
+				waitforElement(BookingPageLocators.sadadOlpUserName);
+				waitForVisibilityOfElement(BookingPageLocators.sadadOlpUserName, "SADAD OLP UserName");
+				type(BookingPageLocators.sadadOlpUserName,configProps.getProperty("sadadOlpUserName").trim(),"SADAD OLP UserName");
+			}
+			else if(paymentType.equalsIgnoreCase("Nas"))
+			{
+				List<WebElement> payments = driver.findElements(BookingPageLocators.paymentType);
+				for(int i=0;i<payments.size();i++)
+				{
+					if(payments.get(i).getText().contains("Nas Credit"))
+					{
+						payments.get(i).click();
+						if(isElementPresent(BookingPageLocators.ipt_pnr)==true){
+							type(BookingPageLocators.ipt_pnr, value, "PNR");
+							Thread.sleep(3000);
+							click(BookingPageLocators.Retrive, "Retrive");
+							Thread.sleep(5000);
+							}
+						String totaldue = getText(BookingPageLocators.totaldue, "TotalDue");
+						System.out.println(totaldue);
+						String[] due = totaldue.split("\\s");
+						String tempdue = due[due.length-1].split("\\.")[0];						
+						tempdue = removeSpecialchars(tempdue);
+						int pay = Integer.parseInt(tempdue);
+						System.out.println("Pay -" + pay);
+						String creditbalance = getText(BookingPageLocators.creditbal, "Credit Balance");
+						System.out.println(creditbalance);
+						String[] credit = creditbalance.split("\\s");
+						String tempcredit = credit[credit.length-1].split("\\.")[0];	
+						tempcredit = removeSpecialchars(tempcredit);
+						int creditbal =Integer.parseInt(tempcredit);
+						System.out.println("Creditbal - "+creditbal);
+						if(creditbal<=pay){
+						type(BookingPageLocators.Amount, credit[credit.length-1], "Amount");
+						type(BookingPageLocators.Amount, credit[credit.length-1], "Amount");
+						}else{
+							type(BookingPageLocators.Amount, due[due.length-1], "Amount");
+						}
+						break;				
+					}
+				}
+
+			}
+		
+			else if(paymentType.equalsIgnoreCase("Agency Payment"))
+			{
+				List<WebElement> paymentss = driver.findElements(BookingPageLocators.paymentType);
+				for(int i=0;i<paymentss.size();i++)
+				{
+					if(paymentss.get(i).getText().contains("Agency Payment"))
+					{
+						paymentss.get(i).click();					
+						break;
+					}
+				}
+			}
+		
+			else if(paymentType.equalsIgnoreCase("Hold Booking"))
+			{
+				List<WebElement> paymentss = driver.findElements(BookingPageLocators.paymentType);
+				for(int i=0;i<paymentss.size();i++)
+				{
+					if(paymentss.get(i).getText().contains("Hold Booking"))
+					{
+						paymentss.get(i).click();					
+						break;
+					}
+				}
+			}
+			
+		
+		if(driver.findElement(BookingPageLocators.ccCheckbox).isSelected()==true)
+			{
+				System.out.println("Terms and conditions already Checked");
+			}
+			else
+			{
+			click(BookingPageLocators.ccCheckbox, "Terms & Conditions");
+			}
+			Thread.sleep(2000);
+			
+			
+		//Click continue on payment page
+		clickContinueBtn();
+		Thread.sleep(2000); //Don't delete this thread. Solution for Sync issue on error pop-up
+		//handling error pop-up
+		if(isElementDisplayedTemp(BookingPageLocators.Error)==true && paymentType.equalsIgnoreCase("SADAD"))
+			{
+			String env = driver.getCurrentUrl();
+			if(env.contains("develop_r41")||env.contains("uat")){
+				Reporter.SuccessReport("Verifing SADAD", "Payment through SADAD not posible");		
+				}
+			else{
+				Reporter.failureReport("Verifing SADAD", "Payment through SADAD not posible");
+				}
+			}
+		else
+			{
+				System.out.println("No Error Message");
+			}
+		
+		//handling alert pop-up
+		if(isElementDisplayedTemp(BookingPageLocators.ok)==true)
+			{
+				String actualErrorMsg=getText(BookingPageLocators.UAETIWarningMsg, "Warning Msg with other mode of payment").trim();
+				String expectedErrorMsg="You have UAE Insurance on this booking selected any other method apart from credit card will cancel the insurance. Continue?";
+				Assert.assertEquals(actualErrorMsg, expectedErrorMsg);
+				Reporter.SuccessReport("Payment with SADAD Account", "Warning message displayed as expected");
+				click(BookingPageLocators.ok, "OK");	
+				Thread.sleep(5000);
+				waitforElement(BookingPageLocators.sadadOlpPasswordTextBox);
+				type(BookingPageLocators.sadadOlpPasswordTextBox,configProps.getProperty("sadadOlpPassword").trim(),"SADAD OLP Password");
+				click(BookingPageLocators.sadadOlpSubmitBtn, "Submit");	
+				Thread.sleep(3000);
+				click(BookingPageLocators.sadadOlpSubmitBtn, "Submit");	
+				type(BookingPageLocators.sadadOlpOtpTextBox,configProps.getProperty("sadadOlpOTP").trim(),"SADAD OLP OTP");
+				click(BookingPageLocators.sadadOlpSubmitBtn, "Submit");	
+				
+				
+			}
+			else
+			{
+				Reporter.failureReport("Payment with SADAD Account", "Warning message is not displayed as expected");
+				System.out.println("No Alert");
+				
+			}
+		
+		//handling 3D secure page
+		if(paymentType.equalsIgnoreCase("Credit Card"))
+			{
+				boolean flag = false;
+				Thread.sleep(5000);
+				List<WebElement> frames = driver.findElements(By.tagName("iframe"));
+				for(WebElement frame:frames){
+					System.out.println(frame.getAttribute("id"));
+					if(frame.getAttribute("id").equalsIgnoreCase("authWindow")){
+						driver.switchTo().frame("authWindow");
+						driver.manage().timeouts().implicitlyWait(5000,TimeUnit.MILLISECONDS);
+						if(isElementPresent(BookingPageLocators.pasword)==true)
+						{
+							type(BookingPageLocators.pasword, "1234", "Password");
+							click(BookingPageLocators.ccSubmit,"Submit Button");
+							Thread.sleep(5000);
+							if(isElementDisplayedTemp(BookingPageLocators.ok)==true){
+								click(BookingPageLocators.ok, "OK");
+								//payment("Credit Card", "");								
+							}
+							flag = true;
+							break;
+						}
+						}
+					}										
+				if(flag== false)
+				{
+				System.out.println("No Secure Page");
+				}
+			
+		}
+			
+		
+	
+	//Code to add invalid card detail
+	
+	if(paymentType.equalsIgnoreCase("invalidcc"))
+		{
+			List<WebElement> paymentss = driver.findElements(BookingPageLocators.paymentType);
+			for(int i=0;i<paymentss.size();i++){
+				if(paymentss.get(i).getText().contains("Credit Card")
+						||paymentss.get(i).getText().contains("Kredi Kartı")
+						||paymentss.get(i).getText().contains("البطاقات الإئتمانية")){
+					paymentss.get(i).click();
+					waitUtilElementhasAttribute(BookingPageLocators.body);
+					break;
+				}
+			}
+			waitforElement(BookingPageLocators.cardNumber);
+			type(BookingPageLocators.cardNumber,configProps.getProperty("InvalidcardNumber").trim(),"Card Number");
+			type(BookingPageLocators.cardName,configProps.getProperty("cardHolderName"),"Card Holder Name");
+			click(BookingPageLocators.expMonth,"Expiry Month");
+			//	driver.findElement(By.xpath("//a/div[text()='"+configProps.getProperty("expMM")+"' OR text()='يناير']")).click();
+			driver.findElement(By.xpath("//a/div[contains(text(),'"+configProps.getProperty("expMM")+"') or ./text()='يناير' or ./text()='Ocak']")).click();
+			//	selectValueFromDropDown(BookingPageLocators.selectExpMonth, "Expiry Month", configProps.getProperty("expMM"));
+			click(BookingPageLocators.expYear,"Expiry Year");
+			driver.findElement(By.xpath("//a/div[text()='"+configProps.getProperty("expYYYY")+"']")).click();
+			//selectValueFromDropDown(BookingPageLocators.selectExpYear, "Expiry Year", configProps.getProperty("expYYYY"));
+			type(BookingPageLocators.cvvNum,configProps.getProperty("cvv"),"cvv");
+		}
+	
+	if(paymentType.equalsIgnoreCase("wrongcc"))
+		{
+			List<WebElement> paymentss = driver.findElements(BookingPageLocators.paymentType);
+			for(int i=0;i<paymentss.size();i++){
+				if(paymentss.get(i).getText().contains("Credit Card")
+						||paymentss.get(i).getText().contains("Kredi Kartı")
+						||paymentss.get(i).getText().contains("البطاقات الإئتمانية")){
+					paymentss.get(i).click();
+					waitUtilElementhasAttribute(BookingPageLocators.body);
+					break;
+				}
+			}
+			waitforElement(BookingPageLocators.cardNumber);
+			type(BookingPageLocators.cardNumber,configProps.getProperty("MasterCrdNumber").trim(),"Card Number");
+			type(BookingPageLocators.cardName,configProps.getProperty("cardHolderName"),"Card Holder Name");
+			click(BookingPageLocators.expMonth,"Expiry Month");
+			//	driver.findElement(By.xpath("//a/div[text()='"+configProps.getProperty("expMM")+"' OR text()='يناير']")).click();
+			driver.findElement(By.xpath("//a/div[contains(text(),'"+configProps.getProperty("expMM")+"') or ./text()='يناير' or ./text()='Ocak']")).click();
+			//	selectValueFromDropDown(BookingPageLocators.selectExpMonth, "Expiry Month", configProps.getProperty("expMM"));
+			click(BookingPageLocators.expYear,"Expiry Year");
+			driver.findElement(By.xpath("//a/div[text()='"+configProps.getProperty("expYYYY")+"']")).click();
+			//selectValueFromDropDown(BookingPageLocators.selectExpYear, "Expiry Year", configProps.getProperty("expYYYY"));
+			type(BookingPageLocators.cvvNum,configProps.getProperty("cvv"),"cvv");
+		}
+	
+		return true;
+	}
+	
 	public boolean payment(String paymentType,String value) throws Throwable 
 	{		
  		waitforElement(BookingPageLocators.paymentTittle);
@@ -1602,7 +1884,7 @@ public class BookingPageFlow<RenderedWebElement> extends BookingPageLocators{
 	
 		return true;
 	}
-	
+
 	public void nasmilespayment(String Username,String Password) throws Throwable {
 		waitforElement(BookingPageLocators.paymentTittle);
 		waitUtilElementhasAttribute(BookingPageLocators.body);
@@ -1992,6 +2274,36 @@ public class BookingPageFlow<RenderedWebElement> extends BookingPageLocators{
 			
 		}
 		closetoast();
+	}
+	public void validatepolicynumber(String paymenttype) throws Throwable{
+		waitforElement(BookingPageLocators.summaryStatus);
+		if(paymenttype.equalsIgnoreCase("Credit Card")){
+			if(getText(BookingPageLocators.insurancepolicytextconfpage, "Insurance policy").contains("NAS")){
+				int startingIndex=getText(BookingPageLocators.insurancepolicytextconfpage, "Insurance policy").indexOf("N");
+				int endIndex=startingIndex+16;
+				String policyNum=getText(BookingPageLocators.insurancepolicytextconfpage, "Insurance policy").substring(startingIndex, endIndex);
+				Reporter.SuccessReport("UAE Insurance policy number", "Policy number has been generated: "+policyNum);	
+				
+			}
+			else{
+				Reporter.failureReport("UAE Insurance policy number", "Policy number has not been generated");
+			}
+		
+		}
+		else if(!paymenttype.equalsIgnoreCase("Credit Card")){
+			if(!isElementPresent(BookingPageLocators.insurancepolicytextconfpage)){
+				System.out.println("Insurance not added for mode of payment: "+paymenttype);
+				Reporter.SuccessReport("UAE Insurance policy number", "Insurance not added for mode of payment: "+paymenttype);	
+			}
+			else{
+				Reporter.failureReport("UAE Insurance policy number", "Insurance added for mode of payment:"+paymenttype);
+			}
+			
+		}
+			
+			
+		
+		
 	}
 	
 	public void validate_ticketStatus_AR(String pnr) throws Throwable
@@ -4339,6 +4651,25 @@ public class BookingPageFlow<RenderedWebElement> extends BookingPageLocators{
 				clickContinueBtn();
 			}
 		}
+		public void continueOnPassengerDetails_AE(String countrycode) throws Throwable{
+			waitforElement(BookingPageLocators.passengerDetailsTittle);
+			//waitForVisibilityOfElement(BookingPageLocators.passengerDetailsTittle, "Booking page locators");
+			//scrolling to find Origin field
+			((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", driver.findElement(BookingPageLocators.countryCodeDD));			
+			click(BookingPageLocators.countryCodeDD,"Country code DD");
+			Thread.sleep(2000);
+			((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", driver.findElement(BookingPageLocators.selectcountrycode(countrycode)));	
+			((JavascriptExecutor) driver).executeScript("arguments[0].click();", driver.findElement(BookingPageLocators.selectcountrycode(countrycode)));
+			//selectCountryCode(BookingPageLocators.countrycodename, "Country Code", countrycode);
+			clickContinueBtn();
+			Thread.sleep(5000);
+			if(isElementDisplayedTemp(BookingPageLocators.okBtn)==true)
+			{
+				waitForVisibilityOfElement(BookingPageLocators.okBtn, "OK");
+				click(BookingPageLocators.okBtn, "OK");
+				clickContinueBtn();
+			}
+		}
 		
 		/*public void coninueOnBaggage() throws Throwable{
 			waitforElement(BookingPageLocators.baggagetittle);
@@ -4419,17 +4750,86 @@ public class BookingPageFlow<RenderedWebElement> extends BookingPageLocators{
 
      }
      
+     public void coninueOnBaggage_AE() throws Throwable{
+
+         waitforElement(BookingPageLocators.baggagetittle);
+
+         waitUtilElementhasAttribute(BookingPageLocators.body);
+
+         if(isElementDisplayedTemp(BookingPageLocators.baggagetittle)){
+
+               clickContinueBtn();
+
+               chooseInsurance_AE("Add");
+               
+               Thread.sleep(5000);
+               
+               //compareInsuranceDetailsInSummary();
+               
+               //clickContinueBtn();
+
+         }else{
+
+               System.out.println("No Baggage page Available");
+
+         }
+
+  }
+
+ 
+
+  public void chooseInsurance_AE(String choice) throws Throwable{
+
+         Thread.sleep(7000);
+
+         if(isElementDisplayedTemp(BookingPageLocators.Add)==true)
+
+         {      if(choice.equalsIgnoreCase("Add")){
+         		waitForVisibilityOfElement(BookingPageLocators.Add, "Travel insurance selected");
+         		//String expectedCountry="United Arab Emirates";
+         		String TIText=getText(BookingPageLocators.insuranceOptionYesText, "TIOptionYesText");
+         		if(TIText.contains("United Arab Emirates")){
+         			click(BookingPageLocators.Add, "Travel insurance selected");
+             	 	Thread.sleep(7000);
+             	 	waitforElement(BookingPageLocators.insuranceFeeText);
+             	 	waitForVisibilityOfElement(BookingPageLocators.insuranceFeeText,"Insurance Fees Amount in Page");
+             	 	Reporter.SuccessReport("UAE Insurance", "Option for opting UAE insurance is displayed.");
+         		}
+         		else{
+         			Reporter.failureReport("UAE Insurance", "Option for opting UAE insurance is not displayed.");
+         			System.out.println("TI for UAE no displayed");
+         		}
+         		
+         	 	
+         	 	compareInsuranceDetailsInSummary();
+         	 	
+         	
+         }                       
+
+               else{
+             	  click(BookingPageLocators.No, "Travel insurance not selected");
+               }
+
+                  
+
+               clickContinueBtn();
+
+         }
+
+  }
+  
      public void compareInsuranceDetailsInSummary() throws Throwable{
     	 waitForVisibilityOfElement(BookingPageLocators.insuranceFeeText,"Insurance Fees Amount in Page");
     	 String insuranceFeesText=getText(BookingPageLocators.insuranceFeeText,"Insurance Fees Amount in Page");
-    	 System.out.println("Insurance fees Text in page->"+insuranceFeesText);
+    	 //System.out.println("Insurance fees Text in page->"+insuranceFeesText);
     	 int iFeeBeginIndex=insuranceFeesText.indexOf("S");
-    	 System.out.println(iFeeBeginIndex);
-    	 int iFeeEndIndex=insuranceFeesText.indexOf("(");  
-    	 System.out.println(iFeeEndIndex);
-    	 System.out.println("End Index Character"+insuranceFeesText.charAt(iFeeEndIndex));
-    	 String insuranceFeesInPage=insuranceFeesText.substring(iFeeBeginIndex,iFeeEndIndex-1);
+    	 //System.out.println(iFeeBeginIndex);
+    	 int iFeeEndIndex=insuranceFeesText.indexOf(".");  
+    	// System.out.println(iFeeEndIndex);
+    	 //System.out.println("End Index Character"+insuranceFeesText.charAt(iFeeEndIndex));
+    	 String insuranceFeesInPage=insuranceFeesText.substring(iFeeBeginIndex,iFeeEndIndex);
     	 System.out.println("Insurance Fess In Page:"+insuranceFeesInPage);
+    	 Reporter.SuccessReport("Insurance Fees in Page", "Insurance fees displayed in page:"+insuranceFeesInPage);
     	 
     	 if(isElementDisplayedTemp(BookingPageLocators.otherfeeinSummaryExpand)==true){
     		 click(BookingPageLocators.otherfeeinSummaryExpand, "Other fee section Expand");
@@ -4440,10 +4840,10 @@ public class BookingPageFlow<RenderedWebElement> extends BookingPageLocators{
     		 int iFeeSummaryEndIndex=insuranceFees.indexOf(".");
     		 String insuranceFeesInSummary=insuranceFees.substring(0, iFeeSummaryEndIndex);
     		 System.out.println("Insurance Fees In Summary->"+insuranceFeesInSummary);
-    		 Reporter.SuccessReport("Insurance Fees in Summary", "Insurance fees displayed");
-    		 System.out.println("Insurance Fees Amount in Summary is:"+insuranceFees);
-    		 Reporter.SuccessReport("Insurance Fees Amount in Summary is:"+insuranceFees, "Insurance fees amount displayed");
-    		 //Assert.assertEquals(insuranceFeesInPage, insuranceFeesInSummary);
+    		 Reporter.SuccessReport("Insurance Fees in Summary", "Insurance fees displayed in summary:"+insuranceFeesInSummary);
+    		// System.out.println("Insurance Fees Amount in Summary is:"+insuranceFees);
+    		 //Reporter.SuccessReport("Insurance Fees Amount in Summary is:"+insuranceFees, "Insurance fees amount displayed");
+    		 Assert.assertEquals(insuranceFeesInPage, insuranceFeesInSummary);
     		 
     	 }
     		 

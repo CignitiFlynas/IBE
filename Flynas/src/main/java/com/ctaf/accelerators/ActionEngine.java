@@ -2753,6 +2753,43 @@ public class ActionEngine extends TestEngine {
 		return flag;
 	}
 	
+	public static boolean selectCountryCode(By locator, String locatorName, String value) throws Throwable{
+		JavascriptExecutor executer = (JavascriptExecutor)driver;
+		boolean flag = false;
+		try{
+			List<WebElement> itemList = driver.findElements(locator);
+			for(WebElement item : itemList){
+				System.out.println(item);
+			/*	try {
+					System.out.println(item);
+					System.out.println(item.findElement(By.xpath("a/small")).getText());	
+				} catch (Exception e) {
+				}*/
+				System.out.println(item.findElement(By.xpath("//div[contains(text(),'"+value+"')]")).getText());
+				if(item.findElement(By.xpath("//div[contains(text(),'"+value+"')]")).getText().contains(value)){
+					
+					executer.executeScript("arguments[0].click();", item);	
+			//		item.click();
+					flag = true;
+					break;
+				}
+			}
+		
+		} catch (Exception e) {
+			e.printStackTrace();
+		} finally {
+			if (!flag) {
+				Reporter.failureReport("Select", "Unable to Select "
+						+ locatorName + " as " + value);
+				return flag;
+			} else if (b && flag) {
+				Reporter.SuccessReport("Select", "Successfully Selected "
+						+ locatorName + " as " + value);
+			}
+		}
+		return flag;
+	}
+	
 	/*public static boolean selectCity(By parentlocator, By childlocator, String locatorName, String value) throws Throwable{
 		boolean flag = false;
 		

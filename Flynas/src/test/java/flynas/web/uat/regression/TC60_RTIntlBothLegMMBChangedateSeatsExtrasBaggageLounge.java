@@ -30,8 +30,9 @@ public class TC60_RTIntlBothLegMMBChangedateSeatsExtrasBaggageLounge extends Boo
 			TestEngine.testDescription.put(HtmlReportSupport.tc_name, Description);
 			String	depdate = pickDate(deptDate);
 			String	retrndate = pickDate(retdate);
-			//String	changeDeptDt = pickDate(depdate);
-			//String	changertrnDt = pickDate(retrndate);
+			String	changeDeptDt = nextDateof(depdate);
+			String	changertrnDt = nextDateof(retrndate);
+			
 			
 			//Pick credentials and login
 			String[] Credentials = pickCredentials("UserCredentials");
@@ -54,8 +55,8 @@ public class TC60_RTIntlBothLegMMBChangedateSeatsExtrasBaggageLounge extends Boo
 			System.out.println(strPNR);
 			validate_ticketStatus(strPNR);				// Verifying booking status
 			searchFlight(strPNR, username, "", lastname);	// Search flight on MMB page
-			String	changeDeptDt = pickDate(depdate);
-			String	changertrnDt = pickDate(retrndate);
+			/*String	changeDeptDt = pickDate(depdate);
+			String	changertrnDt = pickDate(retrndate);*/
 			changeDate(changeDeptDt,changertrnDt,"All");	// change date on both departure and return
 			selectClass(strBookingClass, bundle);		// Selecting class in new flight
 			clickContinueBtn();				
