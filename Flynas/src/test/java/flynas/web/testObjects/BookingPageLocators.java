@@ -28,11 +28,13 @@ public class BookingPageLocators extends ActionEngine{
 	public static By login_btn = By.xpath("//button[@type='submit']");
 	public static By JoinNow = By.xpath("//a[contains(text(),'Join now')]");
 	public static By here = By.xpath("//a[contains(text(),' here')]");
+	
 	//added for insurance fees
 		public static By otherfeeinSummaryExpand = By.xpath("//h3[contains(text(),'Summary ')]/following::span[contains(text(),'Other Fees')]/../span/a");
 		public static By insuranceFee = By.xpath("//h3[contains(text(),'Summary ')]/following::span[contains(text(),'Insurance')]");
 		public static By insuranceFeeAmount = By.xpath("//span[contains(text(),'Insurance')]/following-sibling::span");
 		public static By insuranceFeeText=By.xpath("//div[@class='insurance-container']//input[@name='insuranceOption' and @value='yes']/..");
+		public static By insuranceOptionYesText=By.xpath("//div[@class='insurance-container']//input[@name='insuranceOption' and @value='yes']/../../div");
 
 	//booking page &Member dashboard
 	public static By manageMyBookings(String PNR){
@@ -151,6 +153,11 @@ public class BookingPageLocators extends ActionEngine{
 			+ "(@class,'ui-select-choices-row')]";
 	public static String nation = "//div[@class='pass_tab']/div[#]//descendant::div[@class='nationdropdown']";
 	public static String selectNation = "//div[@class='pass_tab']/div[#]//descendant::div[@class='nationdropdown']/div/ul/li//descendant::div[@class='ui-select-choices-row']";
+	public static By countryCodeDD=By.xpath("//div[@placeholder='Country code*']");
+	public static By selectcountrycode(String countrycode){
+		return By.xpath("//div[@placeholder='Country code*']/../ul//a/div[contains(text(),'"+countrycode+"')]");
+	}
+	public static By countrycodename=By.xpath("//div[@placeholder='Country code*']/../ul//a");
 	
 	//public static By travelDoc = By.xpath("//div[@class='traveldocdropdown']/div/div/span/span[2]/span");
 	public static String travelDoc = "//booking-passengers/div/ng-form/div/div[#]/div/ng-form/div/div[2]/div[1]/div/div/div/span/span[2]/span";
@@ -230,6 +237,11 @@ public class BookingPageLocators extends ActionEngine{
 	public static By naSmilepwd = By.xpath("//input[@name='rewardspassword']");
 	public static By signIn_lnk = By.xpath("//a[contains(text(),'Sign In')]");
 	public static By redeem = By.xpath("//span[contains(text(),'Redeem')]");
+	public static By UAETIWarningMsg=By.xpath("//div[@class='modal-body']/div");
+	public static By sadadOlpUserName=By.xpath("//input[@name='sadadopCode']");
+	public static By sadadOlpPasswordTextBox=By.xpath("//input[@id='SadadMicroSiteForm_password']");
+	public static By sadadOlpSubmitBtn=By.xpath("//button[text()='Submit']");
+	public static By sadadOlpOtpTextBox=By.xpath("//input[@id='SadadMicroSiteForm_otp']");
 	
 	//Summary Page
 	public static By summaryRefNumber = By.xpath("//div[text()='Booking Reference: 'or ./text()=' رقم الحجز: 'or ./text()='Reservasyon: ']/b[@class = 'col_pink']");
@@ -480,7 +492,9 @@ public class BookingPageLocators extends ActionEngine{
 		public static By lastnameinput = By.xpath("//input[@name='inputlastname']");
 		public static By btnFindBooking = By.xpath("//button[@type='submit']");
 		
+	//confirmation page
 		
+		public static By insurancepolicytextconfpage=By.xpath("//i[@class='insurance-icon']/..");	
 		
 		
 	
