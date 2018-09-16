@@ -1489,6 +1489,19 @@ public class BookingPageFlow<RenderedWebElement> extends BookingPageLocators{
 					}
 				}
 			}
+		
+			else if(paymentType.equalsIgnoreCase("naSmile"))
+			{
+				List<WebElement> paymentss = driver.findElements(BookingPageLocators.paymentType);
+				for(int i=0;i<paymentss.size();i++)
+				{
+					if(paymentss.get(i).getText().contains("Hold Booking"))
+					{
+						paymentss.get(i).click();					
+						break;
+					}
+				}
+			}
 			
 		
 		if(driver.findElement(BookingPageLocators.ccCheckbox).isSelected()==true)
@@ -1905,7 +1918,7 @@ public class BookingPageFlow<RenderedWebElement> extends BookingPageLocators{
 		Thread.sleep(2000);
 		if(isElementDisplayedTemp(BookingPageLocators.Error)==true)
 		{
-			System.out.println("NO Sufitiant points");
+			System.out.println("NO Sufficient points");
 		}
 		else
 		{
