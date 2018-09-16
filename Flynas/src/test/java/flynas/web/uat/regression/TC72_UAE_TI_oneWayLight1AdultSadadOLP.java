@@ -105,7 +105,7 @@ public class TC72_UAE_TI_oneWayLight1AdultSadadOLP extends BookingPageFlow {
 		    		"",
 	    			xls.getCellValue("Charity Donation", "Value"),
 	    			xls.getCellValue("Currency", "Value"),
-		    		"Validate TI for UAE One way Light bundle 1 Adult CC booking"
+		    		"Validate TI for UAE One way Light bundle 1 Adult SADAD OLP booking"
     			}
 	    	};
 	}
