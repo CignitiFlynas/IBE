@@ -15,7 +15,7 @@ public class BookingPageLocators extends ActionEngine{
 	public static By closepopup = By.xpath("//button[@type='submit']");
 	public static By naSmileTaost = By.xpath("//iframe[@id='yief130002']");
 	//public static By closeTst= By.xpath("//*[@id='yie-close-button-f2ccb518-bf80-582c-b7cc-23a3ba0d9675']");
-	public static By closeTst=By.xpath("//span[@id='yie-close-button-a438d4d9-026d-5da5-81d9-9093c86e5608']");
+	public static By closeTst=By.xpath("//span[@id='yie-close-button-ac522d9d-c0b1-54c3-bb57-652d3b2ab15b']");
 	public static By closeTstnew= By.xpath("//span[@id='yie-close-button-47473936-b4cb-5858-a31d-aa38811c4131']");
 	public static By closetoast = By.xpath("//span[@id='close']");
 	public static By alertText = By.xpath("//div[@class='modal-body']/div");
@@ -95,7 +95,8 @@ public class BookingPageLocators extends ActionEngine{
 	public static By selectChild = By.xpath("//div[@class='main_con']/div[2]//descendant::form/div[3]/div/div[2]/div/ul/li//descendant::div[@class='ui-select-choices-row']");
 	public static By infant = By.xpath("//div[@placeholder='0 Infant']");
 	public static By selectInfant = By.xpath("//div[@class='main_con']/div[2]//descendant::form/div[3]/div/div[3]/div/ul/li//descendant::div[@class='ui-select-choices-row']");
-	public static By payWithnaSmile = By.xpath("//input[@name='nasmiles']");
+	//public static By payWithnaSmile = By.xpath("//input[@name='nasmiles']");
+	public static By payWithnaSmile = By.xpath("//label[contains(text(),'Points')]");
 	public static By promo = By.xpath("//div[@class='main_con']/div[2]//descendant::form/div[3]/div[2]/div[2]/input");
 	public static By bookforFriendschkbx = By.xpath("//input[@name='bookfriends']");
 	
@@ -347,7 +348,7 @@ public class BookingPageLocators extends ActionEngine{
 	public static By checkinConformation = By.xpath("//h1/div[1]");
 	public static By sfpChekin = By.xpath("//button[text()='Check-in now']");
 	public static By downloadAllBoardingPasses= By.xpath("//a[@class='btn btn-primary pull-right margin_r10']");
-	
+	public static By errorPopUp=By.xpath("//h3[text()='Error']");
 	//Agent Portal
 	
 	public static By BookingRef = By.xpath("//table[@class='table agenttable']/tbody[1]/tr[1]/td[1]");
