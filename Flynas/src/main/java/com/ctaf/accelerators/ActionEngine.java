@@ -3011,7 +3011,8 @@ public class ActionEngine extends TestEngine {
 	public static void waitforElement(By locator) throws Throwable 
 	{
 		try{WebDriverWait wait = new WebDriverWait(driver,20);
-			Thread.sleep(10000);
+			//Thread.sleep(10000);
+		Thread.sleep(5000);
 			try{
 				wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
 				if(isElementPresent(locator)==true)

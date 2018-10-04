@@ -15,8 +15,8 @@ public class BookingPageLocators extends ActionEngine{
 	public static By closepopup = By.xpath("//button[@type='submit']");
 	public static By naSmileTaost = By.xpath("//iframe[@id='yief130002']");
 	//public static By closeTst= By.xpath("//*[@id='yie-close-button-f2ccb518-bf80-582c-b7cc-23a3ba0d9675']");
-	public static By closeTst=By.xpath("//span[@id='yie-close-button-ac522d9d-c0b1-54c3-bb57-652d3b2ab15b']");
-	public static By closeTstnew= By.xpath("//span[@id='yie-close-button-47473936-b4cb-5858-a31d-aa38811c4131']");
+	public static By closeTst=By.xpath("//span[@id='yie-close-button-d6e78aab-f1d5-5e7d-b8d4-a1fa82550230']");
+	public static By closeTstnew= By.xpath("//span[@id='yie-close-button-2159ed8d-1c64-5959-b9a0-73cd215b14cd']");
 	public static By closetoast = By.xpath("//span[@id='close']");
 	public static By alertText = By.xpath("//div[@class='modal-body']/div");
 	public static By overlay = By.xpath("//class[contains(text(),'overlay')]");
@@ -327,7 +327,9 @@ public class BookingPageLocators extends ActionEngine{
 	public static By important = By.xpath("//h3[contains(text(),'Important')]");
 	public static By ok=By.xpath("//button[text()='OK' or ./text()='موافق' or ./text()='Tamam']");
 	public static By Add=By.xpath("//button[text()='Add' or ./text()='إضافة' or ./text()='']");
-	public static By No=By.xpath("//button[text()='No, thanks' or ./text()='' or ./text()='']");
+	public static By No=By.xpath("//button[text()='No, thanks.' or ./text()='' or ./text()='']");
+	public static By insuranceRadioNo=By.xpath("(//input[@name='insuranceOption'])[2]");
+	public static By insuranceRadioYes=By.xpath("(//input[@name='insuranceOption'])[1]");
 	
 	public static By sportsEqpmntLink = By.xpath("//a[@class='link']");
 	public static By sportsEqpmtDrop = By.xpath("//div[@name='sporteq']");
