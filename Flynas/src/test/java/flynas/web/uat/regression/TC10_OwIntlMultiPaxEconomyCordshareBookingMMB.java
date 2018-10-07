@@ -44,7 +44,8 @@ public class TC10_OwIntlMultiPaxEconomyCordshareBookingMMB extends BookingPageFl
 			inputBookingDetails(tripType, origin, dest, deptdate,origin2, departure2,retrndate,Adult, Child, infant,promo,Currency,paymenttype);
 			
 			//Selecting class in code share flight
-			selectCodeshareConectflight(BookingClass);
+			//selectCodeshareConectflight(BookingClass);
+			selectClassCodeShare(BookingClass, bundle);
 			
 			//entering passenger details
 			String[] psngrname= inputPassengerDetails(FlightType,totalpass,nationality,Doctypr,docNumber, naSmiles,Mobile,username,"","","");

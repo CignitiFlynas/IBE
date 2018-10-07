@@ -36,7 +36,7 @@ public class TC30_redemptionBookingwithPlatinumMember extends BookingPageFlow{
 			inputBookingDetails(tripType, origin, dest, deptdate, origin2, departure2, retdate,Adult, Child, infant,promo,Currency,paymenttype);
 			selectClass(strBookingClass, bundle);
 			clickContinueBtn();
-			upSellPopUpAction("Continue");
+			//upSellPopUpAction("Continue");
 			continueOnPassengerDetails();
 			coninueOnBaggage();
 			continueOnSeatSelection();

@@ -42,7 +42,7 @@ public class TC50_RTIntlCancelReturningleg extends BookingPageFlow{
 			inputBookingDetails(tripType, origin, dest, deptdate, origin2, departure2, retrndate,Adult, Child, infant,promo,Currency,paymenttype);
 			selectClass(strBookingClass, bundle);
 			clickContinueBtn();
-			upSellPopUpAction("Continue");
+			//upSellPopUpAction("Continue");
 			
 			//Clicking continue button on Passenger details page
 			continueOnPassengerDetails();

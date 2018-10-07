@@ -55,15 +55,15 @@ public class TC16_EmpLoginStaffConfmedChangeDateCheckIn extends BookingPageFlow{
 			System.out.println(strPNR);
 			closetoast();
 			String newdate = nextDateof(deptdate);
-			String strPNRChangeDate = changeDate("G3R1VY", username, mobilenum,lastname, newdate, selectseat,"",BookingClass,0);
+			String strPNRChangeDate = changeDate(strPNR, username, mobilenum,lastname, newdate, selectseat,"",BookingClass,0);
 			waitUtilElementhasAttribute(BookingPageLocators.body);
 			System.out.println(strPNRChangeDate);
-			if(strPNRChangeDate.trim().equalsIgnoreCase("G3R1VY")){
+			if(strPNRChangeDate.trim().equalsIgnoreCase(strPNR)){
 				Reporter.SuccessReport("Change Flight Date", "Flight Date has changed successfully");
 			}else{
 				Reporter.SuccessReport("Change Flight Date", "Flight Date has NOT changed successfully");
 			}
-			searchFlightCheckin("G3R1VY", username, "", lastname);
+			searchFlightCheckin(strPNR, username, "", lastname);
 			performCheckin("","","");
 			validateCheckin();
 			
