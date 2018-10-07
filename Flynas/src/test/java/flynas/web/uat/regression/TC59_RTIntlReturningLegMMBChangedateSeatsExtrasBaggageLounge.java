@@ -44,7 +44,7 @@ public class TC59_RTIntlReturningLegMMBChangedateSeatsExtrasBaggageLounge extend
 			inputBookingDetails(tripType, origin, dest, deptdate, origin2, departure2, retrndate,Adult, Child, infant,promo,Currency,paymenttype);
 			selectClass(strBookingClass, bundle);
 			clickContinueBtn();
-			upSellPopUpAction("Continue");
+			//upSellPopUpAction("Continue");
 					
 			continueOnPassengerDetails(); 				//Clicking continue button on Passenger details page
 			coninueOnBaggage();							//Clicking continue button on Baggage details page
@@ -56,7 +56,7 @@ public class TC59_RTIntlReturningLegMMBChangedateSeatsExtrasBaggageLounge extend
 			searchFlight(strPNR, username, "", lastname);		// Search flight on MMB page
 			changeDate("",changertrnDt,"Returning");	// change date on both departure and return
 			selectClassOneleg(strBookingClass, bundle,"Returning");  	// Selecting class in new flight
-			upSellPopUpAction("Continue");
+			//upSellPopUpAction("Continue");
 			selectSeat(SelectSeat, bookingtype);		// Selecting Seats in New flight
 			modifyExtras();								// Adding Extras 
 			Baggage_Extra(tripType);					// Adding Baggage

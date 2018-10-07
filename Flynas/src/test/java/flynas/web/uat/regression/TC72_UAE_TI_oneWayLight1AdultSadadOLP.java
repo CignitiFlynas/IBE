@@ -37,7 +37,7 @@ public class TC72_UAE_TI_oneWayLight1AdultSadadOLP extends BookingPageFlow {
 			String	retrndate = pickDate(retdate);
 			
 
-			String[] Credentials = pickCredentials("UserCredentials");
+			String[] Credentials = pickCredentials("UserCredentialsTI");
 			String username =Credentials[0];
 			String password =Credentials[1];
 			BookingPage.clickLogin();

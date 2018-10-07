@@ -83,7 +83,7 @@ public class TC01_memberRegistrationResetPswdUpdateDetails extends BookingPageFl
 			waitforElement(BookingPageLocators.currentpwd);
 			type(BookingPageLocators.currentpwd, "Test@1234", "Current Password");
 			type(BookingPageLocators.newpwd, newPswd, "New Password");
-			type(BookingPageLocators.cnfmnewPwd, newPswd, "Conform New Password");
+			type(BookingPageLocators.cnfmnewPwd, newPswd, "Confirm New Password");
 			click(BookingPageLocators.ConfirmPwdBtn, "Confirm");
 			waitforElement(BookingPageLocators.pwdChngeComnt);
 			waitUtilElementhasAttribute(BookingPageLocators.body);
@@ -124,7 +124,8 @@ public class TC01_memberRegistrationResetPswdUpdateDetails extends BookingPageFl
 			util.clickLogin();
 			
 			//Signing in and navigating to my profile page
-			LoginPg.login(username,"Test@1234");
+			//LoginPg.login(username,"Test@1234");
+			login(username,newPswd);
 			memberdb.navigateToMyProfile();		
 			
 			//Capturing current DOB,Document number, Document expire date & Mobile number

@@ -34,6 +34,8 @@ public class TC18_corporateLoginRToneAdultCancelFlight extends BookingPageFlow{
 			String[] Credentials = pickCredentials("CorporateCreds");
 			String username =Credentials[0];
 			String password =Credentials[1];
+			String Passengername_1 =Credentials[2];
+			String lastname =Credentials[3];
 			//click back to home button in case of error 500
 			clickBackToHomeButton();
 			
@@ -45,14 +47,15 @@ public class TC18_corporateLoginRToneAdultCancelFlight extends BookingPageFlow{
 			selectClass(BookingClass, bundle);
 			clickContinueBtn();
 			upSellPopUpAction("Continue");
-			String[] Passengername = inputPassengerDetails(domOrInt, totalPass, nationality, docType, docNum, "", mobilenum, email, "", "", "");
+			continueOnPassengerDetails_Corp(mobilenum,email);
+			//String[] Passengername = inputPassengerDetails(domOrInt, totalPass, nationality, docType, docNum, "", mobilenum, email, "", "", "");
 			coninueOnBaggage();
 			selectSeat(seatSelect, "");	
 			payment(paymentType, "");
 			String strpnr = getReferenceNumber();
 			String strPNR = strpnr.trim();
 			validate_ticketStatus(strPNR);
-			searchFlight(strPNR, username, "", Passengername[1]);
+			searchFlight(strPNR, username, "", lastname);
 //			searchFlight("FETI8R", "", "", "wMIRH");
 			cancelFlight("All");
 				
@@ -93,6 +96,7 @@ public class TC18_corporateLoginRToneAdultCancelFlight extends BookingPageFlow{
 	    		xls.getCellValue("Doc Number", "Value"),
 	    		xls.getCellValue("Document Type", "Value"),
 	    		xls.getCellValue("Psngr email", "Value"),
+	    		//xls.getCellValue("Email Address", "Value"),
 	    		"Validate member Login Round Trip Cancel Flight"}};
 	}
 

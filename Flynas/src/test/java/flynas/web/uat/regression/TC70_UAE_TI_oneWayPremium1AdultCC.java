@@ -37,7 +37,7 @@ public class TC70_UAE_TI_oneWayPremium1AdultCC extends BookingPageFlow {
 			String	retrndate = pickDate(retdate);
 			
 
-			String[] Credentials = pickCredentials("UserCredentials");
+			String[] Credentials = pickCredentials("UserCredentialsTI");
 			String username =Credentials[0];
 			String password =Credentials[1];
 			BookingPage.clickLogin();

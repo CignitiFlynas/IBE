@@ -26,7 +26,7 @@ public class TC29_redemptionBookingwithGoldMember extends BookingPageFlow{
 		try {
 			//System.out.println(paymenttype);
 			TestEngine.testDescription.put(HtmlReportSupport.tc_name, Description);
-			String deptdate = pickDate(deptDate);
+			
 			
 			String[] Credentials = pickCredentials("GoldCreds");
 			String username =Credentials[0];
@@ -34,10 +34,12 @@ public class TC29_redemptionBookingwithGoldMember extends BookingPageFlow{
 			BookingPage.clickLogin();
 			login(username,password);
 			
+			String deptdate = pickDate(deptDate);
+			
 			inputBookingDetails(tripType, origin, dest, deptdate, origin2, departure2, retdate,Adult, Child, infant,promo,Currency,paymenttype);
 			selectClass(strBookingClass, bundle);
 			clickContinueBtn();
-			upSellPopUpAction("Continue");
+			//upSellPopUpAction("Continue");
 			continueOnPassengerDetails();
 			coninueOnBaggage();
 			continueOnSeatSelection();
@@ -64,7 +66,7 @@ public class TC29_redemptionBookingwithGoldMember extends BookingPageFlow{
 	    			xls.getCellValue("Trip Type", "Value"),
 		    		xls.getCellValue("Origin", "Value2"),
 		    		xls.getCellValue("Destination", "Value2"),
-		    		xls.getCellValue("Departure Date", "Value4"),
+		    		xls.getCellValue("Departure Date", "Value"),
 		    		"",
 		    		"",
 		    		xls.getCellValue("Return Date", "Value"),

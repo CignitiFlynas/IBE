@@ -1,18 +1,23 @@
-2018-09-16 12:00:17-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
-2018-09-16 12:00:40-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_04_oneWayDomesticEconomy_RUH_MED
-2018-09-16 12:08:48-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
-2018-09-16 12:09:01-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_06_oneWayDomesticEconomy_RUH_HAS
-2018-09-16 12:17:36-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
-2018-09-16 12:17:47-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_06_oneWayDomesticEconomy_RUH_HAS
-2018-09-16 12:35:24-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
-2018-09-16 12:35:37-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_44_roundTripInternationalEconomy_JED_SSH
-2018-09-16 12:47:17-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
-2018-09-16 12:47:28-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_106_roundTripInternationalFlex_JED_SSH
-2018-09-16 12:50:58-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
-2018-09-16 17:46:30-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
-2018-09-16 17:46:50-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_173_roundTripInternationalBusiness_JED_AMM
-2018-09-16 17:59:20-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
-2018-09-16 17:59:33-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_168_roundTripInternationalBusiness_JED_SSH
-2018-09-16 18:04:25-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
-2018-09-16 18:06:18-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
-2018-09-16 18:06:30-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC72_UAE_TI_oneWayLight1AdultSadadOLP
+2018-10-07 11:56:17-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-10-07 11:56:44-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC01_a_memberRegistration
+2018-10-07 11:58:07-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC01_b_resetPasswordusingmyProfile
+2018-10-07 11:59:47-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-10-07 12:00:01-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_01_c_updatemyProfileOfMemberDetails
+2018-10-07 12:00:15-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-10-07 12:15:08-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-10-07 12:15:21-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC01_a_memberRegistration
+2018-10-07 12:17:55-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-10-07 12:19:56-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-10-07 12:20:13-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC01_a_memberRegistration
+2018-10-07 12:21:29-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC01_b_resetPasswordusingmyProfile
+2018-10-07 12:22:58-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-10-07 12:23:09-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_01_c_updatemyProfileOfMemberDetails
+2018-10-07 12:23:29-main--INFO -com.ctaf.accelerators.TestEngine: Able to get TscreenShot
+2018-10-07 12:25:49-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-10-07 12:26:03-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_16_EmpLoginStaffConfmedChangeDateCheckIn
+2018-10-07 12:38:31-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-10-07 12:38:45-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_16_EmpLoginStaffConfmedChangeDateCheckIn
+2018-10-07 12:50:39-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-10-07 12:50:50-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_23_oneWayDomesticOneAdultCheckInAR
+2018-10-07 12:58:10-main--INFO -com.ctaf.accelerators.TestEngine:Starting browser : chrome
+2018-10-07 12:58:23-main--INFO -com.ctaf.accelerators.TestEngine:Current Test : TC_23_oneWayDomesticOneAdultCheckInAR

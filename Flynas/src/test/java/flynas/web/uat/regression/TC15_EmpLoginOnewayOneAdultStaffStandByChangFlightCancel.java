@@ -53,7 +53,8 @@ public class TC15_EmpLoginOnewayOneAdultStaffStandByChangFlightCancel extends Bo
 			//Clicking continue button on Baggage details page
 			coninueOnBaggage();
 			//Clicking continue button on Seat selection page
-			//continueOnSeatSelection();
+			continueOnSeatSelection();
+			//selectSeat(SelectSeat, bookingtype);
 			
 			payment(paymentType, "");
 			String strpnr = getReferenceNumber();

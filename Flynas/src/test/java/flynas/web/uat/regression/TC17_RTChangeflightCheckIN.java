@@ -59,6 +59,7 @@ public class TC17_RTChangeflightCheckIN extends BookingPageFlow {
 			
 			String newdate = nextDateof(deptdate);
 			String strPNRChangedate = changeDate(strPNR, username, mobilenum,lastname, newdate, "","",BookingClass,0);
+			
 			String strPNRChangeDate = strPNRChangedate.trim();
 			
 			System.out.println(strPNRChangeDate);

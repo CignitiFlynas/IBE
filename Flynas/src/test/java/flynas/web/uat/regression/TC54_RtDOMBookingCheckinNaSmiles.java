@@ -42,10 +42,13 @@ public class TC54_RtDOMBookingCheckinNaSmiles extends BookingPageFlow{
 			
 			continueOnPassengerDetails();
 			
-			waitforElement(BookingPageLocators.baggagetittle);
+			/*waitforElement(BookingPageLocators.baggagetittle);
 			if(isElementDisplayedTemp(BookingPageLocators.baggagetittle)==true){
 			clickContinueBtn();
-			}
+			}*/
+			
+			//Clicking continue button on Baggage details page
+			coninueOnBaggage();
 			
 			continueOnSeatSelection();
 			
