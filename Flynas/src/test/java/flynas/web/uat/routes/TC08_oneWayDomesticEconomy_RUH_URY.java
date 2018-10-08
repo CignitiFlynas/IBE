@@ -90,7 +90,7 @@ public class TC08_oneWayDomesticEconomy_RUH_URY extends BookingPageFlow{
 	    return (Object[][]) new Object[][] { 
 	    		{
 	    		xls.getCellValue("Booking Class", "Value"),
-	    		xls.getCellValue("Bundle", "Value"),
+	    		xls.getCellValue("Bundle", "Value2"),
 	    		xls.getCellValue("Mobile", "Value"),
 	    		xls.getCellValue("Payment Type", "Value"),
 	    		xls.getCellValue("NewDate", "Value"),

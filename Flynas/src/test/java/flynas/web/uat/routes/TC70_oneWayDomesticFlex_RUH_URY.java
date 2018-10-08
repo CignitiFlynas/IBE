@@ -88,7 +88,7 @@ public class TC70_oneWayDomesticFlex_RUH_URY extends BookingPageFlow{
 				
 				
 				xls.getCellValue("Booking Class", "Value"),
-				xls.getCellValue("Bundle", "Value"),
+				xls.getCellValue("Bundle", "Value2"),
 				xls.getCellValue("Mobile", "Value"),
 				xls.getCellValue("Payment Type", "Value"),
 				xls.getCellValue("NewDate", "Value"),

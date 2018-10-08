@@ -90,7 +90,7 @@ public class TC26_oneWayDomesticEconomyChangeDate_AHB_ABT extends BookingPageFlo
 	    			
 		    		
 	    		xls.getCellValue("Booking Class", "Value"),
-	    		xls.getCellValue("Bundle", "Value"),
+	    		xls.getCellValue("Bundle", "Value2"),
 	    		xls.getCellValue("Mobile", "Value"),
 	    		xls.getCellValue("Payment Type", "Value"),
 	    		xls.getCellValue("NewDate", "Value"),

@@ -1867,22 +1867,25 @@ public class BookingPageFlow<RenderedWebElement> extends BookingPageLocators{
 				String actualErrorMsg=getText(BookingPageLocators.UAETIWarningMsg, "Warning Msg with other mode of payment").trim();
 				String expectedErrorMsg="You have UAE Insurance on this booking selected any other method apart from credit card will cancel the insurance. Continue?";
 				Assert.assertEquals(actualErrorMsg, expectedErrorMsg);
-				Reporter.SuccessReport("Payment with SADAD Account", "Warning message displayed as expected");
+				Reporter.SuccessReport("Payment with payment mode other than CC", "Warning message displayed as expected");
 				click(BookingPageLocators.ok, "OK");	
 				Thread.sleep(5000);
-				waitforElement(BookingPageLocators.sadadOlpPasswordTextBox);
-				type(BookingPageLocators.sadadOlpPasswordTextBox,configProps.getProperty("sadadOlpPassword").trim(),"SADAD OLP Password");
-				click(BookingPageLocators.sadadOlpSubmitBtn, "Submit");	
-				Thread.sleep(3000);
-				click(BookingPageLocators.sadadOlpSubmitBtn, "Submit");	
-				type(BookingPageLocators.sadadOlpOtpTextBox,configProps.getProperty("sadadOlpOTP").trim(),"SADAD OLP OTP");
-				click(BookingPageLocators.sadadOlpSubmitBtn, "Submit");	
+				if(paymentType.equalsIgnoreCase("SADAD Account")){
+					waitforElement(BookingPageLocators.sadadOlpPasswordTextBox);
+					type(BookingPageLocators.sadadOlpPasswordTextBox,configProps.getProperty("sadadOlpPassword").trim(),"SADAD OLP Password");
+					click(BookingPageLocators.sadadOlpSubmitBtn, "Submit");	
+					Thread.sleep(3000);
+					click(BookingPageLocators.sadadOlpSubmitBtn, "Submit");	
+					type(BookingPageLocators.sadadOlpOtpTextBox,configProps.getProperty("sadadOlpOTP").trim(),"SADAD OLP OTP");
+					click(BookingPageLocators.sadadOlpSubmitBtn, "Submit");		
+				}
+				
 				
 				
 			}
 			else if(!isElementDisplayedTemp(BookingPageLocators.ok)==true && (!paymentType.equalsIgnoreCase("Credit Card")))
 			{
-				Reporter.failureReport("Payment with SADAD Account", "Warning message is not displayed as expected");
+				Reporter.failureReport("Payment with payment mode other than CC", "Warning message is not displayed as expected");
 				System.out.println("No Alert");
 				
 			}
