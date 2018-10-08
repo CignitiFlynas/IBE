@@ -39,7 +39,7 @@ public class TC158_oneWayInternationalBusiness_JED_AUH extends BookingPageFlow {
 
 			login(username,password);
 			inputBookingDetails(triptype,origin, dest, deptDate , "", "", retrnDate,adult, child, infant,"","","");
-			selectClass(bookingClass, bundle); 
+			selectClassCodeShare(bookingClass, bundle); 
 			clickContinueBtn();
 			//upSellPopUpAction("Continue");
 			continueOnPassengerDetails();
