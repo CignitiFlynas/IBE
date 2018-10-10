@@ -120,7 +120,8 @@ public class BookingPageLocators extends ActionEngine{
 	public static By busOW = By.xpath("//td/button[@class='btn selectflightbtn col3']");
 	public static String rtClassStr= "//div[@class='main_con']/div/div/div[2]/div/flight-select/div/form/div[2]//descendant::table/tbody/tr";
 	public static By rtClass = By.xpath("//div[@class='main_con']/div/div/div[2]/div/flight-select/div/form/div[2]//descendant::table/tbody/tr");
-	public static By okBtn = By.xpath("//div[@class='modal-dialog']/div/div[3]/button[@class='btn btn-primary']");
+	//public static By okBtn = By.xpath("//div[@class='modal-dialog']/div/div[3]/button[@class='btn btn-primary']");
+	public static By okBtn=By.xpath("//div[@class='modal-footer']/button[text()='OK']");
 	public static By cancelBtn = By.xpath("//div[@class='modal-dialog']/div/div[3]/button[@class='btn btn-warning']");
 	public static By standstaff = By.xpath("//button[@class='btn selectflightbtn col2']");
 	public static By stafCnformed = By.xpath("//button[@class='btn selectflightbtn col3']");

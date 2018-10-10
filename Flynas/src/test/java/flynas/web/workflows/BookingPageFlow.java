@@ -3287,6 +3287,7 @@ public class BookingPageFlow<RenderedWebElement> extends BookingPageLocators{
 	
 	public void Baggage_Extra(String Triptype) throws Throwable
 	{
+		Thread.sleep(5000);
 		waitforElement(BookingPageLocators.baggagetittle);
 		waitUtilElementhasAttribute(BookingPageLocators.body);
 		boolean flag=true;
@@ -4878,7 +4879,7 @@ public class BookingPageFlow<RenderedWebElement> extends BookingPageLocators{
 	public void clickContinueBtn() throws Throwable{
 		waitUtilElementhasAttribute(BookingPageLocators.body);	
 		((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", driver.findElement(BookingPageLocators.continueBtn));
-		Thread.sleep(7000);
+		Thread.sleep(9000);
 		waitforElement(BookingPageLocators.continueBtn);
 		waitForVisibilityOfElement(BookingPageLocators.continueBtn, "Continue");
 		click(BookingPageLocators.continueBtn, "Continue");
@@ -5062,7 +5063,7 @@ public class BookingPageFlow<RenderedWebElement> extends BookingPageLocators{
 			waitforElement(BookingPageLocators.passengerDetailsTittle);
 			//waitForVisibilityOfElement(BookingPageLocators.passengerDetailsTittle, "Booking page locators");
 			clickContinueBtn();
-			Thread.sleep(5000);
+			Thread.sleep(25000);
 			if(isElementDisplayedTemp(BookingPageLocators.okBtn)==true)
 			{
 				waitForVisibilityOfElement(BookingPageLocators.okBtn, "OK");
@@ -5081,7 +5082,7 @@ public class BookingPageFlow<RenderedWebElement> extends BookingPageLocators{
 			((JavascriptExecutor) driver).executeScript("arguments[0].click();", driver.findElement(BookingPageLocators.selectcountrycode(countrycode)));
 			//selectCountryCode(BookingPageLocators.countrycodename, "Country Code", countrycode);
 			clickContinueBtn();
-			Thread.sleep(5000);
+			Thread.sleep(25000);
 			if(isElementDisplayedTemp(BookingPageLocators.okBtn)==true)
 			{
 				waitForVisibilityOfElement(BookingPageLocators.okBtn, "OK");
@@ -5114,6 +5115,8 @@ public class BookingPageFlow<RenderedWebElement> extends BookingPageLocators{
 		
 		public void coninueOnBaggage() throws Throwable{
 
+			Thread.sleep(5000);
+			
             waitforElement(BookingPageLocators.baggagetittle);
 
             waitUtilElementhasAttribute(BookingPageLocators.body);
@@ -5170,6 +5173,8 @@ public class BookingPageFlow<RenderedWebElement> extends BookingPageLocators{
      }
      
      public void coninueOnBaggage_AE() throws Throwable{
+    	 
+    	 Thread.sleep(5000);
 
          waitforElement(BookingPageLocators.baggagetittle);
 
@@ -5196,6 +5201,8 @@ public class BookingPageFlow<RenderedWebElement> extends BookingPageLocators{
   }
      
      public void coninueOnBaggage_AE_withoutTI() throws Throwable{
+    	 
+    	 Thread.sleep(5000);
 
          waitforElement(BookingPageLocators.baggagetittle);
 
