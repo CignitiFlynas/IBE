@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Flynas" allow-return-values="true" verbose="2">
+    
+    
+	<test name="IBE-UAT-Regression" >
+	    
+	   	<!--	<groups>
+				<run>
+					<include name="chrome"/>
+				</run>
+			</groups> -->
+		  
+			<classes>
+			<class name="flynas.web.uat.regression.TC68_UAE_TI_oneWayLight1AdultCC"/>	 
+			<class name="flynas.web.uat.regression.TC69_UAE_TI_oneWayPlus1AdultCC"/>	
+			<class name="flynas.web.uat.regression.TC70_UAE_TI_oneWayPremium1AdultCC"/>
+			<class name="flynas.web.uat.regression.TC71_UAE_TI_oneWayBusiness1AdultCC"/>
+			<class name="flynas.web.uat.regression.TC72_UAE_TI_oneWayLight1AdultSadadOLP"/>
+			<class name="flynas.web.uat.regression.TC73_UAE_TI_oneWayPlus1AdultSadadOLP"/>	
+			<class name="flynas.web.uat.regression.TC74_UAE_TI_oneWayPremium1AdultSadadOLP"/>	
+			<class name="flynas.web.uat.regression.TC75_UAE_TI_oneWayBusiness1AdultSadadOLP"/>	
+			<class name="flynas.web.uat.regression.TC76_UAE_TI_oneWayLight1AdultNASCredit"/>
+			<class name="flynas.web.uat.regression.TC77_UAE_TI_oneWayPlus1AdultNASCredit"/>	
+			<class name="flynas.web.uat.regression.TC78_UAE_TI_oneWayPremium1AdultNASCredit"/>	
+			<class name="flynas.web.uat.regression.TC79_UAE_TI_oneWayBusiness1AdultNASCredit"/>	
+			<class name="flynas.web.uat.regression.TC80_UAE_TI_oneWayLight1AdultnaSmiles"/>
+			<class name="flynas.web.uat.regression.TC81_UAE_TI_oneWayPlus1AdultnaSmiles"/>
+			<class name="flynas.web.uat.regression.TC82_UAE_TI_oneWayPremium1AdultnaSmiles"/>	
+			<class name="flynas.web.uat.regression.TC83_UAE_TI_oneWayBusiness1AdultnaSmiles"/>	
+			<class name="flynas.web.uat.regression.TC84_UAE_TI_oneWayLight1AdultCC_RemoveTI"/>	
+			<class name="flynas.web.uat.regression.TC85_UAE_TI_oneWayPlus1AdultCC_RemoveTI"/>	
+			<class name="flynas.web.uat.regression.TC86_UAE_TI_oneWayLight1AdultCC_AddTI"/>
+			<class name="flynas.web.uat.regression.TC87_UAE_TI_oneWayPlus1AdultCC_AddTI"/>
+			<class name="flynas.web.uat.regression.TC88_UAE_TI_oneWayPremium1AdultCC_AddTI"/>	
+			<class name="flynas.web.uat.regression.TC89_UAE_TI_oneWayBusiness1AdultCC_AddTI"/>	
+			<class name="flynas.web.uat.regression.TC90_UAE_TI_oneWayLight1AdultSadadAccount_AddTI"/>
+			<class name="flynas.web.uat.regression.TC91_UAE_TI_oneWayPlus1AdultSadadAccount_AddTI"/>	
+			<class name="flynas.web.uat.regression.TC92_UAE_TI_oneWayPremium1AdultSadadAccount_AddTI"/>	
+			<class name="flynas.web.uat.regression.TC93_UAE_TI_oneWayBusiness1AdultSadadAccount_AddTI"/>	
+			<class name="flynas.web.uat.regression.TC94_UAE_TI_oneWayLight1AdultNasmiles_AddTI"/>	
+			<class name="flynas.web.uat.regression.TC95_UAE_TI_oneWayPlus1AdultNasmiles_AddTI"/>	
+			<class name="flynas.web.uat.regression.TC96_UAE_TI_oneWayPremium1AdultNasmiles_AddTI"/>	
+			<class name="flynas.web.uat.regression.TC97_UAE_TI_oneWayBusiness1AdultNasmiles_AddTI"/>	
+			<class name="flynas.web.uat.regression.TC98_UAE_TI_oneWayLight1AdultNascredit_AddTI"/>	
+			<class name="flynas.web.uat.regression.TC99_UAE_TI_oneWayPlus1AdultNascredit_AddTI"/>	
+			<class name="flynas.web.uat.regression.TC100_UAE_TI_oneWayPremium1AdultNascredit_AddTI"/>	
+			<class name="flynas.web.uat.regression.TC101_UAE_TI_oneWayBusiness1AdultNascredit_AddTI/>	
+					
+			</classes>
+			</test>
+			</suite>
