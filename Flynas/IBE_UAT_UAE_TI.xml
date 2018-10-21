@@ -44,7 +44,8 @@
 			<class name="flynas.web.uat.regression.TC98_UAE_TI_oneWayLight1AdultNascredit_AddTI"/>	
 			<class name="flynas.web.uat.regression.TC99_UAE_TI_oneWayPlus1AdultNascredit_AddTI"/>	
 			<class name="flynas.web.uat.regression.TC100_UAE_TI_oneWayPremium1AdultNascredit_AddTI"/>	
-			<class name="flynas.web.uat.regression.TC101_UAE_TI_oneWayBusiness1AdultNascredit_AddTI/>	
+			<class name="flynas.web.uat.regression.TC101_UAE_TI_oneWayBusiness1AdultNascredit_AddTI"/>
+				
 					
 			</classes>
 			</test>

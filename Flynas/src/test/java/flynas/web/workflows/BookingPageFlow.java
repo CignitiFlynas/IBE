@@ -5075,6 +5075,7 @@ public class BookingPageFlow<RenderedWebElement> extends BookingPageLocators{
 			waitforElement(BookingPageLocators.passengerDetailsTittle);
 			//waitForVisibilityOfElement(BookingPageLocators.passengerDetailsTittle, "Booking page locators");
 			//scrolling to find Origin field
+			Thread.sleep(9000);
 			((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", driver.findElement(BookingPageLocators.countryCodeDD));			
 			click(BookingPageLocators.countryCodeDD,"Country code DD");
 			Thread.sleep(2000);
@@ -5151,6 +5152,7 @@ public class BookingPageFlow<RenderedWebElement> extends BookingPageLocators{
 
             {      if(choice.equalsIgnoreCase("Add")){
             		waitForVisibilityOfElement(BookingPageLocators.Add, "Travel insurance selected");
+            		Thread.sleep(3000);
             	 	click(BookingPageLocators.Add, "Travel insurance selected");
             	 	Thread.sleep(2000);
             	 	waitforElement(BookingPageLocators.insuranceFeeText);
